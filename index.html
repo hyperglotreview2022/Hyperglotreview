@@ -17,12 +17,12 @@
     <nav>
       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
       <div>
-        <h1 class="logo">Art|Basel</h1>
+        <img class="logo" src="/images/logo1.png" alt="logo">
       </div>
       <div class=".list">
         <ul>
           <li>
-            <div class="dropdown"><a href="#">Fairs</a>
+            <div class="dropdown"><a href="/index.html">Home</a>
               <div class="dropdown-content">
                 <h1>Basel</h1>
                 <a href="#">lorem</a>
@@ -35,7 +35,7 @@
             </div>
           </li>
           <li><div class="dropdown">
-            <a href="#">Stories</a><div class="dropdown-content">
+            <a href="/Pages/Art.html">Art</a><div class="dropdown-content">
             <h1>Basel</h1>
             <a href="#">lorem</a>
             <a href="#">lorem</a>
@@ -44,7 +44,18 @@
             <a href="#">lorem</a>
             <a href="#">lorem</a>
           </div></div></li>
-          <li><a href="#">Viewing Rooms</a></li>
+          <li><a href="#">Literature</a></li>
+          <li><div class="dropdown"><a href="#">Culture</a>
+            <div class="dropdown-content">
+            <h1>Basel</h1>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+            <a href="#">lorem</a>
+          </div>
+          </div></li>
           <li><div class="dropdown"><a href="#">Events</a>
             <div class="dropdown-content">
             <h1>Basel</h1>
@@ -56,17 +67,9 @@
             <a href="#">lorem</a>
           </div>
           </div></li>
-          <li><div class="dropdown"><a href="#">Galleries</a>
-            <div class="dropdown-content">
-            <h1>Basel</h1>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-            <a href="#">lorem</a>
-          </div>
-          </div></li>
+          <li><a href="#">Opinion</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Follow Us</a></li>
         </ul>
         
           <div id="sidebar" class="sidebar">
@@ -92,62 +95,473 @@
  
   <!-- top-section -->
   <section>
-  <div id="background">
-    <img src="img1.jpg" class="stretch" alt="" />
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="/images/image1.png" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="/images/image2.1.png" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="/images/image3.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="/images/image4.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="/images/image5.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="/images/image6.png" style="width:100%">
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+    </div>
+    <br>
+    
+  </section>
+
+  <!--Author cards -->
+
+  <section class="product"> 
+
+      <h1 class="topic">ART</h1>
+      <hr>
+
+      
+    
+    <button class="pre-btn"><img src="images/arrow.png" alt="">&#10095;</button>
+    <button class="nxt-btn"><img src="images/arrow.png" alt="">&#10095;</button>
+    <div class="product-container">
+        <div class="product-card">
+            <a href="#"><div class="product-image">
+                <img src="/author-img/DilGarden.jpg" class="product-thumb" alt="">
+            </div>
+          </a>
+            <div class="product-info">
+              <div class="post">
+                <a href="#"><h2 class="product-brand">Featured Artist</h2></a>
+                <p class="product-short-description content" >Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+                  His works delve into and empathetically depict the complex emotions and embattled lives of the 
+                  transgender subjects who, though historically an integral part of Indian society and culture, 
+                  are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+                  Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+                  in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+                  niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+                    dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+                    and acceptance against all odds.</p>
+                    <button onclick="readMore(this)" id="content-btn">Read More</button>
+                  </div>
+            </div>
+        </div>
+        <div class="product-card">
+          <a href="#"><div class="product-image">
+            <img src="/author-img/Indra.jpg" class="product-thumb" alt="">
+        </div>
+      </a>
+          <div class="product-info">
+            <div class="post">
+              <a href="#"><h2 class="product-brand">Women Artist</h2></a>
+              <p class="product-short-description content" >Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+                His works delve into and empathetically depict the complex emotions and embattled lives of the 
+                transgender subjects who, though historically an integral part of Indian society and culture, 
+                are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+                Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+                in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+                niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+                  dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+                  and acceptance against all odds.</p>
+                  <button onclick="readMore(this)" id="content-btn">Read More</button>
+                </div>
+          </div>
+      </div>
+      <div class="product-card">
+        <a href="#"><div class="product-image">
+          <img src="/author-img/kuntalD.jpg" class="product-thumb" alt="">
+      </div>
+    </a>
+        <div class="product-info">
+          <div class="post">
+            <a href="#"><h2 class="product-brand">Kuntal Dutta</h2></a>
+            <p class="product-short-description content" >Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+              His works delve into and empathetically depict the complex emotions and embattled lives of the 
+              transgender subjects who, though historically an integral part of Indian society and culture, 
+              are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+              Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+              in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+              niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+                dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+                and acceptance against all odds.</p>
+                <button onclick="readMore(this)" id="content-btn">Read More</button>
+              </div>
+        </div>
+    </div>
+    <div class="product-card">
+      <a href="#"><div class="product-image">
+        <img src="/author-img/prolayK.JPG" class="product-thumb" alt="">
+    </div>
+  </a>
+      <div class="product-info">
+        <div class="post">
+          <a href="#"><h2 class="product-brand">Prolay Kundu</h2></a>
+          <p class="product-short-description content" >Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+            His works delve into and empathetically depict the complex emotions and embattled lives of the 
+            transgender subjects who, though historically an integral part of Indian society and culture, 
+            are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+            Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+            in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+            niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+              dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+              and acceptance against all odds.</p>
+              <button onclick="readMore(this)" id="content-btn">Read More</button>
+            </div>
+      </div>
   </div>
-  <div class="top-content">
-  <h3>Lorem ipsum dolor </h3>
-  <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
-  <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, autem?</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, autem?</p>
-  <span>lorem <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
+  <div class="product-card">
+    <a href="#"><div class="product-image">
+      <img src="/author-img/SoumenB.jpg" class="product-thumb" alt="">
   </div>
+</a>
+    <div class="product-info">
+      <div class="post">
+        <a href="#"><h2 class="product-brand">Soumen Basu</h2></a>
+        <p class="product-short-description content" >Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+          His works delve into and empathetically depict the complex emotions and embattled lives of the 
+          transgender subjects who, though historically an integral part of Indian society and culture, 
+          are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+          Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+          in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+          niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+            dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+            and acceptance against all odds.</p>
+            <button onclick="readMore(this)" id="content-btn">Read More</button>
+          </div>
+    </div>
+</div>
+<div class="product-card">
+  <a href="#"><div class="product-image">
+    <img src="/author-img/chandanD.JPG" class="product-thumb" alt="">
+</div>
+</a>
+  <div class="product-info">
+    <div class="post">
+      <a href="#"><h2 class="product-brand">Chandan Das</h2></a>
+      <p class="product-short-description content" >Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+        His works delve into and empathetically depict the complex emotions and embattled lives of the 
+        transgender subjects who, though historically an integral part of Indian society and culture, 
+        are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+        Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+        in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+        niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+          dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+          and acceptance against all odds.</p>
+          <button onclick="readMore(this)" id="content-btn">Read More</button>
+        </div>
+  </div>
+</div>
+<div class="product-card">
+  <a href="#"><div class="product-image">
+    <img src="/author-img/DilGarden.jpg" class="product-thumb" alt="">
+</div>
+</a>
+  <div class="product-info">
+    <div class="post">
+      <a href="#"><h2 class="product-brand">Featured Artist</h2></a>
+      <p class="product-short-description content" >Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+        His works delve into and empathetically depict the complex emotions and embattled lives of the 
+        transgender subjects who, though historically an integral part of Indian society and culture, 
+        are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+        Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+        in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+        niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+          dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+          and acceptance against all odds.</p>
+          <button onclick="readMore(this)" id="content-btn">Read More</button>
+        </div>
+  </div>
+</div>
+<div class="product-card">
+  <a href="#"><div class="product-image">
+    <img src="/author-img/DilGarden.jpg" class="product-thumb" alt="">
+</div>
+</a>
+  <div class="product-info">
+    <div class="post">
+      <a href="#"><h2 class="product-brand">Featured Artist</h2></a>
+      <p class="product-short-description content" >Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+        His works delve into and empathetically depict the complex emotions and embattled lives of the 
+        transgender subjects who, though historically an integral part of Indian society and culture, 
+        are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+        Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+        in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+        niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+          dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+          and acceptance against all odds.</p>
+          <button onclick="readMore(this)" id="content-btn">Read More</button>
+        </div>
+  </div>
+</div>
+    </div>
+</section>
+
+ <!-- book cards -->
+
+<section class="product"> 
+  <h1 class="topic">LITERATURE</h1>
+  <hr>
   
-  </section>
 
-  <!-- cards -->
-  <section>
-    <div class="cards-section">
-      <div class="card-container">
-      <img src="img1.jpg" alt="image">
+  <button class="pre-btn up"><img src="images/arrow.png" alt="">&#10095;</button>
+  <button class="nxt-btn up"><img src="images/arrow.png" alt="">&#10095;</button>
+  <div class="product-container">
+      <div class="product-card1">
+          <a href="#"><div class="product-image1">
+              <img src="/book-img/books1.png" class="product-thumb1" alt="">
+          </div>
+        </a>
+          <div class="post">
+          <div class="product-info">
+            <a href="#" class="product-brand">Dhanapatir Char</a>
+            <p class="preview">Book Preview :</p>
+              <p class="product-short-description1 content">Translations can often seem tedious due to entrenched cultural
+                 and linguistic barriers. Amar Mitra's novel is a confluence of resplendent folklore and gruesome 
+                 socio-political realities. From the first page itself, he has effortlessly imbued the magical realism 
+                 narrative framework with the ingenuity of a vibrant imagination. The novel proceeds in the form of an
+                 oddly invigorating cyclical and hypnotical structure moving from one page to the next with the lethargic 
+                 yet graceful, almost imperceptible movement of a danseuse not even once letting the reader's attention
+                 wander or slip for even a fraction of a moment. The fisherfolk of Dhanapati's island congregate from the
+                  months of Ashwin to Chaitra according to the Bengali calendar. Dhanapati is the name of the island,
+                  as well as of Dhanapati, the oldest inhabitant of the island, and, according to some accounts, that of 
+                  its first inhabitant though the current Dhanapati vehemently disagrees that there has been anyone else
+                  before him. Vagabonds like Batashi have a home for six months of the year where they arrive emaciated 
+                  and then during their stay are rejuvenated in body and spirit turning into voluptuous beings who become
+                  the object of lustful villainy of the trader Dasharath Singh. The inescapable avarice and corruption of 
+                  the law enforcers as embodied by the police constable Mangal Midde and the violence inflicted on the
+                  poor and neglected strays of society is highlighted with razor-sharp precision. It will be difficult to 
+                  find a voice that is more brutal about socio-economic realities yet so humane while presenting the most 
+                  heinous atrocities that people nourished and nurtured by the same 
+                piece of earth and sky are capable of inflicting upon each other.</p>
+                <button id="content-btn"><a href="#">Read More</a> </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card1">
+        <a href="#"><div class="product-image1">
+          <img src="/book-img/books2.png" class="product-thumb1" alt="">
+      </div>
+    </a>
+        <div class="post">
+          <div class="product-info">
+            <a href="#" class="product-brand">Janice Pariat</a>
+            <p class="preview">Book Preview :</p>
+              <p class="product-short-description1 content">Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+                His works delve into and empathetically depict the complex emotions and embattled lives of the 
+                transgender subjects who, though historically an integral part of Indian society and culture, 
+                are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+                Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+                in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+                niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+                  dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+                  and acceptance against all odds.</p>
+                  <button id="content-btn"><a href="#">Read More</a> </button>
+          </div>
+        </div>
+    </div>
+    <div class="product-card1">
+      <a href="#"><div class="product-image1">
+        <img src="/book-img/books3.jpg" class="product-thumb1" alt="">
+    </div>
+  </a>
+      <div class="post">
+        <div class="product-info">
+          <a href="#" class="product-brand">Debarati Mukhopadhyay</a>
+          <p class="preview">Book Preview :</p>
+            <p class="product-short-description1 content">Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+              His works delve into and empathetically depict the complex emotions and embattled lives of the 
+              transgender subjects who, though historically an integral part of Indian society and culture, 
+              are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+              Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+              in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+              niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+                dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+                and acceptance against all odds.</p>
+                <button id="content-btn"><a href="#">Read More</a> </button>
+        </div>
+      </div>
+  </div>
+  <div class="product-card1">
+    <a href="#"><div class="product-image1">
+      <img src="/book-img/books4.png" class="product-thumb1" alt="">
+  </div>
+</a>
+    <div class="post">
+      <div class="product-info">
+        <a href="#" class="product-brand">Ed Yong</a>
+        <p class="preview">Book Preview :</p>
+          <p class="product-short-description1 content">Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+            His works delve into and empathetically depict the complex emotions and embattled lives of the 
+            transgender subjects who, though historically an integral part of Indian society and culture, 
+            are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+            Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+            in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+            niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+              dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+              and acceptance against all odds.</p>
+              <button id="content-btn"><a href="#">Read More</a> </button>
+      </div>
+    </div>
+</div>
+<div class="product-card1">
+  <a href="#"><div class="product-image1">
+    <img src="/book-img/books5.jpg" class="product-thumb1" alt="">
+</div>
+</a>
+  <div class="post">
+    <div class="product-info">
+      <a href="#" class="product-brand">Sharayana Bhattacharya</a>
+      <p class="preview">Book Preview :</p>
+        <p class="product-short-description1 content">Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+          His works delve into and empathetically depict the complex emotions and embattled lives of the 
+          transgender subjects who, though historically an integral part of Indian society and culture, 
+          are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+          Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+          in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+          niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+            dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+            and acceptance against all odds.</p>
+            <button id="content-btn"><a href="#">Read More</a> </button>
+    </div>
+  </div>
+</div>
+<div class="product-card1">
+  <a href="#"><div class="product-image1">
+    <img src="/book-img/books6.png" class="product-thumb1" alt="">
+</div>
+</a>
+<div class="post">
+  <div class="product-info">
+    <a href="#"class="product-brand">Manil Suri</a>
+    <p class="preview">Book Preview :</p>
+      <p class="product-short-description1 content">Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+        His works delve into and empathetically depict the complex emotions and embattled lives of the 
+        transgender subjects who, though historically an integral part of Indian society and culture, 
+        are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+        Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+        in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+        niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+          dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+          and acceptance against all odds.</p>
+      <button id="content-btn"><a href="#">Read More</a> </button>
+  </div>
+</div>
+</div>
+<div class="product-card1">
+  <a href="#"><div class="product-image1">
+    <img src="/book-img/books1.png" class="product-thumb1" alt="">
+</div>
+</a>
+<div class="post">
+  <div class="product-info">
+    <a href="#"class="product-brand">Featured Artist</a>
+    <p class="preview">Book Preview :</p>
+      <p class="product-short-description1 content">Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+        His works delve into and empathetically depict the complex emotions and embattled lives of the 
+        transgender subjects who, though historically an integral part of Indian society and culture, 
+        are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+        Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+        in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+        niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+          dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+          and acceptance against all odds.</p>
+          <button id="content-btn"><a href="#">Read More</a> </button>
+  </div>
+</div>
+</div>
+<div class="product-card1">
+  <a href="#"><div class="product-image1">
+    <img src="/book-img/books1.png" class="product-thumb1" alt="">
+</div>
+</a>
+<div class="post">
+  <div class="product-info">
+    <a href="#" class="product-brand">Featured Artist</a>
+    <p class="preview">Book Preview :</p>
+      <p class="product-short-description1 content">Amit Saha focuses in his paintings on human figures in general and transgender figures in particular.
+        His works delve into and empathetically depict the complex emotions and embattled lives of the 
+        transgender subjects who, though historically an integral part of Indian society and culture, 
+        are seldom recognized as such and rather treated with ambivalence at best and rejection at worst. 
+        Pushed to the peripheries of the civil society and eking out a living in the harshest conditions, 
+        in the face of public fear, revulsion, and ridicule, they have heroically struggled to carve out a 
+        niche for themselves in this brutally indifferent world with atypical and exemplary pride, boldness,
+          dignity and confidence. Saha paintings thus bring forth their zest for life and quest for respect
+          and acceptance against all odds.</p>
+      <button id="content-btn"><a href="#">Read More</a> </button>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+
+<!-- Grid -->
+
+<section class="events">
+  <h1 class="topic">Events</h1>
+  <hr>
+
+  <div class="flex">
+    <div class="card-flex">
+      <img src="/Events-img/events1.jpg" alt="image">
       <p>Lorem, ipsum.</p>
       <h1>Lorem ipsum dolor sit amet.</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-        natus quibusdam perferendis iure eos error, est, inventore eveniet corporis recusandae autem. 
-        Magni repellendus fugiat quas voluptates exercitationem!</p>
-      <span>View <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
-      <span>View all stories <i class="fa-sharp fa-solid fa-arrow-right"></i></span>  
+        natus quibusdam perferendis iure eos error, est,
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
+     
     </div>
-
-    <div class="card-container">
-      <img src="img1.jpg" alt="image">
+    <div class="card-flex">
+      <img src="/Events-img/events1.jpg" alt="image">
       <p>Lorem, ipsum.</p>
       <h1>Lorem ipsum dolor sit amet.</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-        natus quibusdam perferendis iure eos error, est, inventore eveniet corporis recusandae autem. 
-        Magni repellendus fugiat quas voluptates exercitationem!</p>
-      <span>View <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
-      <span>View all stories <i class="fa-sharp fa-solid fa-arrow-right"></i></span>  
+        natus quibusdam perferendis iure eos error, est,
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
+     
     </div>
-
-    <div class="card-container">
-      <img src="img1.jpg" alt="image">
+    <div class="card-flex">
+      <img src="/Events-img/events1.jpg" alt="image">
       <p>Lorem, ipsum.</p>
       <h1>Lorem ipsum dolor sit amet.</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-        natus quibusdam perferendis iure eos error, est, inventore eveniet corporis recusandae autem. 
-        Magni repellendus fugiat quas voluptates exercitationem!</p>
-      <span>View <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
-      <span>View all stories <i class="fa-sharp fa-solid fa-arrow-right"></i></span>  
+        natus quibusdam perferendis iure eos error, est,
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
+     
     </div>
+    <div class="card-flex">
+      <img src="/Events-img/events1.jpg" alt="image">
+      <p>Lorem, ipsum.</p>
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
+        natus quibusdam perferendis iure eos error, est,
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
+     
     </div>
-    
-    <div id="background"><img src="images/img1.jpg" class="stretch" alt="" /></div>
-    
-  </section>
+  </div>
+</section>
+ 
 
-  <!-- podcast -->
-  <section>
+<!-- podcast -->
+  <!-- <section>
     <div class="container">
       <h3>Lorem ipsum dolor sit amet.</h3>
       <h5>Lorem, ipsum dolor.</h5>
@@ -161,123 +575,14 @@
       </div>
     </div>
     
-  </section>
+  </section> -->
 
-  <!-- cards-low -->
-  <section>
-    <div class="low-cards">
-    <div class="card-container">
-      <img src="img1.jpg" alt="image">
-      <p>Lorem, ipsum.</p>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-        natus quibusdam perferendis iure eos error, est,
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
-       
-    </div>
-    <div class="card-container">
-      <img src="img1.jpg" alt="image">
-      <p>Lorem, ipsum.</p>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-        natus quibusdam perferendis iure eos error, est,
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
-      
-    </div>
-    <div class="card-container">
-      <img src="img1.jpg" alt="image">
-      <p>Lorem, ipsum.</p>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-        natus quibusdam perferendis iure eos error, est,
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
-      
-    </div>
-    <div class="card-container">
-      <img src="img1.jpg" alt="image">
-      <p>Lorem, ipsum.</p>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-        natus quibusdam perferendis iure eos error, est,
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
-     
-    </div>
-    </div>
-
-  </section>
-
-  <!-- lowest -->
-
-  <section>
-    <div class="lowest-text">
-        <h1>Lorem, ipsum.</h1>
-    <h3>Lorem, ipsum dolor.</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ipsum 
-      voluptatum reiciendis ad accusamus voluptatem magnam, non a natus voluptas harum?
-       Eius, omnis cum vel aliquam esse magnam fugiat delectus harum reiciendis sapiente 
-       tempore enim recusandae explicabo aliquid? 
-      Natus numquam error, est veniam pariatur aut eaque impedit delectus dolor velit!lorem30 Lorem
-       ipsum dolor sit amet consectetur adipisicing elit. Accusantium mollitia tempore deserunt, 
-       rerum veritatis doloribus.
-       Quidem accusamus quos enim rem voluptatem facilis ipsum saepe amet, totam voluptas qui dolor culpa!
-    </p>
-    </div>
-
-    <div class="flex">
-      <div class="card-flex">
-        <img src="img1.jpg" alt="image">
-        <p>Lorem, ipsum.</p>
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-          natus quibusdam perferendis iure eos error, est,
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
-       
-      </div>
-      <div class="card-flex">
-        <img src="img1.jpg" alt="image">
-        <p>Lorem, ipsum.</p>
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-          natus quibusdam perferendis iure eos error, est,
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
-       
-      </div>
-      <div class="card-flex">
-        <img src="img1.jpg" alt="image">
-        <p>Lorem, ipsum.</p>
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-          natus quibusdam perferendis iure eos error, est,
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
-       
-      </div>
-      <div class="card-flex">
-        <img src="img1.jpg" alt="image">
-        <p>Lorem, ipsum.</p>
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat odio ratione 
-          natus quibusdam perferendis iure eos error, est,
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Dolore, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, magni!</p>
-       
-      </div>
-    </div>
-   
-  
-  </section>
 
   <!-- footer -->
 
   <footer>
     <div class="footer-container">
-      <div>
+      <!-- <div>
       <table>
       <tr><th>lorem</th><th>lorem</th><th>lorem</th></tr>
       <tr><td><a href="#">lorem</a> </td><td><a href="#">lorem</a> </td><td><a href="#">lorem</a> </td></tr>
@@ -354,10 +659,17 @@
        <a href="#"><i class="fa-brands fa-weixin"></i></a>
       </div>  
       
-    </div>
+    </div> -->
 
+    <div><a href="#">Hyperglot</a> <a href="#">Hyperglot Auctions</a></div>
+    <div> <a href="#">Advertise</a><a href="#">Press Releases</a><a href="#">Terms</a>
+      <a href="#">Privacy</a><a href="#">Cookies</a><a href="#">About</a> </div>
+      <div class="language"><p>Hyperglot Magazine Archive:</p> <a href="#">English (US)</a><a href="#">Deutsch</a>
+        <a href="#">Francais</a></div>
+     <p class="light">@2022 Hyperglot Worldwide Corporation . All Rights Reserved.</p>
   </footer>
 
   <script src="index.js"></script>
+
 </body>
 </html>
