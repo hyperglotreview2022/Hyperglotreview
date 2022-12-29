@@ -166,7 +166,7 @@ input {
 .dropdown:hover .dropdown-content {
   visibility: visible;
   opacity: 1;
-  height: 200px;
+  height: 180px;
 }
 
 .dropdown-content a {
@@ -195,7 +195,7 @@ input {
   display: block;
 }
 .links-container a{
-  margin: 10px 0px;
+  margin: 5px 0px;
 }
 
 
@@ -461,6 +461,7 @@ font-size: 18px;
   line-height: 20px;
   overflow: scroll;
   margin: 5px 0;
+  padding: 0px 15px;
 }
 
 .pre-btn,
