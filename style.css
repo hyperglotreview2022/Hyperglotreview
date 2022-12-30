@@ -104,9 +104,9 @@ ul li{
   padding: 40px 0;
   
 }
-ul li:hover{
+/* ul li:hover{
   border-bottom: 1px solid black;
-}
+} */
 ul li a{
   
   color:black;
@@ -325,7 +325,11 @@ hr{
   margin-bottom: 70px;
   width: 90%;
 }
-
+.topic0{
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 50px;
+}
 
 
 
@@ -883,6 +887,34 @@ margin:0 2vw;
   position: sticky;
   top: 0;
 }
+
+
+
+/* gallery */
+
+
+
+.grid-gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap:50px;
+  padding: 20px;
+}
+.main-section{
+  margin-top: 150px;
+}
+.main-section h1{
+  text-align: center;
+}
+.flex-gallery img{
+  width: 25vw;
+}
+.height{
+  height: 400px;
+}
+
+
 
 
 @media screen and (max-width: 1200px){
