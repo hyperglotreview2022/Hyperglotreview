@@ -587,6 +587,7 @@ font-size: 18px;
 
 
 
+
 /* grid */
 
 
@@ -902,16 +903,27 @@ margin:0 2vw;
   padding: 20px;
 }
 .main-section{
-  margin-top: 150px;
+  margin: 150px 0px;
 }
 .main-section h1{
   text-align: center;
 }
+.flex-gallery{
+  border:1px solid #d3d3d3;
+  overflow: hidden;
+}
 .flex-gallery img{
+  margin:auto;
   width: 25vw;
+  max-height: 400px;
 }
 .height{
   height: 400px;
+}
+.gallery-info{
+  margin:15px;
+  line-height: 0;
+  color:#505050;
 }
 
 
