@@ -1161,5 +1161,21 @@ ul li{
  .main-section{
   margin-bottom: 50px;
  }
+ .art-container2{
+  margin:100px 5px 0;
+  width: 100%;
+ }
+ .advertise-book{
+  display: none;
+ }
+ .book-page-img{
+  width: 100%;
+ }
+ .book-page-img0{
+  width: 100%;
+ }
+ .book-info{
+  width: 100%;
+ }
 }
 
