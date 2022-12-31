@@ -80,7 +80,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0 5px 0 5px;
+  padding:0 5px 0 10px;
   z-index:1000;
   background-color: white;
   position: fixed;
@@ -913,7 +913,7 @@ height: 600px;
 .main-section h1{
   text-align: center;
 }
-.flex-gallery{
+.height{
   border:1px solid #d3d3d3;
   overflow: hidden;
 }
@@ -1136,6 +1136,30 @@ ul li{
  }
  .art-hor-info{
   width: 100%;
+ }
+ .art-container2{
+  width: 100%;
+  margin-left: 10px;
+ }
+ .art-top{
+  font-size: 40px;
+ }
+ .grid-gallery{
+  display: block;
+ }
+ .flex-gallery img{
+  width: 100%;
+  height: auto;
+ }
+ .height{
+  height: auto;
+  border: none;
+ }
+ .flex-gallery{
+  margin-bottom: 50px;
+ }
+ .main-section{
+  margin-bottom: 50px;
  }
 }
 
