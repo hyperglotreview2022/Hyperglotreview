@@ -1,6 +1,14 @@
+const button = document.getElementById("menu");
+const sidebar = document.getElementById("sidebar");
+
 const productContainers = [...document.querySelectorAll('.product-container')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+function show(){
+    console.log("clicked")
+    sidebar.classList.toggle("active");
+}
 
 productContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();

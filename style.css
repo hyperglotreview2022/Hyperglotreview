@@ -65,15 +65,11 @@ do not use creativity
   height:45px;
   width: 100%;
 }
-.sidebar{
-  display: none;
-}
+
 #search{
   display:none;
 }
-.sidebar ul li{
-  display: none;
-}
+
 nav{
   width: 100vw;
   height: 100px;
@@ -949,7 +945,7 @@ ul li{
 }
 .sidebar p{
   cursor: pointer;
-  margin:0 2vw;
+  margin:0 20px;
   font-weight: 700;
   color: #1a1a1a;
   font-size: 20px;
@@ -962,14 +958,18 @@ ul li{
   display: block;
   position: absolute;
   left: -1000px;
+  /* left: -1000px; */
   top: 100px;
   width: 30vw;
-  height: 85vh;
-  background-color: white;
+  background-color: rgb(255, 254, 254);
+  opacity: 0.9;
   transition: 1s ease;
 }
 .sidebar.active{
   left:0;
+}
+.sidebar a{
+  text-decoration: none;
 }
 
  .dropdown{
@@ -1176,6 +1176,31 @@ ul li{
   width: 100%;
  }
  .book-info{
+  width: 100%;
+ }
+ .advertise1{
+  display: none;
+ }
+ .about-cont{
+  width: 100%;
+  margin: 100px 5px 0;
+ }
+ .contact-cont{
+  flex-direction: column;
+  text-align: center;
+ }
+ .cc-cont{
+  margin-top:50px ;
+  width: 100%;
+ }
+ .map-sec{
+  display: block;
+  padding: 0;
+ }
+ iframe{
+  width: 100%;
+ }
+ .form-cont{
   width: 100%;
  }
 }
