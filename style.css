@@ -1110,5 +1110,32 @@ ul li{
  footer{
   height: auto;
  }
+ .flex1 .card-flex1 img{
+  margin-top:100px;
+  width: 100%;
+  height: 250px;
+ }
+ .art-container1{
+  width: 100%;
+ }
+ .advertise img{
+  display:none;
+ }
+ .flex1 .card-flex1{
+  width: 100%;
+  margin: 0;
+  margin-left: 5px;
+ }
+ .art-hor-img img{
+  width: 100%;
+ }
+ .art-hor{
+  display: block;
+  margin-left:10px;
+  margin-bottom: 50px;
+ }
+ .art-hor-info{
+  width: 100%;
+ }
 }
 
