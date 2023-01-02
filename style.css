@@ -294,6 +294,10 @@ hr{
   margin-bottom: 70px;
   width: 90%;
 }
+.mg-bt{
+  width: 100%;
+  margin-bottom: 0px;
+}
 .topic0{
   font-family: 'Cinzel', serif;
   font-weight: 700;
