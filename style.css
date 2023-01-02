@@ -657,6 +657,16 @@ font-size: 18px;
 
 
 
+
+.disclaimer{
+  padding-right: 100px;
+  color: grey;
+  font-size: 12px;
+  line-height: 12px;
+}
+.mg-ontop{
+  margin-top: 100px;
+}
 .f-sm{
   font-size: 50px;
 }
@@ -705,7 +715,7 @@ font-size: 18px;
 .art-flex{
   display: flex;
   justify-content: center;
-  margin: auto;
+  margin:auto;
 }
 .advertise{
   margin-left: 20px;
