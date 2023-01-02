@@ -637,6 +637,10 @@ font-size: 18px;
 .grey{
   color:#6f6f6f
 }
+.credit{
+  font-size: 12px;
+  color:grey
+}
 
 
 
@@ -926,8 +930,10 @@ height: 600px;
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
-  gap:50px;
-  padding: 20px;
+}
+.flex-gallery{
+  margin-right:150px;
+  margin-bottom:30px;
 }
 .main-section{
   margin: 150px 0px;
@@ -938,11 +944,11 @@ height: 600px;
 
 .height{ 
   height: 500px;
-  display: flex;
   position: relative;
 }
 .flex-gallery img{
   margin:auto;
+  max-height: 500px;
   width: 25vw;
   position: absolute;
   bottom: 0;
