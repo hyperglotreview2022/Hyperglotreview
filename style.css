@@ -858,7 +858,6 @@ margin:0 2vw;
 
 
 .art-container2{
-  margin-top: 100px;
   width: 40vw;
 }
 .art-top{
@@ -900,8 +899,13 @@ margin:0 2vw;
 
 
 .advertise-book{
-  margin-left: 20px;
-  height: 1200px;
+  margin-top:50px ;
+  height: 75vh;
+  width: 20vw;
+  position: sticky;
+  top: 120px;
+  background-color: rgb(239, 239, 239);
+  border: 1px solid grey;
 }
 .advertise-book img{
   height: 90vh;
