@@ -19,7 +19,9 @@ body{
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
-
+#sidebar{
+  display:none;
+}
 
 /*sop's 
 1.email
@@ -934,7 +936,9 @@ height: 600px;
   nav{
     padding:0 5%;
   }
-
+  #sidebar{
+    display:block;
+  }
   #menu{
     display: block;
     padding-right: 5%;
