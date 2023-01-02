@@ -657,7 +657,16 @@ font-size: 18px;
 
 
 
-
+.f-sm{
+  font-size: 50px;
+}
+.mg-top{
+  margin: 120px 0px 0px 17vw;
+}
+.arthr{
+  width: 45%;
+  margin-top: 0;
+}
 .art-container1{
   width: 750px;
 }
@@ -696,7 +705,7 @@ font-size: 18px;
 .art-flex{
   display: flex;
   justify-content: center;
-  margin:100px auto;
+  margin: auto;
 }
 .advertise{
   margin-left: 20px;
