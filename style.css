@@ -662,6 +662,10 @@ font-size: 18px;
 
 
 
+.hr-art{
+  margin-bottom: 40px;
+  width: 100%;
+}
 .disclaimer{
   padding-right: 100px;
   color: grey;
@@ -672,13 +676,14 @@ font-size: 18px;
   margin-top: 100px;
 }
 .f-sm{
+  padding-left: 30px;
   font-size: 50px;
 }
 .mg-top{
-  margin: 120px 0px 0px 17vw;
+  margin: 120px 0px 0px 16vw;
 }
 .arthr{
-  width: 45%;
+  width: 70%;
   margin-top: 0;
 }
 .art-container1{
@@ -693,7 +698,7 @@ font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .art-hor-info{
   width: 35vw;
@@ -804,8 +809,12 @@ footer{
   margin-right: 30px;
   width: 50vw;
 }
+.abouthr{
+  width: 100%;
+}
 .about-topic{
-  margin: 0;
+  font-size: 50px;
+  margin: 0 30px;
 }
 .about-cont p{
   font-size: 18px;
@@ -848,6 +857,9 @@ footer{
 
 
 
+.submissions{
+  margin-top: 150px;
+}
 .cos{
   font-family: 'Cinzel', serif;
   margin-left: 100px;
