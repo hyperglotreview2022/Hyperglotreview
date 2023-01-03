@@ -973,6 +973,23 @@ margin:0 2vw;
 /* books */
 
 
+.abtn{
+  background-color: black;
+  height: 35px;
+  width: 110px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.abtn:hover{
+  background-color:var(--footer-color);
+}
+.abtn a{
+  font-size: 14px;
+color: white;
+}
+.abtn a:hover{
+  color: white;
+}
 .advertise-book{
   margin-top:50px ;
   height: 75vh;
