@@ -804,6 +804,21 @@ footer{
 
 
 
+
+
+.edi-top{
+  margin-bottom: 100px;
+}
+.edi-bot{
+  margin-bottom: 100px;
+}
+.editorial-cont{
+  margin-left: 100px;
+}
+.about-topic1{
+  font-size: 50px;
+  margin: 100px 200px 50px;
+}
 .about-cont{
   margin-top: 150px;
   margin-right: 30px;
@@ -1199,7 +1214,11 @@ ul li{
     height: 220px;
   }
   hr{
+    width: 100%;
     margin-bottom: 50px;
+  }
+  .eventshr{
+    width: 90%;
   }
   .product-card1{
     width: 320px;
@@ -1346,6 +1365,9 @@ ul li{
   width: 100%;
   margin: 50px auto;
   padding: 0 5px;
+}
+.editorial-cont{
+  margin-left: 10px;
 }
 }
 
