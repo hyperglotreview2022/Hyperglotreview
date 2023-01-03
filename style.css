@@ -81,10 +81,9 @@ ul li{
   border-bottom: 1px solid black;
 } */
 ul li a{
-  
   color:black;
   text-decoration: none;
-  margin-right:15px;
+  margin-right:10px;
   font-size: 14px;
 }
 ul li a:hover{
