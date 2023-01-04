@@ -983,7 +983,8 @@ margin:0 2vw;
   background-color:var(--footer-color);
 }
 .abtn a{
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 12px;
 color: white;
 }
 .abtn a:hover{
