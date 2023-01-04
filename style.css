@@ -1404,5 +1404,8 @@ ul li{
 .art-subtop{
   font-size: 28px;
 }
+.art-hor-img img {
+  height: 100%;
+}
 }
 
