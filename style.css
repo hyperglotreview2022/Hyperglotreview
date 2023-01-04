@@ -605,7 +605,17 @@ font-size: 18px;
 
 
 
-
+.eventlink{
+  color: black;
+  text-decoration: none;
+  
+}
+.eventlink h1{
+  display: inline;
+}
+.eventlink:hover{
+  text-decoration: underline;
+}
 .events{
   margin-top:100px ;
 }
@@ -944,6 +954,7 @@ margin:0 2vw;
   color: #505050;
 }
 .artist-page-img{
+  margin-bottom: 10px;
   display: flex;
   width: 100%;
 }
@@ -959,6 +970,9 @@ margin:0 2vw;
   font-weight: 700;
   font-size: 30px;
   margin: 30px 0;
+}
+.art-subtop1{
+  font-family: 'Cinzel', serif;
 }
 .subtop-info{
   margin-bottom: 100px;
@@ -988,6 +1002,7 @@ margin:0 2vw;
 color: white;
 }
 .abtn a:hover{
+  text-decoration: underline;
   color: white;
 }
 .advertise-book{
@@ -1385,6 +1400,9 @@ ul li{
 }
 .editorial-cont{
   margin-left: 10px;
+}
+.art-subtop{
+  font-size: 28px;
 }
 }
 
