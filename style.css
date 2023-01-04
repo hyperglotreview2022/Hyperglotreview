@@ -83,7 +83,7 @@ ul li{
 ul li a{
   color:black;
   text-decoration: none;
-  margin-right:10px;
+  margin-right:20px;
   font-size: 14px;
 }
 ul li a:hover{
@@ -106,7 +106,6 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left:10vw ;
   width: 35vw;
 }
 .end i{
