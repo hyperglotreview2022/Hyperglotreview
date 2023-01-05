@@ -12,13 +12,24 @@ const preBtn = [...document.querySelectorAll('.pre-btn')];
 productContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();
     let containerWidth = containerDimensions.width;
-
+    var w = document.documentElement.clientWidth || window.innerWidth;
+ 
     nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth/1.25;
+        if (w <= 480){
+            item.scrollLeft += 330;
+        }else {
+            item.scrollLeft += 2000;
+        }
+
+        
     })
 
     preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth/1.25;
+        if (w <= 480){
+            item.scrollLeft -= 330;
+        }else {
+            item.scrollLeft -= 2000;
+        }
     })
 })
 
