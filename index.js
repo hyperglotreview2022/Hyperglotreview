@@ -2,7 +2,6 @@ const button = document.getElementById("menu");
 const sidebar = document.getElementById("sidebar");
 
 function show(){
-    console.log("clicked")
     sidebar.classList.toggle("active");
 }
 
@@ -15,12 +14,11 @@ productContainers.forEach((item, i) => {
     let containerWidth = containerDimensions.width;
 
     nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth/2;
-        console.log('i got pressed');
+        item.scrollLeft += containerWidth/1;
     })
 
     preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth/2;
+        item.scrollLeft -= containerWidth/1;
     })
 })
 
