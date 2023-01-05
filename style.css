@@ -282,6 +282,12 @@ span:hover{
 
 
 
+.topic-sub{
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 100px 0 20px 30px ;
+}
 .topic{
   font-family: 'Cinzel', serif;
   /* font-family: 'Texturina', serif; */
@@ -397,7 +403,7 @@ cursor: pointer;
   width: 570px;
   height: 650px;
   margin-right: 40px;
-  border: 1px solid gray;
+  border: 1px solid rgb(75, 75, 75);
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 10px 10px 5px rgb(221, 221, 221);
@@ -572,6 +578,9 @@ font-size: 18px;
 
 .post:not(:last-child){
   margin-bottom: 50px;
+}
+.post p{
+  padding: 0px 10px;
 }
 .hide{
   display: none;
@@ -749,6 +758,9 @@ font-size: 18px;
   background-color: rgb(239, 239, 239);
   border: 1px solid grey;
 }
+.height{
+  height: 1000px;
+}
 
 
 
@@ -773,10 +785,14 @@ font-size: 18px;
 
 
 
+.language{
+  line-height: 0px;
+}
 footer{
   height: 30vh;
   background-color: var(--footer-color);
   padding: 20px 0;
+  text-align: center;
 }
 .footer-container{
   text-align: center;
@@ -817,7 +833,7 @@ footer{
 
 
 .edi-top{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .edi-bot{
   margin-bottom: 50px;
@@ -827,12 +843,12 @@ footer{
 }
 .about-topic1{
   font-size: 50px;
-  margin: 100px 200px 0px;
+  margin: 100px 20px 0px;
 }
 .about-cont{
-  margin-top: 150px;
+  margin-top: 50px;
   margin-right: 30px;
-  width: 50vw;
+  width: 45vw;
 }
 .abouthr{
   width: 100%;
@@ -847,12 +863,23 @@ footer{
 .art-flex .advertise1{
   height: 90vh;
 }
-.advertise1 div{
-  
-  margin:120px auto;
+.adver{
+  height: 1000px;
+}
+.adver div{
+  margin-top:50px ;
+  height: 75vh;
+  width: 20vw;
+  position: sticky;
+  top: 120px;
   background-color: rgb(239, 239, 239);
   border: 1px solid grey;
-  width: 25vw;
+}
+.advertise1 div{
+  margin:20px auto;
+  background-color: rgb(239, 239, 239);
+  border: 1px solid grey;
+  width: 22vw;
   height: 70vh;
 }
 .contact-cont{
@@ -878,26 +905,15 @@ footer{
 
 /* call for submissions */
 
-
-
-
-
-.submissions{
-  margin-top: 150px;
+.sub{
+  margin-bottom: 35px;
 }
-.cos{
-  font-family: 'Cinzel', serif;
-  margin-left: 100px;
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-.mg-some{
-  margin: 0px auto;
-}
-.cos-container{
+.sub-cont{
   width: 50%;
-  margin: 100px 7vw;
 }
+
+
+
 
 
 /* form */
@@ -1071,6 +1087,10 @@ height: 600px;
   line-height: 0;
   color:#505050;
 }
+.mg-bits{
+  margin-top: 15px;
+}
+
 
 
 
@@ -1304,6 +1324,7 @@ ul li{
   width: 100%;
  }
  .art-container2{
+  margin-top: 0px;
   width: 100%;
   margin-left: 10px;
  }
@@ -1328,8 +1349,11 @@ ul li{
   margin-bottom: 50px;
  }
  .art-container2{
-  margin:100px 5px 0;
+  margin:0px 5px 0;
   width: 100%;
+ }
+ .topic{
+  padding-left: 0px;
  }
  .advertise{
   display: none;
@@ -1383,6 +1407,7 @@ ul li{
   width: 90%;
 }
 .flex1 .card-flex1 img{
+  margin-top: 20px;
   height: auto;
   width: 95%;
 }
@@ -1408,6 +1433,15 @@ ul li{
 }
 .art-hor-img img {
   height: 100%;
+}
+.adver{
+  display: none;
+}
+.sub-cont{
+  width: 100%;
+}
+.about-cont{
+  margin: 50px 0px 0;
 }
 }
 
