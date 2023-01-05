@@ -281,11 +281,12 @@ span:hover{
 
 
 
+
 .topic{
   font-family: 'Cinzel', serif;
   /* font-family: 'Texturina', serif; */
   font-weight: 700;
-  font-size: 70px;
+  font-size: 50px;
   margin: 0 0 20px 150px ;
 }
 hr{
@@ -467,6 +468,7 @@ font-size: 18px;
   margin: 5px 0;
   padding: 0px 15px;
 }
+
 
 .product-short-description1{
   width: 100%;
