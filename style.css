@@ -751,7 +751,7 @@ font-size: 18px;
   margin:auto;
 }
 .advertise{
-  margin-left: 20px;
+  margin-left: 100px;
   height: 2650px;
 }
 .advertise div{
@@ -870,6 +870,7 @@ footer{
 }
 .adver{
   height: 1000px;
+  margin-left: 100px;
 }
 .adver div{
   margin-top:50px ;
@@ -1073,7 +1074,7 @@ height: 600px;
 }
 .gal-box{
   width: 25vw;
-  margin-right: 100px;
+  margin:0px 50px;
   margin-bottom: 30px;
 }
 .gal-grid{
