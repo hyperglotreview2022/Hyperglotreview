@@ -1050,6 +1050,10 @@ color: white;
 .book-info{
   width: 80%;
 }
+.book-page-img{
+  width:80%;
+  height: 600px;
+  }
 .book-page-img0{
 width:80%;
 height: 600px;
@@ -1085,7 +1089,7 @@ height: 600px;
  margin: 0px;
 }
 .mg-left{
-  margin-left: 290px;
+  margin-left: 250px;
 }
 
 
