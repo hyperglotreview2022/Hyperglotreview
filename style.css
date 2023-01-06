@@ -1060,40 +1060,16 @@ height: 600px;
 
 
 
-.grid-gallery{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
-}
-.flex-gallery{
-  margin-right:150px;
-  margin-bottom:30px;
-}
-.main-section{
-  margin: 150px 0px;
-}
-.main-section h1{
-  text-align: center;
-}
-
-.height{ 
-  height: 500px;
+.gal-img-cont{
   position: relative;
-}
-.flex-gallery img{
-  margin:auto;
-  max-height: 500px;
+  height: 400px;
   width: 25vw;
+}
+.gal-img-cont img{
+  bottom: 0px;
   position: absolute;
-  bottom: 0;
-}
-.gallery-info{
-  margin:15px;
-  line-height: 0;
-  color:#505050;
-}
-.mg-bits{
-  margin-top: 15px;
+  max-height: 400px;
+  width: 100%;
 }
 
 

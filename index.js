@@ -18,7 +18,7 @@ productContainers.forEach((item, i) => {
         if (w <= 480){
             item.scrollLeft += 330;
         }else {
-            item.scrollLeft += 2000;
+            item.scrollLeft += 900;
         }
 
         
@@ -28,7 +28,7 @@ productContainers.forEach((item, i) => {
         if (w <= 480){
             item.scrollLeft -= 330;
         }else {
-            item.scrollLeft -= 2000;
+            item.scrollLeft -= 900;
         }
     })
 })
