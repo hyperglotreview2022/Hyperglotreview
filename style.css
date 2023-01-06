@@ -1071,7 +1071,21 @@ height: 600px;
   max-height: 400px;
   width: 100%;
 }
-
+.gal-box{
+  width: 25vw;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+.gal-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gal-img-info p{
+ margin: 0px;
+}
+.mg-left{
+  margin-left: 290px;
+}
 
 
 
@@ -1429,5 +1443,25 @@ ul li{
 .about-cont{
   margin: 50px 0px 0;
 }
+.gal-grid{
+  grid-template-columns: 1fr;
+}
+.gal-img-cont{
+  width: 100%;
+}
+.gal-box{
+  height: auto;
+  width: 100%;
+}
+.gal-grid{
+  margin: 10px 10px;
+}
+.gal-img-info{
+  padding: 10px;
+}
+.mg-left{
+  margin-left:10px;
+}
+
 }
 
