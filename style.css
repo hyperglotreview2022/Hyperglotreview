@@ -1285,9 +1285,11 @@ ul li{
     margin: 0px 10px 20px 0px;
   }
   .product-short-description1{
+    margin: 15px 0px 10px;
     height: 90px;
   }
   .product-image1{
+    margin-bottom: 15px;
     height: 220px;
   }
   .flex .card-flex img{
