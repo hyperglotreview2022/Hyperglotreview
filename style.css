@@ -659,8 +659,8 @@ font-size: 18px;
   margin: 30px;
 }
 .flex1 .card-flex1 img{
-  width: 100%;
-  height: 500px;
+  width: 700px;
+
 }
 .grey{
   color:#6f6f6f
@@ -737,7 +737,7 @@ font-size: 18px;
   text-decoration: underline;
 }
 .art-topic1{
-  color: black;
+  color: white;
   font-weight: 800;
   text-decoration: none;
   font-size: 18px;
@@ -1011,6 +1011,7 @@ margin:0 2vw;
 
 
 .abtn{
+  color: white;
   background-color: black;
   height: 35px;
   width: 110px;
@@ -1091,6 +1092,7 @@ height: 600px;
 .mg-left{
   margin-left: 250px;
 }
+
 
 
 
@@ -1457,6 +1459,7 @@ ul li{
   width: 100%;
 }
 .gal-box{
+  margin: 0px;
   height: auto;
   width: 100%;
 }
@@ -1468,6 +1471,9 @@ ul li{
 }
 .mg-left{
   margin-left:10px;
+}
+.width{
+  width: 100%;
 }
 
 }
