@@ -1214,8 +1214,10 @@ ul li{
 @media screen and (max-width: 768px){
   .logo{
     width: auto;
-    padding-left: 15px;
+    padding-left: 10px;
+    margin-right: 40px;
   }
+
   nav{
     padding: 15px;
     margin: 0;
@@ -1492,6 +1494,9 @@ ul li{
 }
 .aboutus-mg{
   margin: 0px 10px;
+}
+.list{
+  display: none;
 }
 
 
