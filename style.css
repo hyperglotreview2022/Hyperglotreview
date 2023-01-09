@@ -862,7 +862,9 @@ footer{
   font-size: 50px;
   margin: 0 30px;
 }
-
+.about-cont p{
+  margin: 0px 10px;
+}
 .art-flex .advertise1{
   height: 90vh;
 }
@@ -1319,6 +1321,9 @@ ul li{
   margin: 0;
   margin-left: 10px;
  }
+ .flex1 .card-flex1 p{
+  margin-right: 10px;
+ }
  .art-hor-img img{
   width: 100%;
  }
@@ -1328,11 +1333,10 @@ ul li{
   margin-bottom: 50px;
  }
  .art-hor-info{
- 
   width: 100%;
  }
  .art-hor-info p{
-   margin-right: 20px;
+  margin-right: 10px;
  }
  .art-container2{
   margin-top: 0px;
@@ -1414,9 +1418,6 @@ ul li{
   margin:30px auto 0;
   border-top: 1px solid rgb(178, 178, 178);
 }
-.mg-right{
-  margin-right: 20px;
-}
 .art-hor-img img{
   width: 97%;
 }
@@ -1447,6 +1448,7 @@ ul li{
 }
 .art-hor-img img {
   height: 100%;
+  margin-right: 10px;
 }
 .adver{
   display: none;
