@@ -862,9 +862,7 @@ footer{
   font-size: 50px;
   margin: 0 30px;
 }
-.about-cont p{
-  font-size: 18px;
-}
+
 .art-flex .advertise1{
   height: 90vh;
 }
@@ -1319,7 +1317,7 @@ ul li{
  .flex1 .card-flex1{
   width: 100%;
   margin: 0;
-  margin-left: 5px;
+  margin-left: 10px;
  }
  .art-hor-img img{
   width: 100%;
@@ -1330,7 +1328,11 @@ ul li{
   margin-bottom: 50px;
  }
  .art-hor-info{
+ 
   width: 100%;
+ }
+ .art-hor-info p{
+   margin-right: 20px;
  }
  .art-container2{
   margin-top: 0px;
@@ -1412,13 +1414,16 @@ ul li{
   margin:30px auto 0;
   border-top: 1px solid rgb(178, 178, 178);
 }
+.mg-right{
+  margin-right: 20px;
+}
 .art-hor-img img{
-  width: 90%;
+  width: 97%;
 }
 .flex1 .card-flex1 img{
   margin-top: 20px;
   height: auto;
-  width: 95%;
+  width: 97%;
 }
 .mg-ontop{
   margin: 0;
@@ -1482,6 +1487,9 @@ ul li{
 .language a{
   display: block;
   font-size: 12px;
+}
+.aboutus-mg{
+  margin: 0px 10px;
 }
 
 
