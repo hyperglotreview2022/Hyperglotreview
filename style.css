@@ -1475,6 +1475,15 @@ ul li{
 .width{
   width: 100%;
 }
+.language{
+  line-height: auto;
+  font-size: 12px;
+}
+.language a{
+  display: block;
+  font-size: 12px;
+}
+
 
 }
 
