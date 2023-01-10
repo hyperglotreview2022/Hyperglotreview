@@ -936,7 +936,7 @@ margin:0 2vw;
 }
 
 .form input{
-  width: 70%;
+  width: 60%;
 }
 .input{
   background:none;
@@ -955,7 +955,7 @@ margin:0 2vw;
   width: 150px;
   border-radius: 10px;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 .form button:hover{
   background-color: var(--footer-color);
@@ -1498,6 +1498,9 @@ ul li{
 }
 .list{
   width: 10px;
+}
+.form button{
+  margin: 0px;
 }
 
 
