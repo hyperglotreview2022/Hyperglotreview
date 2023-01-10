@@ -955,6 +955,7 @@ margin:0 2vw;
   width: 150px;
   border-radius: 10px;
   cursor: pointer;
+  margin-right: 5px;
 }
 .form button:hover{
   background-color: var(--footer-color);
