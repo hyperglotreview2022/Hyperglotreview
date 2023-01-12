@@ -29,7 +29,6 @@ body{
 
 
 
-
 /* navbar */
 
 
@@ -347,6 +346,7 @@ hr{
   background: white;
   display: inline;
 }
+
 
 
 
@@ -1019,6 +1019,7 @@ margin:0 2vw;
 /* books */
 
 
+
 .abtn{
   color: white;
   background-color: black;
@@ -1041,6 +1042,7 @@ color: white;
 }
 .advertise-book{
   margin-top:50px ;
+  margin-left: 100px;
   height: 75vh;
   width: 20vw;
   position: sticky;
@@ -1048,22 +1050,16 @@ color: white;
   background-color: rgb(239, 239, 239);
   border: 1px solid grey;
 }
-.advertise-book img{
-  height: 90vh;
-  width: 20vw;
-  position: sticky;
-  top: 0;
-}
 .book-main{
   margin-bottom: 50px;
 }
 .book-info{
-  width: 80%;
+  width: 100%;
 }
 .book-page-img{
-  width:80%;
-  height: 600px;
-  }
+  width: 100%;
+}
+
 .book-page-img0{
 width:80%;
 height: 600px;
@@ -1100,6 +1096,12 @@ height: 600px;
 }
 .mg-left{
   margin-left: 250px;
+}
+.mg-totop{
+  margin-top: 120px;
+}
+.none{
+  display: none;
 }
 
 
@@ -1416,7 +1418,7 @@ ul li{
   padding: 0;
  }
  iframe{
-  width: 100%;
+  width: 95%;
  }
  .form-cont{
   width: 100%;
@@ -1511,13 +1513,25 @@ ul li{
   margin: 0px;
 }
 .form input{
-  width: 90%;
+  width: 80%;
 }
 textarea {
   width: 340px;
   height: 150px;
 }
-
+.book-flex{
+  display: block;
+  width: 100%;
+}
+.info-cont{
+  width: 100%;
+}
+.mg-totop{
+  margin-top: 120px;
+}
+.none{
+  display: block;
+}
 
 }
 
