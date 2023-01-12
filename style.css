@@ -925,6 +925,10 @@ footer{
 /* form */
 
 
+textarea {
+  width: 500px;
+  height: 150px;
+}
 .map-sec{
   display: flex;
   padding: 0 10vw;
@@ -936,7 +940,11 @@ margin:0 2vw;
 }
 
 .form input{
-  width: 60%;
+  width: 90%;
+  padding: 10px;
+}
+.form input::placeholder{
+  padding: 0;
 }
 .input{
   background:none;
@@ -1501,6 +1509,13 @@ ul li{
 }
 .form button{
   margin: 0px;
+}
+.form input{
+  width: 90%;
+}
+textarea {
+  width: 340px;
+  height: 150px;
 }
 
 
