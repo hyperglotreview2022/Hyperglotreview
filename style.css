@@ -1020,6 +1020,13 @@ margin:0 2vw;
 
 
 
+.lit-info{
+  width: 40vw;
+}
+.art-container3{
+  display: flex;
+  width: 50vw;
+}
 .abtn{
   color: white;
   background-color: black;
@@ -1057,7 +1064,9 @@ color: white;
   width: 100%;
 }
 .book-page-img{
-  width: 100%;
+  height: 300px;
+  margin-top: 70px;
+  margin-right: 20px;
 }
 
 .book-page-img0{
@@ -1544,6 +1553,19 @@ textarea {
 }
 .events{
   margin-top: 30px;
+}
+.art-container3{
+  display: block;
+  width: 100%;
+  margin: 0px 10px;
+}
+.lit-info{
+  width: 100%;
+}
+.book-page-img{
+  margin-top: 20px;
+  height: auto;
+  width: 100%;
 }
 }
 
