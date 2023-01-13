@@ -1532,6 +1532,15 @@ textarea {
 .none{
   display: block;
 }
-
+.ad1{
+  width: 95vw;
+  height: 67.5px;
+  margin: 10px auto;
+}
+.ad2{
+  width: 85vw;
+  height: 67.5px;
+  margin: 10px auto;
+}
 }
 
