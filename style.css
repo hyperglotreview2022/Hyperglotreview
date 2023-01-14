@@ -1020,6 +1020,14 @@ margin:0 2vw;
 
 
 
+
+.mg-btm{
+  margin-bottom: 50px;
+}
+.lit-title-info{
+  width: 30vw;
+  margin: 30px;
+}
 .lit-info{
   width: 40vw;
 }
@@ -1112,7 +1120,11 @@ height: 600px;
 .none{
   display: none;
 }
-
+.lit-topic-img{
+  margin-top: 30px;
+  height: 400px;
+  width: auto;
+}
 
 
 
