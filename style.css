@@ -1564,8 +1564,13 @@ textarea {
 }
 .book-page-img{
   margin-top: 20px;
+  margin-right: 0px;
   height: auto;
   width: 100%;
+}
+.disclaimer{
+  width: 100%;
+  padding: 0px;
 }
 }
 
