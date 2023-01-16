@@ -22,6 +22,24 @@ body{
 #sidebar{
   display:none;
 }
+.eventsred{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px auto;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nostyle{
+  text-decoration: none;
+}
+.eventsred:hover{
+  background-color: rgb(36, 36, 36);
+}
 
 
 
@@ -655,9 +673,9 @@ font-size: 18px;
 .flex .card-flex img{
   width: 100%;
 }
-.events{
+/* .events{
   margin-bottom: 100px;
-}
+} */
 .flex1{
   display: flex;
   justify-content:center ;
@@ -1597,6 +1615,9 @@ textarea {
 .ad1 img{
   height: 90px;
   width: 95vw;
+}
+.eventsred{
+  margin-top:0px ;
 }
 }
 
