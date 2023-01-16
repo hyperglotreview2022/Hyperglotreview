@@ -331,6 +331,9 @@ hr{
   border: 1px solid grey;
   margin:20px auto;
 }
+.ad1 img{
+  width: 80vw;
+}
 .ad1 div{
   background: white;
   display: inline;
@@ -400,8 +403,8 @@ cursor: pointer;
 
 .product-card {
   flex: 0 0 auto;
-  width: 570px;
-  height: 650px;
+  width: 450px;
+  height: 550px;
   margin-right: 40px;
   border: 1px solid rgb(75, 75, 75);
   border-radius: 30px;
@@ -420,13 +423,13 @@ cursor: pointer;
 .product-image {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 320px;
   overflow: hidden;
 }
 
 .product-thumb{
 width: 100%;
-height: 100%;
+height: 320px;
 object-fit: cover;
 }
 .product-thumb1{
@@ -637,15 +640,14 @@ font-size: 18px;
 }
 .flex{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .flex .card-flex{
-  width: 45vw;
-  margin: 30px;
+  width: 30vw;
+  margin: 20px;
 }
 .flex .card-flex img{
   width: 100%;
-  height: 500px;
 }
 .events{
   margin-bottom: 100px;
@@ -1128,7 +1130,6 @@ height: 600px;
 
 
 
-
 @media screen and (max-width: 1200px){
   .logo{
     padding-left: 0;
@@ -1555,12 +1556,12 @@ textarea {
 }
 .ad1{
   width: 95vw;
-  height: 67.5px;
+  height: 90px;
   margin: 10px auto;
 }
 .ad2{
   width: 85vw;
-  height: 67.5px;
+  height: 80px;
   margin: 10px auto;
 }
 .events{
@@ -1583,6 +1584,10 @@ textarea {
 .disclaimer{
   width: 100%;
   padding: 0px;
+}
+.ad1 img{
+  height: 90px;
+  width: 95vw;
 }
 }
 
