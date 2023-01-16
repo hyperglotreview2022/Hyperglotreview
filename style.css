@@ -1133,6 +1133,9 @@ height: 600px;
   height: 400px;
   width: auto;
 }
+.nostretch{
+  object-fit: cover;
+}
 
 
 
