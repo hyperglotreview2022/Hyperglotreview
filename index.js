@@ -1,3 +1,15 @@
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+    console.log("scrolled");
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-500px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
 const button = document.getElementById("menu");
 const sidebar = document.getElementById("sidebar");
 
