@@ -669,6 +669,7 @@ font-size: 18px;
 .flex .card-flex{
   width: 30vw;
   margin: 20px;
+  padding: 20px;
 }
 .flex .card-flex img{
   width: 100%;
@@ -1172,6 +1173,7 @@ height: 600px;
     display: block;
     padding-right: 5%;
     cursor: pointer;
+    transition: 0.5s;
   }
 ul li{
   display: none;
@@ -1183,17 +1185,54 @@ ul li{
   font-size: 20px;
   border-top: 1px solid rgb(237, 237, 237);
   padding: 20px 0;
+  
 }
-
+#hide{
+  width: 37px;
+  font-size: 24px;
+  padding: 7px;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: 1px solid rgb(94, 94, 94);
+  display: none;
+  text-align: center;
+}
+#menu.hide{
+  display: none;
+}
+#hide.show{
+  display: block;
+}
 .sidebar{
   display: block;
   position: absolute;
-  left:-1000px;
   /* left: -1000px; */
   top: 100px;
   width: 30vw;
   background-color: rgb(255, 254, 254);
   transition: 1s ease;
+  height: 100vh;
+}
+.more{
+  left: -1000px;
+}
+.more1.etc{
+  left:0;
+}
+.more2{
+  left: -1000px;
+}
+.more2.etc{
+  left:0;
+}
+.more3{
+  left: -1000px;
+}
+.more3.etc{
+  left:0;
+}
+.more1{
+  left: -1000px;
 }
 .sidebar.active{
   left:0;

@@ -1,6 +1,5 @@
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-    console.log("scrolled");
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
@@ -10,11 +9,60 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-const button = document.getElementById("menu");
+const menu = document.getElementById("menu");
 const sidebar = document.getElementById("sidebar");
+const hide = document.getElementById("hide");
+
+menu.addEventListener("click",hidebutton);
+
+function hidebutton(){
+    menu.classList.toggle("hide");
+    hide.classList.toggle("show");
+}
+
+hide.addEventListener("click",hideall);
+
+function hideall(){
+    menu.classList.toggle("hide");
+    hide.classList.toggle("show");
+    sidebar.style.left = "-1000px";
+    more1.style.left = "-1000px";
+    more2.style.left = "-1000px";
+    more3.style.left = "-1000px";
+}
 
 function show(){
-    sidebar.classList.toggle("active");
+    if(sidebar.style.left = "-1000px"){
+        sidebar.style.left = "0px";
+    }
+}
+
+
+
+const extraslides = document.querySelectorAll(".show");
+const more1 = document.querySelector(".more1");
+const more2 = document.querySelector(".more2");
+const more3 = document.querySelector(".more3");
+
+extraslides.forEach(extraslide =>{
+    extraslide.addEventListener("click",showingmore)
+})
+
+function showingmore(e){
+    if(e.target.id === "1"){
+        more1.style.left = "0px";
+        sidebar.classList.toggle("active");
+    } 
+    else
+    if(e.target.id === "2"){
+        more2.style.left = "0px";
+        sidebar.classList.toggle("active");
+    }
+    else
+    if(e.target.id === "3"){
+        more3.style.left = "0px";
+        sidebar.classList.toggle("active");
+    }
 }
 
 const productContainers = [...document.querySelectorAll('.product-container')];
