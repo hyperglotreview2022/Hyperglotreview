@@ -1187,9 +1187,9 @@ ul li{
   
 }
 #hide{
-  width: 37px;
+  width: 53px;
   font-size: 24px;
-  padding: 7px;
+  padding: 15px;
   border-radius: 5px;
   margin-right: 5px;
   border: 1px solid rgb(94, 94, 94);
@@ -1319,6 +1319,7 @@ ul li{
 }
 @media screen and (max-width: 768px){
   .logo{
+    height: 55px;
     width: auto;
     padding-left: 10px;
     margin-right: 40px;
@@ -1344,17 +1345,15 @@ ul li{
   .form input{
     width: 90%;
   }
-  .end i{
-    font-size: 18px;
-    margin: 6px;
-    padding: 0;
+  .end {
+   display: none;
   }
   .sidebar{
     width: 100vw;
   }
   #menu{
     font-size: 24px;
-    padding: 7px;
+    padding: 15px;
     border-radius: 5px;
     margin-right: 5px;
     border: 1px solid  rgb(94, 94, 94);
