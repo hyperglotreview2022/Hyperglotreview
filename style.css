@@ -1368,6 +1368,7 @@ ul li{
   }
   .product-container{
     padding: 0;
+    padding-left: 15px;
   }
   .pre-btn,
 .nxt-btn {
