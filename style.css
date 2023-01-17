@@ -1180,7 +1180,7 @@ ul li{
 }
 .sidebar p{
   cursor: pointer;
-  margin:0 20px;
+  margin:0 10px 0 20px;
   font-weight: 700;
   font-size: 20px;
   border-top: 1px solid rgb(237, 237, 237);
@@ -1212,6 +1212,14 @@ ul li{
   background-color: rgb(255, 254, 254);
   transition: 1s ease;
   height: 100vh;
+}
+.icon-width{
+  width: 0px;
+  margin-right: 20px;
+}
+.show{
+  display: flex;
+  justify-content: space-between;
 }
 .more{
   left: -1000px;
