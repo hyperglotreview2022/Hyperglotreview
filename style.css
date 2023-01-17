@@ -9,6 +9,9 @@
   --footer-color:#1d2327;
   --dark-grey:rgb(66, 66, 66);
 }
+#hide{
+  display: none;
+}
 *{
   box-sizing: border-box;
 }
@@ -651,7 +654,6 @@ font-size: 18px;
 .eventlink{
   color: black;
   text-decoration: none;
-  
 }
 .eventlink h1{
   display: inline;
@@ -674,9 +676,6 @@ font-size: 18px;
 .flex .card-flex img{
   width: 100%;
 }
-/* .events{
-  margin-bottom: 100px;
-} */
 .flex1{
   display: flex;
   justify-content:center ;
@@ -1285,7 +1284,7 @@ ul li{
     grid-template-columns: 1fr;
   }
   .flex .card-flex{
-    width: 90vw;
+    width: 95vw;
   }
   .drop-footer{
     display:block;
@@ -1665,6 +1664,13 @@ textarea {
 }
 .eventsred{
   margin-top:0px ;
+}
+.flex .card-flex{
+ margin: 10px;
+ padding: 0px;
+}
+.pd-l{
+  padding-left: 20px;
 }
 }
 
