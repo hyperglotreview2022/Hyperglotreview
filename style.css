@@ -50,6 +50,7 @@ body{
 
 
 
+
 /* navbar */
 
 
@@ -1154,6 +1155,9 @@ height: 600px;
 }
 .nostretch{
   object-fit: cover;
+}
+.mg-btom{
+  margin-bottom: 50px;
 }
 
 
