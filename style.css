@@ -87,7 +87,6 @@ nav{
   background-color: white;
   position: fixed;
   transition: top 0.3s;
-  box-shadow: 2px 2px 2px #eeeeee;
 }
 
 #menu{
@@ -671,7 +670,9 @@ font-size: 18px;
 .flex .card-flex{
   width: 30vw;
   margin: 20px;
+  margin-top: 0px;
   padding: 20px;
+  padding-top:0px ;
 }
 .flex .card-flex img{
   width: 100%;
@@ -1154,6 +1155,7 @@ height: 600px;
 .nostretch{
   object-fit: cover;
 }
+
 
 
 
