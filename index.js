@@ -94,15 +94,21 @@ productContainers.forEach((item, i) => {
 let noOfCharac = 150;
 let contents = document.querySelectorAll(".content");
 contents.forEach(content => {
-    //If text length is less that noOfCharac... then hide the read more button
-    if(content.textContent.length < noOfCharac){
-        content.nextElementSibling.style.display = "none";
-    }
-    else{
+   
         let displayText = content.textContent.slice(0,noOfCharac);
         let moreText = content.textContent.slice(noOfCharac);
         content.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`;
-      }
+      
+});
+
+let noOfCharacs = 400;
+let contentss = document.querySelectorAll(".contents");
+contentss.forEach(contents => {
+   
+        let displayText = contents.textContent.slice(0,noOfCharacs);
+        let moreText = contents.textContent.slice(noOfCharacs);
+        contents.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`;
+      
 });
 
 function readMore(btn){

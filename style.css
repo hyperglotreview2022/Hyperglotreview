@@ -1159,7 +1159,11 @@ height: 600px;
 .mg-btom{
   margin-bottom: 50px;
 }
-
+.limit{
+  height: 450px;
+  object-fit: cover;
+  object-position:50% 0;
+}
 
 
 
