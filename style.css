@@ -419,6 +419,7 @@ cursor: pointer;
 
 .product-container {
   padding: 0 5vw;
+  margin: 0 1vw;
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -526,19 +527,19 @@ font-size: 18px;
 .pre-btn,
 .nxt-btn {
   color: black;
-  border: 1px solid rgb(164, 164, 164);
-  width: 5vw;
-  height: 10vh;
+  border: none;
+  width: 3vw;
+  height: 7vh;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, #fff 100%);
+  background: none;
   cursor: pointer;
   z-index: 8;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 900;
 }
 
@@ -546,13 +547,11 @@ font-size: 18px;
   top: 50%;
   left: 0;
   transform: rotate(180deg);
-  box-shadow: -5px -5px 10px rgb(92, 92, 92);
 }
 
 .nxt-btn {
   top: 50%;
   right:0;
-  box-shadow: -5px 5px 10px rgb(92, 92, 92);
 }
 .up{
   top:50%;
@@ -790,8 +789,18 @@ font-size: 18px;
   margin-left: 100px;
   height: 2650px;
 }
+.advertise img{
+  margin-top:30px;
+  height: 75vh;
+  width: 20vw;
+  position: sticky;
+  top: 120px;
+  background-color: rgb(239, 239, 239);
+  border: 1px solid grey;
+  object-fit: cover;
+}
 .advertise div{
-  margin-top:50px ;
+  margin-top:30px;
   height: 75vh;
   width: 20vw;
   position: sticky;
@@ -887,7 +896,7 @@ footer{
   margin: 100px 20px 0px;
 }
 .about-cont{
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 30px;
   width: 45vw;
 }
@@ -909,7 +918,7 @@ footer{
   margin-left: 100px;
 }
 .adver div{
-  margin-top:50px ;
+  margin-top:30px ;
   height: 75vh;
   width: 20vw;
   position: sticky;
@@ -1058,7 +1067,7 @@ margin:0 2vw;
 
 
 .mg-btm{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .lit-title-info{
   width: 30vw;
@@ -1092,7 +1101,7 @@ color: white;
   color: white;
 }
 .advertise-book{
-  margin-top:50px ;
+  margin-top:20px ;
   margin-left: 100px;
   height: 75vh;
   width: 20vw;
@@ -1391,6 +1400,7 @@ ul li{
   .pre-btn,
 .nxt-btn {
   width: 10vw;
+  top: 55%;
 }
   .product-card{
   width: 320px;
