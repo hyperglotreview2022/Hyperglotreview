@@ -1,10 +1,16 @@
+function alertb(){
+    alert("Coming Soon");
+}
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
+    document.querySelector(".float-btns").style.bottom = "-500px";
   } else {
     document.getElementById("navbar").style.top = "-500px";
+    document.querySelector(".float-btns").style.bottom = "20px";
   }
   prevScrollpos = currentScrollPos;
 }
@@ -76,7 +82,7 @@ productContainers.forEach((item, i) => {
         if (w <= 480){
             item.scrollLeft += 330;
         }else {
-            item.scrollLeft += 900;
+            item.scrollLeft += 1115;
         }
 
         
@@ -86,7 +92,7 @@ productContainers.forEach((item, i) => {
         if (w <= 480){
             item.scrollLeft -= 330;
         }else {
-            item.scrollLeft -= 900;
+            item.scrollLeft -= 1115;
         }
     })
 })
@@ -127,6 +133,7 @@ function showSlides() {
   let slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
+    
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}

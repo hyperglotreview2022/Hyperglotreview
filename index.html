@@ -17,6 +17,12 @@
 </head>
 <body>
 
+  <div class="float-btns">
+  <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+  <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+  </div>
+  
+
   <!-- navbar -->
   <header id="navbar">
      <div>
@@ -127,11 +133,14 @@
         
       </div>
       <div class="end">
-        <input class="nosubmit" type="search" placeholder="Search...">
+        <!-- <input class="nosubmit" type="search" placeholder="Search...">
         <i id="search" class="fa-solid fa-magnifying-glass"></i>
         <i class="fa-regular fa-user"></i>
         <i class="fa-regular fa-bookmark"></i>
-        <i class="fa-solid fa-language"></i>
+        <i class="fa-solid fa-language"></i> -->
+
+        <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+        <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
       </div>
       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
       <i id="hide" class="fa-solid fa-xmark"></i>
@@ -146,24 +155,24 @@
 
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
-        <img src="images/image1.jpg" alt="slider image 1" style="width:100%">
+        <img src="Events-img/keralalitfest1.JPG" alt="slider image 1" style="width:100%">
       </div>
     
       <div class="mySlides fade">
-        <img src="images/image2.1.jpg" alt="slider image 2" style="width:100%">
+        <img src="Events-img/ex-3204.JPG" alt="slider image 2" style="width:100%">
       </div>
     
       <div class="mySlides fade">
-        <img src="images/image3.jpg" alt="slider image 3" style="width:100%">
+        <img src="Events-img/ex-3207.JPG" alt="slider image 3" style="width:100%">
       </div>
       <div class="mySlides fade">
-        <img src="images/image4.jpg" alt="slider image 4" style="width:100%">
+        <img src="author-img/Border.jpg" alt="slider image 4" style="width:100%">
       </div>
       <div class="mySlides fade">
-        <img src="images/image5.jpg" alt="slider image 5" style="width:100%">
+        <img src="author-img/BoatsintheSeashore-I1.JPG" alt="slider image 5" style="width:100%">
       </div>
       <div class="mySlides fade">
-        <img src="images/image6.jpg" alt="slider image 6" style="width:100%">
+        <img src="Events-img/forgivingmother.JPG" alt="slider image 6" style="width:100%">
       </div>
     
       <!-- Next and previous buttons -->
@@ -198,7 +207,7 @@
         <div class="product-info">
           <div class="post">
             <a href="author-page/suparna.html"><h2 class="product-brand">Emerging Artists</h2></a>
-            <p class="content">Suparna's work showcases an essence of contemporary expressionism. Her works of landscape depict the 
+            <p class="contents">Suparna's work showcases an essence of contemporary expressionism. Her works of landscape depict the 
               buildings which are sharp and geometric, the futuristic technology is sleek but textured, the landscape 
               is barren and foreboding often resembling a scene from a dystopian future. Within her inconsequential 
               works, Mandal tries to create parallels between functionality in the cosmic space and the nerve synapses 
@@ -215,7 +224,7 @@
         <div class="product-info">
           <div class="post">
             <a href="author-page/Sumedhaandnitin.html"><h2 class="product-brand">Emerging Artists</h2></a>
-            <p class="content"><b>Otherworlds</b> explores the complex & exploitative labour and class relationships in Kapashera - a 
+            <p class="contents"><b>Otherworlds</b> explores the complex & exploitative labour and class relationships in Kapashera - a 
               tenement town that lies at the cusp of Delhi and Gurugram. It questions the meaning of home for people 
               in a place that is in a perpetual state of flux and how the temporariness of livelihoods and belonging 
               affects the lives of women in this space. For Otherworlds, Nitin and Sumedha started out by repurposing 
@@ -239,7 +248,7 @@
         <div class="product-info">
           <div class="post">
             <a href="author-page/masoom.html"><h2 class="product-brand">Emerging Artists</h2></a>
-            <p class="content">George Bataille introduced the notion of 'l'informe' - Formlessness.  What Bataille means by 
+            <p class="contents">George Bataille introduced the notion of 'l'informe' - Formlessness.  What Bataille means by 
               Formlessness is that art should be brought down to earth, off of its pedestal where it has been standing 
               since antiquity. For Bataille, creativity is in the process. The Formless, in a way, is abstract and 
               indefinable - Bataille himself claims that a word has no definition. It is performative, rather than 
@@ -258,7 +267,7 @@
             <div class="product-info">
               <div class="post">
                 <a href="author-page/amitsaha.html"><h2 class="product-brand">Featured Artists</h2></a>
-                <p class="content"> Amit Kumar Saha focuses in his paintings on human figures in general and transgender figures in particular.
+                <p class="contents"> Amit Kumar Saha focuses in his paintings on human figures in general and transgender figures in particular.
                   His works delve into and empathetically depict the complex emotions and embattled...</p>
                     <a href="author-page/amitsaha.html"><button id="content-btn">Read More</button></a>
                   </div>
@@ -272,7 +281,7 @@
           <div class="product-info">
             <div class="post">
               <a href="author-page/indra.html"><h2 class="product-brand">Artists in Spotlight</h2></a>
-              <p class="content">The world of Indira Halder is crowded with men and
+              <p class="contents">The world of Indira Halder is crowded with men and
                  women who are depicted in muted colours. Her painting reminds one of the forgotten art forms of 
                  the marginalised tribal lands...
               </p>
@@ -288,7 +297,7 @@
         <div class="product-info">
           <div class="post">
             <a href="author-page/kuntal.html"><h2 class="product-brand">Featured Artists</h2></a>
-            <p class="content">The compositions of Kuntal Dutta have an air of 
+            <p class="contents">The compositions of Kuntal Dutta have an air of 
               magical realism. His sources of inspiration are real life things that one would observe every day. 
               He draws houses that are part of a town, a tree, a bird or the moon...</p>
                 <a href="author-page/kuntal.html"><button id="content-btn">Read More</button></a>
@@ -319,7 +328,7 @@
     <div class="product-info">
       <div class="post">
         <a href="author-page/soumen.html"><h2 class="product-brand">Sculptures and Installations</h2></a>
-        <p class="content">Nature and mankind collapse into each
+        <p class="contents">Nature and mankind collapse into each
           other in this piece as this sculpture refers
           both to living breathing objects as well as
           manmade inanimate objects. The iron nails
@@ -448,7 +457,7 @@
       </div>
     </a>
       <div class="post">
-      <div class="product-info">
+      <div class="product-info lit-info">
         <a href="literature-page/nilanjanaroy.html" class="product-brand">Nilanjana S. Roy</a>
           <p class="product-short-description1 content">Roy's book opens with a description of a laidback rural 
             space where time has stood still. Untouched by the rapid development in the nearby capital city, 
@@ -477,7 +486,7 @@
       </div>
     </a>
       <div class="post">
-      <div class="product-info">
+      <div class="product-info lit-info">
         <a href="literature-page/chitra.html" class="product-brand">Chitra Banerjee Divakaruni</a>
           <p class="product-short-description1 content">The latest work by the author of 'The Forest of 
             Enchantments' and 'The Last Queen' is set on the cusp of India's independence. The novel begins 
@@ -507,7 +516,7 @@
   </div>
 </a>
     <div class="post">
-      <div class="product-info">
+      <div class="product-info lit-info">
         <a href="literature-page/edyong.html" class="product-brand">Ed Yong</a>
           <p class="product-short-description1 content">Popular Science has a new storyteller and one who can 
             weave a mesmerizing labyrinth of the banal and even the often neglected aspects of our existence. 
@@ -536,7 +545,7 @@
       </div>
     </a>
         <div class="post">
-          <div class="product-info">
+          <div class="product-info lit-info">
             <a href="literature-page/janicepariat.html" class="product-brand">Janice Pariat</a>
               <p class="product-short-description1 content">Janice Pariat's work is a plethora of heartwarming 
                 episodes with endearing characters starting with the narrator Shai, her father, Kima and, of 
@@ -567,7 +576,7 @@
   </div>
   </a>
     <div class="post">
-      <div class="product-info">
+      <div class="product-info lit-info">
         <a href="literature-page/sharayana.html" class="product-brand">Sharayana Bhattacharya</a>
           <p class="product-short-description1 content">While exploring the desires of different strata of Indian 
             women in her book, Shrayana Bhattacharya places at the centre of it a sociological investigation on 
@@ -591,7 +600,7 @@
   </div>
   </a>
   <div class="post">
-    <div class="product-info">
+    <div class="product-info lit-info">
       <a href="literature-page/tejo.html"class="product-brand">Vasudhendra</a>
         <p class="product-short-description1 content">Vasudhendra has assayed a novel that is monumental in scale 
           and it takes immense daring to conceive of such a undertaking. The novel oscillates between the backdrop
@@ -618,7 +627,7 @@
           </div>
         </a>
           <div class="post">
-          <div class="product-info">
+          <div class="product-info lit-info">
             <a href="literature-page/dhanapatirchar.html" class="product-brand">Amar Mitra</a>
               <p class="product-short-description1 content">Translations can often seem tedious due to entrenched cultural
                  and linguistic barriers. Amar Mitra's novel is a confluence of resplendent folklore and gruesome 
@@ -649,7 +658,7 @@
   </div>
   </a>
   <div class="post">
-    <div class="product-info">
+    <div class="product-info lit-info">
       <a href="literature-page/manilsuri.html"class="product-brand">Manil Suri</a>
         <p class="product-short-description1 content">When an adept marketeer writes books, the result is a book 
           such as 'The Big Bang of Numbers'. Everything from the title itself to the introduction cheekily 
@@ -680,7 +689,7 @@
     </div>
   </a>
       <div class="post">
-        <div class="product-info">
+        <div class="product-info lit-info">
           <a href="literature-page/debarati.html" class="product-brand">Debarati Mukhopadhyay</a>
             <p class="product-short-description1 content">A fictional narrative which oscillates between 
               historical accounts, social commentary and a fictional storyline might seem daunting and, 
@@ -789,17 +798,6 @@
         <a href="events-page/keralalitfest.html"><button id="content-btn">Read More</button></a>
     </div>
     <div class="card-flex size">
-      <img src="Events-img/Muskaan1.JPG" alt="event image">
-      <p class="credit">Image Credit - Hyperglot Review</p>
-      <a class="eventlink" href="events-page/muskanlitfest.html"><h1>Muskaan Literature Festival</h1></a> 
-      <p class="grey">Kiran Manral in conversation with young poets</p>
-      <p class="content">The first ever children's literature festival, 'Muskaan Literature Festival for Child authors' has been 
-        organised by Prabha Khaitan Foundation which inaugurated on 10th of January.
-        The festival is supported by Shree Cement and is being held in collaboration with Indira Gandhi National 
-        Centre for the Arts, with Sahitya Akademi as knowledge partner.</p>
-        <a href="events-page/muskanlitfest.html"><button id="content-btn">Read More</button></a>
-    </div>
-    <div class="card-flex size">
       <img src="Events-img/Kochi-muzirisbiennale.jpg" alt="event image">
       <p class="credit">Image Credit - Kochi-Muziris Biennale</p>
       <a class="eventlink" href="events-page/kochi.html"><h1>Kochi-Muziris Biennale</h1></a> 
@@ -842,17 +840,15 @@
         <a href="events-page/exhibit-320.html"><button id="content-btn">Read More</button></a> 
     </div>
     <div class="card-flex size">
-      <img src="Events-img/banglorelitfest.JPG" alt="event image">
+      <img src="Events-img/Muskaan1.JPG" alt="event image">
       <p class="credit">Image Credit - Hyperglot Review</p>
-      <a class="eventlink" href="events-page/banglore.html"><h1>Bangalore Literature Festival</h1></a>
-      <p class="grey">Atta galatta Award Winners</p>
-      <p class="content">Beautiful gardens and parks, the gulmohar in full bloom, the most salubrious weather - 
-        Bengaluru has always inspired creative thinkers and authors. The Bangalore Literature Festival celebrates 
-        this creative spirit of the city popular as the Garden City of India and commemorates the literary 
-        diversity it offers, bringing it in conversation with the best minds in the world of literature within 
-        and outside India.
-      </p>
-       <a href="events-page/banglore.html"><button id="content-btn">Read More</button></a> 
+      <a class="eventlink" href="events-page/muskanlitfest.html"><h1>Muskaan Literature Festival</h1></a> 
+      <p class="grey">Kiran Manral in conversation with young poets</p>
+      <p class="content">The first ever children's literature festival, 'Muskaan Literature Festival for Child authors' has been 
+        organised by Prabha Khaitan Foundation which inaugurated on 10th of January.
+        The festival is supported by Shree Cement and is being held in collaboration with Indira Gandhi National 
+        Centre for the Arts, with Sahitya Akademi as knowledge partner.</p>
+        <a href="events-page/muskanlitfest.html"><button id="content-btn">Read More</button></a>
     </div>
     <div class="card-flex size">
       <img src="Events-img/vadheraart.JPG" alt="event image">
