@@ -1772,5 +1772,12 @@ textarea {
   font-size: 14px;
   font-weight: 700;
 }
+.product-info.lit-info{
+  padding-top: 10px;
+  text-align: center;
+  width: 320px;
 }
-
+.product-short-description1.content{
+width: 100%;
+}
+}
