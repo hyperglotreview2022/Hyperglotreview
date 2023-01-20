@@ -295,9 +295,18 @@ span:hover{
 }
 .slideshow-container img{
   margin-top:100px ;
-  height: 450px;
+  height: 500px;
   object-fit: cover;
 }
+.sliderimg{
+  animation-name: zoom;
+  animation-duration: 3s;
+}
+@keyframes zoom {
+  from {transform: scale(1);}
+  to {transform: scale(1.07);}
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
