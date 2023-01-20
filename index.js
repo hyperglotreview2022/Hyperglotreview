@@ -1,6 +1,6 @@
-function alertb(){
-    alert("Coming Soon");
-}
+// function alertb(){
+//     alert("Coming Soon");
+// }
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {

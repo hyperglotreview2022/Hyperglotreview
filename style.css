@@ -492,7 +492,7 @@ cursor: pointer;
 
 .product-card {
   flex: 0 0 auto;
-  width: 70vw;
+  width: 55vw;
   height: 600px;
   margin-right: 40px;
   overflow: hidden;
@@ -505,13 +505,13 @@ cursor: pointer;
 
 .product-image {
   position: relative;
-  width: 70vw;
+  width: 55vw;
   height: 450px;
   overflow: hidden;
 }
 
 .product-thumb{
-width: 70vw;
+width: 55vw;
 height: 450px;
 object-fit: cover;
 transition: 1s;
