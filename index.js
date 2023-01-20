@@ -10,7 +10,7 @@ window.onscroll = function() {
     document.querySelector(".float-btns").style.bottom = "-500px"
   } else {
     document.getElementById("navbar").style.top = "-500px";
-    document.querySelector(".float-btns").style.bottom = "20px"
+    document.querySelector(".float-btns").style.bottom = "10px"
   }
   prevScrollpos = currentScrollPos;
 }
@@ -82,7 +82,7 @@ productContainers.forEach((item, i) => {
         if (w <= 480){
             item.scrollLeft += 330;
         }else {
-            item.scrollLeft += 1115;
+            item.scrollLeft += 960;
         }
 
         
@@ -92,7 +92,7 @@ productContainers.forEach((item, i) => {
         if (w <= 480){
             item.scrollLeft -= 330;
         }else {
-            item.scrollLeft -= 1115;
+            item.scrollLeft -= 960;
         }
     })
 })
