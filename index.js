@@ -7,10 +7,8 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
-    document.querySelector(".float-btns").style.bottom = "-500px";
   } else {
     document.getElementById("navbar").style.top = "-500px";
-    document.querySelector(".float-btns").style.bottom = "20px";
   }
   prevScrollpos = currentScrollPos;
 }

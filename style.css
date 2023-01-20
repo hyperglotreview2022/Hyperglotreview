@@ -294,7 +294,7 @@ span:hover{
 }
 .slideshow-container img{
   margin-top:100px ;
-  height: 550px;
+  height: 450px;
   object-fit: cover;
 }
 /* Hide the images by default */
