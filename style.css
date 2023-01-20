@@ -1794,4 +1794,7 @@ textarea {
 .product-short-description1.content{
 width: 100%;
 }
+.slideshow-container{
+  height: 320px;
+}
 }
