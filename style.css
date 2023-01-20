@@ -292,6 +292,8 @@ span:hover{
 .slideshow-container {
   position: relative;
   margin: auto;
+  height: 600px;
+  overflow: hidden;
 }
 .slideshow-container img{
   margin-top:100px ;
