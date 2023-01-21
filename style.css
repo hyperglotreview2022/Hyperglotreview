@@ -195,19 +195,19 @@ input {
   margin: 10px;
   background: none;
   border: 1px solid black;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .nav-buttons a{
   text-decoration: none;
   color: black;
   font-weight: 500;
-  
 }
 .nav-buttons:hover{
   cursor: pointer;
   box-shadow: 7px 7px 3px rgb(71, 71, 71,0.1);
 }
 .float-btns{
+ 
   position: fixed;
   bottom: -500px;
   right: 30px;
@@ -216,6 +216,7 @@ input {
   align-items: center;
   gap: 10px;
   transition: 0.5s;
+  display: none;
 }
 .float-btn{
   background-color: black;
