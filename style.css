@@ -1780,6 +1780,7 @@ textarea {
   background-color: white;
   opacity: 0.9;
   width: 45vw;
+  display: none;
 }
 .float-btn a{
   color: black;
