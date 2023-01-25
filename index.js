@@ -1,13 +1,18 @@
 function alertb(){
     alert("Coming Soon");
 }
-
+  var position = document.getElementById("navbar");
+  if(window.scrollY==0){ 
+    document.querySelector(':root').style.setProperty('--white', 'white');
+   }
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
+    
   var currentScrollPos = window.pageYOffset;
+
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
-    document.querySelector(".float-btns").style.bottom = "-500px"
+    document.querySelector(".float-btns").style.bottom = "-500px";
   } else {
     document.getElementById("navbar").style.top = "-500px";
     document.querySelector(".float-btns").style.bottom = "10px"
