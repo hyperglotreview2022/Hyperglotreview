@@ -1253,6 +1253,12 @@ height: 600px;
 
 
 @media screen and (max-width: 1200px){
+  .product-brand{
+    font-size: 26px;
+  }
+  p.content{
+    font-size: 22px;
+  }
   .logo{
     padding-left: 0;
   }
@@ -1276,7 +1282,7 @@ ul li{
   cursor: pointer;
   margin:0 10px 0 20px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   border-top: 1px solid rgb(237, 237, 237);
   padding: 20px 0;
   
@@ -1413,6 +1419,58 @@ ul li{
   }
 }
 @media screen and (max-width: 768px){
+  .form button{
+    width: 190px;
+    font-size: 22px;
+  }
+  .disclaimer{
+    font-size: 22px;
+    line-height: 22px;
+  }
+  p{
+    font-size: 22px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  h4{
+    font-size: 28px;
+  }
+  .abtn{
+    font-size: 22px;
+    width: 150px;
+  }
+  .art-hor-info p{
+    font-size: 22px;
+  }
+  .flex1 .card-flex1 p{
+    font-size: 22px;
+  }
+  .footer-container a{
+    font-size: 22px;
+  }
+  .footer-container p{
+    font-size: 22px;
+  }
+  .art-topic{
+    font-size: 28px;
+  }
+  #content-btn{
+    font-size: 22px;
+    width: 150px;
+  }
+  .credit{
+    font-size: 22px;
+  }
+  .grey{
+    font-size: 22px;
+  }
+  .eventlink h1{
+    font-size: 28px;
+  }
+  .product-short-description1.content{
+    height: 100px;
+  }
   .logo{
     height: 55px;
     width: auto;
@@ -1500,7 +1558,6 @@ ul li{
     height: 90px;
   }
   .product-image1{
-    margin-bottom: 15px;
     height: 220px;
   }
   .flex .card-flex img{
@@ -1764,7 +1821,9 @@ textarea {
   width: 95vw;
 }
 .eventsred{
-  margin-top:0px ;
+  margin-top:50px ;
+  font-size: 22px;
+  width: 180px;
 }
 .flex .card-flex{
  margin: 10px;
@@ -1790,7 +1849,6 @@ textarea {
   font-weight: 700;
 }
 .product-info.lit-info{
-  padding-top: 10px;
   text-align: center;
   width: 320px;
 }
