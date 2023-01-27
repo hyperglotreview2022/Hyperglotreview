@@ -499,7 +499,6 @@ cursor: pointer;
 }
 
 .product-container {
-  background: linear-gradient(white,#f3fffe, #d3e6e4,#f3fffe, white);
   padding:0px 5vw;
   margin: 0 1vw;
   display: flex;
@@ -508,7 +507,7 @@ cursor: pointer;
   scroll-behavior: smooth;
 }
 .p-c{
-  background: linear-gradient(white,#ede9ef, #e5deea,#ede9ef, white);
+  background: linear-gradient(white,#96909b, #3e3a42,#96909b, white);
 
 }
 
@@ -525,9 +524,9 @@ cursor: pointer;
   margin-bottom: 100px;
   transition: 0.5s ease;
 }
-.product-card1:hover{
+/* .product-card1:hover{
   box-shadow: 12px 12px 7px rgb(172, 172, 172);
-}
+} */
 
 .product-image {
   position: relative;
