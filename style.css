@@ -1863,4 +1863,13 @@ width: 100%;
 .slideshow-container{
   height: 320px;
 }
+.form-cont{
+  margin: 0 0vw;
+}
+input::placeholder{
+  font-size: 22px;
+}
+textarea::placeholder{
+  font-size: 24px;
+}
 }
