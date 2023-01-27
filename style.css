@@ -563,7 +563,7 @@ transition: 1s;
 }
 
 .product-brand {
-  margin: 0px;
+margin: 10px 0;
 font-size: 18px;
 }
 .product-info a{
