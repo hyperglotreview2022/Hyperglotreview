@@ -477,6 +477,10 @@ hr{
 
 
 
+.post{
+  background-color: white;
+  height: 300px;
+}
 .product-info.lit-info{
   padding-top: 10px;
   text-align: center;
@@ -495,13 +499,18 @@ cursor: pointer;
 }
 
 .product-container {
-  padding: 0 5vw;
+  /* background: linear-gradient(white,#f3fffe, #d3e6e4,#f3fffe, white); */
+  padding:0px 5vw;
   margin: 0 1vw;
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
 }
+/* .p-c{
+  background: linear-gradient(white,#ede9ef, #e5deea,#ede9ef, white);
+
+} */
 
 .product-container::-webkit-scrollbar {
   display: none;
@@ -742,6 +751,7 @@ font-size: 18px;
 .flex{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
+  /* background: linear-gradient(white,#f3fffe, #b8c8c7,#f3fffe, white); */
 }
 .flex .card-flex{
   width: 30vw;
@@ -945,6 +955,7 @@ footer{
 
 
 /* about */
+
 
 
 
