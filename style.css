@@ -1538,6 +1538,7 @@ ul li{
   }
   .pre-btn,
 .nxt-btn {
+  height: 80px;
   width: 15vw;
   top: 55%;
   background: rgba(255, 255, 255, 0.3);
