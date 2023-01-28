@@ -297,12 +297,12 @@ span:hover{
 .slideshow-container {
   position: relative;
   margin: auto;
-  height: 600px;
+  height: 630px;
   overflow: hidden;
 }
 .slideshow-container img{
   margin-top: 100px;
-  height: 500px;
+  height: 530px;
   object-fit: cover;
 }
 .sliderimg{
@@ -311,7 +311,7 @@ span:hover{
 }
 @keyframes zoom {
   from {transform: scale(1);}
-  to {transform: scale(1.07);}
+  to {transform: scale(1.05);}
 }
 
 /* Hide the images by default */
