@@ -1271,6 +1271,7 @@ height: 600px;
     font-size: 26px;
   }
   p.content{
+    margin: 5px 0 10px;
     font-size: 22px;
   }
   .logo{
