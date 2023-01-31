@@ -80,7 +80,7 @@ productContainers.forEach((item, i) => {
     if (w <= 480) {
       item.scrollLeft += 330;
     } else {
-      item.scrollLeft += 960;
+      item.scrollLeft += 1300;
     }
   });
 
@@ -88,7 +88,7 @@ productContainers.forEach((item, i) => {
     if (w <= 480) {
       item.scrollLeft -= 330;
     } else {
-      item.scrollLeft -= 960;
+      item.scrollLeft -= 1300;
     }
   });
 });
