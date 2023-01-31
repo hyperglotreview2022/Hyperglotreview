@@ -427,7 +427,6 @@ hr{
   width: 80vw;
   height: 150px;
   background-color: rgb(239, 239, 239);
-  border: 1px solid grey;
   margin:20px auto;
 }
 .ad1 img{
@@ -442,12 +441,15 @@ hr{
   width:70vw;
   height: 100px;
   background-color: rgb(239, 239, 239);
-  border: 1px solid grey;
   margin:20px auto;
 }
 .ad2 div{
   background: white;
   display: inline;
+}
+.ad2 img{
+  width: 70vw;
+  height: 100px;
 }
 
 
