@@ -8,6 +8,7 @@
   --more-grey:rgb(62, 62, 62);
   --footer-color:#1d2327;
   --dark-grey:rgb(66, 66, 66);
+  
 }
 #hide{
   display: none;
@@ -58,13 +59,30 @@ body{
 
 
 
+.nav-scrolled {
+  --text:white;
+  --text-inverse: black;
+  --background: rgba(0,0,0,0.5);
+}
 
+nav{
+  --text: black;
+  --text-inverse: #f4f4f4;
+  --background: white;
+  transition:0.5s ease-out;
+  background: var(--background);
+}
 #navbar {
   position: fixed;
   top: 0;
   width: 100%;
   transition:top 0.5s;
   z-index: 10000;
+}
+ul li a{
+  color: var(--text);
+
+  --text-inverse: #f4f4f4;
 }
 .act{
   font-weight: 900;
@@ -86,9 +104,8 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding:0 5px 0 10px;
-  background-color: white;
   position: fixed;
-  transition: top 0.3s;
+  /* transition: top 0.3s; */
 }
 #menu{
   display: none;
@@ -105,7 +122,6 @@ ul li{
   border-bottom: 1px solid black;
 } */
 ul li a{
-  color:black;
   text-decoration: none;
   margin-right:20px;
   font-size: 14px;
@@ -151,7 +167,7 @@ input {
 .dropdown-content {
   padding:10px 20px ;
   position: absolute;
-  background-color: white;
+  background-color: var(--background);
   top:100px;
   opacity: 0;
   visibility: hidden;
@@ -167,8 +183,8 @@ input {
 
 .dropdown-content a {
   display: block;
-  color: black;
-  padding:10px 10px 0px;
+  color: var(--text);
+  padding:5px 10px 10px;
   text-decoration: none;
   width:100%;
   height:40px;
@@ -187,28 +203,28 @@ input {
   grid-template-columns: 1fr 1fr;
 }
 .links-container i{
-  font-size: 20px;
+  font-size: 14px;
   display: block;
 }
 .links-container a{
-  margin: 5px 0px;
+  font-size: 12px;
+  padding: 5px 0px 5px 10px;
 }
 .nav-buttons{
   width: 10vw;
   height: 40px;
   margin: 10px;
   background: none;
-  border: 1px solid black;
+  border: 1px solid var(--text);
   transition: 0.5s;
 }
 .nav-buttons a{
   text-decoration: none;
-  color: black;
+  color: var(--text);
   font-weight: 500;
 }
 .nav-buttons:hover{
   cursor: pointer;
-  box-shadow: 7px 7px 3px rgb(236, 236, 236);
 }
 .float-btns{
  
@@ -301,8 +317,7 @@ span:hover{
   overflow: hidden;
 }
 .slideshow-container img{
-  margin-top: 100px;
-  height: 530px;
+  height: 650px;
   object-fit: cover;
 }
 .sliderimg{
@@ -1496,6 +1511,7 @@ ul li{
   }
 
   nav{
+    background: white;
     padding: 15px;
     margin: 0;
   }
