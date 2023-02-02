@@ -93,13 +93,38 @@ productContainers.forEach((item, i) => {
   });
 });
 
-let noOfCharac = 150;
+const productContainers1 = [...document.querySelectorAll(".product-container1")];
+const nxtBtn1 = [...document.querySelectorAll(".nxt-btn1")];
+const preBtn1 = [...document.querySelectorAll(".pre-btn1")];
+
+productContainers1.forEach((item, i) => {
+  var w = document.documentElement.clientWidth || window.innerWidth;
+
+  nxtBtn1[i].addEventListener("click", () => {
+    if (w <= 480) {
+      item.scrollLeft += 330;
+    } else {
+      item.scrollLeft += 820;
+    }
+  });
+
+  preBtn1[i].addEventListener("click", () => {
+    if (w <= 480) {
+      item.scrollLeft -= 330;
+    } else {
+      item.scrollLeft -= 820;
+    }
+  });
+});
+
+let noOfCharac = 140;
 let contents = document.querySelectorAll(".content");
 contents.forEach((content) => {
   let displayText = content.textContent.slice(0, noOfCharac);
   let moreText = content.textContent.slice(noOfCharac);
   content.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`;
 });
+
 
 function readMore(btn) {
   let post = btn.parentElement;
