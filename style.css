@@ -511,12 +511,12 @@ hr{
   text-align: center;
   width: 100%;
 }
-.post:hover{
+.product-card:hover .post{
 background-color: rgba(34, 34, 34, 0.8);
 height: 120px;
 color: white;
 }
-.post:hover .product-brand{
+.product-card:hover .product-brand{
   color: white;
 }
 .vis{
@@ -524,7 +524,7 @@ opacity: 0;
 visibility: hidden;
 transition: 0.8s;
 }
-.post:hover .vis{
+.product-card:hover .vis{
   visibility: visible;
 opacity: 1;
 }
