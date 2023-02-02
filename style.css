@@ -504,7 +504,6 @@ hr{
   bottom: 70px;
   transition: 0.5s;
   color: black;
-  cursor: pointer;
 }
 .product-info.lit-info{
   padding-top: 10px;
@@ -573,7 +572,7 @@ cursor: pointer;
 .product-card {
   flex: 0 0 auto;
   width: 40vw;
-  height: 480px;
+  height: 380px;
   margin-right: 40px;
   overflow: hidden;
   margin-bottom: 100px;
