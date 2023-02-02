@@ -1987,5 +1987,16 @@ input::placeholder{
 textarea::placeholder{
   font-size: 24px;
 }
+.post{
+  bottom: 170px;
+}
+.product-card:hover .post{
+  height: 60px;
+  background-color: white;
+  color: black;
+}
+.product-card:hover .product-brand{
+  color: black;
+}
 
 }
