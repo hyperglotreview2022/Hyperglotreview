@@ -1,3 +1,19 @@
+// window.addEventListener("load",function(){
+//   setTimeout(
+//     function open(event){
+//       document.querySelector(".popup").style.display = "block";
+//     },4000
+//   )
+// })
+
+
+document.querySelector("#closepop").addEventListener("click",function(){
+  document.querySelector(".popup").style.display = "none";
+});
+
+
+
+
 function alertb() {
   alert("Coming Soon");
 }
