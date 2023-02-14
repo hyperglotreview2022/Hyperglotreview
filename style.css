@@ -1365,16 +1365,39 @@ height: 600px;
   height: 400px;
   width: 25vw;
 }
+.gal-img-cont1{
+  position: relative;
+  height: 250px;
+  width: 25vw;
+}
+
 .gal-img-cont img{
   bottom: 0px;
   position: absolute;
   max-height: 400px;
   width: 100%;
 }
+.gal-img-cont1 img:hover{
+
+  transform: scale(112%);
+}
+.gal-img-cont1 img{
+  object-fit: cover;
+  bottom: 0px;
+  position: absolute;
+  max-height: 300px;
+  width: 100%;
+  transition: 0.4s ease;
+}
 .gal-box{
   width: 25vw;
   margin:0px 50px;
   margin-bottom: 30px;
+}
+.gal-box1{
+  width: 25vw;
+  margin:0px 20px;
+  margin-bottom: 70px;
 }
 .gal-grid{
   display: grid;
