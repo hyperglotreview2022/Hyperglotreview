@@ -585,7 +585,7 @@ hr{
 .product-card1:hover .product-info.lit-info{
   color: white;
   background-color: rgba(34, 34, 34, 0.8);
-  top: 300px;
+  top: 280px;
 }
 .product-card1:hover .product-short-description1.content{
   color: white;
@@ -930,6 +930,7 @@ font-size: 18px;
 }
 .flex .card-flex:hover .event-info{
   opacity: 0;
+  visibility:hidden;
   cursor: pointer;
 }
 .flex .card-flex img{
@@ -946,7 +947,9 @@ font-size: 18px;
   position: relative;
 }
 .event-info{
+  visibility:visible;
   opacity: 1;
+  display: block;
   padding:50px 10px 0px;
   bottom: 0px;
   position: absolute;
@@ -1684,6 +1687,7 @@ ul li{
   }
   .flex{
     grid-template-columns: 1fr;
+    padding: 0px;
   }
   .flex .card-flex{
     width: 95vw;
@@ -2206,5 +2210,18 @@ textarea::placeholder{
 }
 .product-card:hover .product-brand{
   color: black;
+}
+.event-info{
+  pointer-events:none;
+  padding-top: 10px;
+  top: 0;
+}
+.gal-box1{
+  margin: 0px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.gal-img-cont1{
+  width: 100%;
 }
 }
