@@ -96,18 +96,20 @@ body{
   justify-content: space-evenly;
   align-items: center;
   margin: 50px auto;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   height: 40px;
   width: 140px;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.3s;
 }
 .nostyle{
   text-decoration: none;
 }
 .eventsred:hover{
-  background-color: rgb(36, 36, 36);
+  color: white;
+  background-color: black;
 }
 
 
