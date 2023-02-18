@@ -109,7 +109,7 @@ body{
 }
 .eventsred:hover{
   color: white;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 
@@ -956,7 +956,7 @@ font-size: 18px;
   bottom: 0px;
   position: absolute;
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
   height: 300px;
   transition: 0.5s;
 }
@@ -974,7 +974,7 @@ font-size: 18px;
 
 }
 .grey{
-  color:#6f6f6f
+  color:grey;
 }
 .credit{
   font-size: 12px;
