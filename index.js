@@ -5,11 +5,15 @@
 //     },4000
 //   )
 // })
+const menu = document.getElementById("menu");
+const sidebar = document.getElementById("sidebar");
+const hide = document.getElementById("hide");
 
+const header = document.querySelector("nav");
 
-document.querySelector("#closepop").addEventListener("click",function(){
-  document.querySelector(".popup").style.display = "none";
-});
+// document.querySelector("#closepop").addEventListener("click",function(){
+//   document.querySelector(".popup").style.display = "none";
+// });
 
 
 
@@ -35,9 +39,7 @@ window.onscroll = function () {
   prevScrollpos = currentScrollPos;
 };
 
-const menu = document.getElementById("menu");
-const sidebar = document.getElementById("sidebar");
-const hide = document.getElementById("hide");
+
 
 menu.addEventListener("click", hidebutton);
 
@@ -56,17 +58,19 @@ function hideall() {
   more2.style.left = "-1000px";
   more3.style.left = "-1000px";
 }
+const extraslides = document.querySelectorAll(".show");
+const more1 = document.querySelector(".more1");
+const more2 = document.querySelector(".more2");
+const more3 = document.querySelector(".more3");
 
 function show() {
+  console.log("hello");
   if ((sidebar.style.left = "-1000px")) {
     sidebar.style.left = "0px";
   }
 }
 
-const extraslides = document.querySelectorAll(".show");
-const more1 = document.querySelector(".more1");
-const more2 = document.querySelector(".more2");
-const more3 = document.querySelector(".more3");
+
 
 extraslides.forEach((extraslide) => {
   extraslide.addEventListener("click", showingmore);
