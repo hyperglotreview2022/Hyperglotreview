@@ -1,4 +1,4 @@
-const header = document.querySelector("nav");
+// const header = document.querySelector("nav");
 const sectionOne = document.querySelector(".slideshow-container");
 
 const sectionOneOptions = {
