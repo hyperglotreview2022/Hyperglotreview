@@ -156,12 +156,12 @@ function readMore(btn) {
 }
 
 let slideIndex = 0;
-showSlides();
+let slides = document.getElementsByClassName("mySlides");
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let slideimg = document.getElementsByClassName("sliderimg");
+
+  // let slideimg = document.getElementsByClassName("sliderimg");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -173,3 +173,5 @@ function showSlides() {
 
   setTimeout(showSlides, 3000);
 }
+
+showSlides();
