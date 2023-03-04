@@ -64,7 +64,6 @@ const more2 = document.querySelector(".more2");
 const more3 = document.querySelector(".more3");
 
 function show() {
-  console.log("hello");
   if ((sidebar.style.left = "-1000px")) {
     sidebar.style.left = "0px";
   }
@@ -98,7 +97,7 @@ productContainers.forEach((item, i) => {
 
   nxtBtn[i].addEventListener("click", () => {
     if (w <= 480) {
-      item.scrollLeft += 330;
+      item.scrollLeft += 370;
     } else {
       item.scrollLeft += 1300;
     }
@@ -106,7 +105,7 @@ productContainers.forEach((item, i) => {
 
   preBtn[i].addEventListener("click", () => {
     if (w <= 480) {
-      item.scrollLeft -= 330;
+      item.scrollLeft -= 370;
     } else {
       item.scrollLeft -= 1300;
     }

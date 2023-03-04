@@ -700,7 +700,10 @@ transition: 1s;
   width: 100%;
   height: 200px;
 }
-
+.product-brand1{
+  margin: 10px 0;
+font-size: 18px;
+}
 .product-brand {
 margin: 10px 0;
 font-size: 18px;
@@ -944,6 +947,7 @@ font-size: 18px;
 .flex .card-flex:hover .event-img{
   transform: scale(102%);
 }
+
 .card-flex{
   height: 300px;
   position: relative;
@@ -1559,11 +1563,15 @@ label.sub-label{
 
 @media screen and (max-width: 1200px){
   .product-brand{
-    font-size: 26px;
+    margin-right: 30px;
+    font-size: 22px;
+  }
+  .product-brand1{
+    font-size: 22px;
   }
   p.content{
-    margin: 5px 0 10px;
-    font-size: 22px;
+    margin: 5px 50px 10px 0px;
+    font-size: 18px;
   }
   .logo{
     padding-left: 0;
@@ -1735,39 +1743,39 @@ ul li{
     line-height: 22px;
   }
   p{
-    font-size: 22px;
+    font-size: 16px;
   }
   h2{
-    font-size: 28px;
+    font-size: 24px;
   }
   h4{
-    font-size: 28px;
+    font-size: 20px;
   }
   .abtn{
     font-size: 22px;
     width: 150px;
   }
   .art-hor-info p{
-    font-size: 22px;
+    font-size: 16px;
   }
   .flex1 .card-flex1 p{
-    font-size: 22px;
+    font-size: 16px;
   }
   .footer-container a{
-    font-size: 22px;
+    font-size: 16px;
   }
   .footer-container p{
-    font-size: 22px;
+    font-size: 16px;
   }
   .art-topic{
-    font-size: 28px;
+    font-size: 24px;
   }
   #content-btn{
     font-size: 22px;
     width: 150px;
   }
   .credit{
-    font-size: 22px;
+    font-size: 14px;
   }
   .grey{
     font-size: 22px;
@@ -1846,8 +1854,11 @@ ul li{
   top: 55%;
   background: rgba(255, 255, 255, 0.3);
 }
+.product{
+  padding: 0px;
+}
   .product-card{
-  width: 320px;
+  width: 360px;
   height: 500px;
   margin: 0px 10px 20px 0px;
   }
@@ -1887,8 +1898,8 @@ ul li{
     height: 450px;
   }
   .flex .card-flex img{
+    height: 250px;
     width: 100%;
-    height: auto;
   }
   .flex .card-flex{
     margin: auto;
@@ -2204,6 +2215,7 @@ textarea::placeholder{
 }
 .post{
   bottom: 170px;
+  padding: 0px;
 }
 .product-card:hover .post{
   height: 60px;
@@ -2217,6 +2229,7 @@ textarea::placeholder{
   pointer-events:none;
   padding-top: 10px;
   top: 0;
+  height: 250px;
 }
 .gal-box1{
   margin: 0px;
@@ -2225,5 +2238,12 @@ textarea::placeholder{
 }
 .gal-img-cont1{
   width: 100%;
+}
+.event-img{
+  width: 100%;
+  height:200px;
+}
+.card-flex{
+  height:250px;
 }
 }

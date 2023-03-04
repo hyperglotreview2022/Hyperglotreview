@@ -11,10 +11,9 @@ const sectionOneObserver = new IntersectionObserver(function(
 ) {
   entries.forEach(entry => {
    
-    if (!entry.isIntersecting) { console.log("i am here");
+    if (!entry.isIntersecting) { 
       header.classList.remove("nav-scrolled");
     } else {
-      console.log("i am not here");
       header.classList.add("nav-scrolled");
     }
   });
