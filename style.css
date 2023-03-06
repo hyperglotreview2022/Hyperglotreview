@@ -1173,7 +1173,7 @@ footer{
 }
 .about-topic1{
   font-size: 50px;
-  margin: 100px 20px 0px;
+  margin: 100px 40px 0px;
 }
 .about-cont{
   margin-top: 30px;
@@ -1183,12 +1183,15 @@ footer{
 .abouthr{
   width: 100%;
 }
+.about-hr{
+  margin-left: 45px;
+}
 .about-topic{
   font-size: 50px;
   margin: 0 30px;
 }
 .about-cont p{
-  margin: 0px 10px;
+  margin: 0px 0px 0px 50px;
 }
 .art-flex .advertise1{
   height: 90vh;
@@ -1554,6 +1557,13 @@ label.sub-label{
   display: flex;
   gap: 2px;
 }
+.margin-60{
+  margin-left: 60px;
+}
+.margin-10{
+  margin-left: 10px;
+}
+
 
 
 
@@ -2170,9 +2180,9 @@ textarea {
  margin: 10px;
  padding: 0px;
 }
-.pd-l{
+/* .pd-l{
   padding-left: 20px;
-}
+} */
 .float-btns{
   width: 95%;
   right: 5px;
@@ -2205,7 +2215,7 @@ width: 100%;
   height: 320px;
 }
 .form-cont{
-  margin: 0 0vw;
+  margin: 0px;
 }
 input::placeholder{
   font-size: 22px;
@@ -2245,5 +2255,21 @@ textarea::placeholder{
 }
 .card-flex{
   height:250px;
+}
+.about-cont p{
+  margin: 0px 10px;
+}
+.about-hr{
+  margin-left: 10px;
+  width: 95%;
+}
+.formab{
+padding-left:10px;
+}
+.margin-60{
+  margin-left: 10px;
+}
+.margin-10{
+  margin: 0px;
 }
 }
