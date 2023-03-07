@@ -592,7 +592,7 @@ hr{
 .product-card1:hover .product-short-description1.content{
   color: white;
 }
-.product-card1:hover .product-brand{
+.product-card1:hover .product-brand1{
   color: white;
 }
 .product-card:hover .post{
@@ -708,6 +708,7 @@ font-size: 18px;
 margin: 10px 0;
 font-size: 18px;
 }
+
 .product-info a{
   font-weight: 700;
   color: black;
@@ -1563,6 +1564,7 @@ label.sub-label{
 .margin-10{
   margin-left: 10px;
 }
+
 
 
 
