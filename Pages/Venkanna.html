@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>T. Venkanna</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+               <a href="Fiction.html">Fiction</a>
+               <a href="nonfiction.html">Non-Fiction</a>
+               <!-- <a href="Pages/recentreleases.html">Recent Releases</a> 
+               <a href="Pages/featuredauthors.html">Featured Authors</a> -->
+               <!-- <a href="#">Debut Authors</a>
+               <a href="#">Children's Books</a>
+               <a href="#">Regional Releases</a> -->
+           </div>
+           </div></li>
+           
+           <li><div class="dropdown"><a href="events.html">News & Events</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art & Design</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <a href="news.html">News</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+           <div id="sidebar" class="sidebar more">
+             <div><p><a href="index.html">Home</a></p></div>
+             <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="3" class="show"><a href="events.html">News & Events</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p><a href="aboutus.html">About Us</a></p></div>
+             <div><p><a href="submissions.html">Submissions</a></p></div>
+             <div><p>Follow Us</p></div>
+           </div>
+ 
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+             <div><p><a href="Fiction.html">Fiction</a></p></div>
+             <div><p><a href="nonfiction.html">Non-Fiction</a></p></div>
+             <!-- <div><p><a href="Pages/recentreleases.html">Recent Releases</a></p></div>
+             <div><p><a href="Pages/featuredauthors.html">Featured Authors</a></p></div> -->
+           </div>
+ 
+           <div id="sidebar" class="sidebar more3">
+             <div><p><a href="galleries.html">Art & Design</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="#">Culture & Lifestyle</a></p></div>
+             <div><p><a href="news.html">News</a></p></div>
+           </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+ 
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">T. Venkanna</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2">
+    <h3 class="light-dark"></h3>
+    <div class="flex1">
+      <div class="card-flex1">
+    <img src="../news-img/Venkanna.jpg" alt="Artist Image">
+    <p class="credit">Image Credit - Gallery Maskara</p>
+    <p>
+      With his powerful output and virulent imagery, T. Venkanna has established himself as one of the most innovative, versatile, and intriguing painters of his generation. Venkanna's artistic style is unconstrained and as a result shifts its avatars while combining a variety of media, including photographs, collage, pastiche, and drawing. Although his mixed-media paintings frequently use erotic and sexual motifs, they don't aim to provoke the viewer. He highlights his most pressing concerns by the use of sexuality, and perhaps it is this use that has allowed his work to go beyond what might be considered profanity while examining topics like commodity fetishism and isolation in the contemporary consumer society. The theme of Adam and Eve is used to represent the heterosexual, ideological majority, and by placing this motif in the background, Venkanna makes a strong statement against the current hierarchy's appearance of stability and mobilises forces that seek to challenge the normative ideals. The artist's seamless transition between artistic styles is another intriguing facet of his body of work. <br> <br>
+
+Venkanna earned his Bachelor of Fine Arts (B.F.A.) in painting from J.N.T.U., Hyderabad, where he received a Gold medal, and his Masters in Fine Arts (M.F.A.) in printmaking from the Faculty of Fine Arts, M.S. University of Baroda. The artist resides and works in Baroda, India, and was born in Gajwel in 1980. In 2010 and 2012, the artist was nominated for the SKODA prize. Major collections that own his works include the Charles Saatchi collection in the UK, the Burger Collection in Switzerland and Hong Kong, the Swagemakers collection in the Netherlands, as well as several others in the United States, Japan, Russia, Europe, and India. <br> <br>
+
+His work was featured in the exhibition Finding India: Art for the New Century in 2010 at the MOCA Taipei in Taiwan. While also performing at Artissima 17 Torino, his solo exhibition, NERO, debuted at Gallery Luce in Torino, Italy. Additionally, he was the youngest artist on display at the London exhibition The Empire Strikes Back: Indian Art Today at the Saatchi Gallery. In 2011, Venkanna participated in New Trends from South India at the Lalit Kala Academy in Chennai, India, and gave a contentious solo performance at Art Stage Singapore. Fabular Bodies, curated by Gayatri Sinha for the Harmony Art Foundation, the Prince of Wales Museum in Mumbai, Printmaking: Open Studio at Gallery Maskara in Mumbai, (M)other India at Galerie du Jour-Agnès B in Paris, and Window in the Wall at Pearl Lam Galleries in Shanghai, China, are a few other significant projects that took place this year. They are CROSSROADS: India escalate (India Pavilion) at the Prague Biennale 5, A solo presentation at Art Brussels' 30th Contemporary Art Fair, the India Art Fair, the VIP Art Fair online, ProjectStage at Art Stage Singapore, and Cynical Love: Life in the Everyday at the Kiran Nadar Museum of Art in Noida, India are among the exhibitions that will be on display in 2012.
+      </p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- advertisement -->
+<div>
+  <div class="adver">
+    <img src="../ad10.jpeg" style="margin-top: 30px;" alt="sidead">
+</div>
+
+</div>
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+  <footer class="footer-container mg-ontop">
+    <div><a href="#">Subscriptions</a></div>
+    <div> <a href="#">Advertise</a><a href="#">Press Releases</a><a href="#">Terms</a>
+      <a href="#">Privacy</a><a href="#">Cookies</a><a href="#">About</a> </div>
+      <p class="language">Hyperglot Magazine Archive:</p> <p><a href="#">English (US)</a> <a href="#">Deutsch</a> <a href="#">Francais</a></p> 
+     <p class="light">@2022 Hyperglot Worldwide Corporation . All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>

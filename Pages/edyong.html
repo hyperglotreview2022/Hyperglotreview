@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../literature.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>Ed Yong</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+               <a href="Fiction.html">Fiction</a>
+               <a href="nonfiction.html">Non-Fiction</a>
+               <!-- <a href="Pages/recentreleases.html">Recent Releases</a> 
+               <a href="Pages/featuredauthors.html">Featured Authors</a> -->
+               <!-- <a href="#">Debut Authors</a>
+               <a href="#">Children's Books</a>
+               <a href="#">Regional Releases</a> -->
+           </div>
+           </div></li>
+           
+           <li><div class="dropdown"><a href="events.html">News & Events</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art & Design</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <a href="news.html">News</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+           <div id="sidebar" class="sidebar more">
+             <div><p><a href="index.html">Home</a></p></div>
+             <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="3" class="show"><a href="events.html">News & Events</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p><a href="aboutus.html">About Us</a></p></div>
+             <div><p><a href="submissions.html">Submissions</a></p></div>
+             <div><p>Follow Us</p></div>
+           </div>
+ 
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+             <div><p><a href="Fiction.html">Fiction</a></p></div>
+             <div><p><a href="nonfiction.html">Non-Fiction</a></p></div>
+             <!-- <div><p><a href="Pages/recentreleases.html">Recent Releases</a></p></div>
+             <div><p><a href="Pages/featuredauthors.html">Featured Authors</a></p></div> -->
+           </div>
+ 
+           <div id="sidebar" class="sidebar more3">
+             <div><p><a href="galleries.html">Art & Design</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="#">Culture & Lifestyle</a></p></div>
+             <div><p><a href="news.html">News</a></p></div>
+           </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+ 
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">Fiction</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+ <!-- main -->
+<section class="book-main">
+  <div class="art-flex ">
+
+  
+  <div class="art-container3">
+    <h3 class="light-dark"></h3>
+    <h1 class="art-top"></h1>
+    <div>
+      <img class="book-page-img" src="../book-img/books4.1.jpg" alt="book image">
+    </div>
+    
+    <div class="lit-info">
+    <h2>An Immense World (Ed Yong)</h2>
+    <h4>Early Review</h4>
+    <p class="disclaimer">This review is the initial impression of our editorial team after reading approximately one-tenth of the book. </p>
+    <p class="disclaimer">DISCLAIMER: The opinions expressed in the Early Review might not necessarily have a correlation with the Final Review of the book. </p>
+    <p class="book-info contents">Popular Science has a new storyteller and one who can 
+      weave a mesmerizing labyrinth of the banal and even the often neglected aspects of our existence. 
+      The leitmotif of his book is an organism's Umwelt --- its 'sensory bubble' or 'perceptual world' --- 
+      is both poetic and a recursively hypnotic narrative technique. If Carl Sagan was a master of 
+      storytelling about the cosmos, Yong is his successor in the hidden sensory realms around us. 
+      He compares tremendous olfactory capabilities of dogs to that of humans in a fascinating way 
+      only to debunk the myth that scientific basis for such comparison can be misleading. The vivid 
+      description of how crucial pheromones are to the ant's existence makes it almost unputdownable and 
+      you find yourself fighting the urge to sleep even at 2 am in the morning. One can almost visualise 
+      his lines being read in a documentary with David Attenborough's voiceover. This is his first book, 
+      but at the risk of sounding repetitive, like Sagan, Yong evokes the impulse to rush through his book 
+      only to pick up his next, or as in the latter case, his previous one. It is difficult to retain the 
+      reader's interest, more so, in the popular science genre. For the sake of popular science, one can 
+      only hope that the rest of the book matches up to expectations, but, intuitively, it almost seems 
+      that Yong has mastered the art of exceeding expectations quite consistently. 
+    </p>
+    
+    <button onclick="readMore(this)" id="content-btn">Read More</button>
+
+    <hr class="abouthr" style="margin-bottom: 30px;">
+      <p><b>Original Title</b> : An Immense World: How Animal Senses Reveal the Hidden Realms Around Us</p>
+      <p><b>ISBN</b> : 0593133234 (ISBN13: 9780593133231)</p>
+      <p><b>Edition language</b> : English</p>
+      <p><b>Literary Awards</b>:Goodreads Choice Award Nominee for Nonfiction (2022)</p>
+      <p><b>Published</b> : 21 June 2022</p>
+
+      <div>
+        <hr class="abouthr" style="margin: 0px;">
+      <h4>Summary</h4>
+      <p class="contents">The Earth teems with sights and textures, sounds and 
+        vibrations, smells and tastes, electric and magnetic fields. But every 
+        animal is enclosed within its own unique sensory bubble, perceiving but a 
+        tiny sliver of an immense world. This book welcomes us into a previously 
+        unfathomable dimension--the world as it is truly perceived by other animals.
+        We encounter beetles that are drawn to fires, turtles that can track the 
+        Earth's magnetic fields, fish that fill rivers with electrical messages, 
+        and humans that wield sonar like bats. We discover that a crocodile's scaly 
+        face is as sensitive as a lover's fingertips, that the eyes of a giant squid 
+        evolved to see sparkling whales, that plants thrum with the inaudible songs 
+        of courting bugs, and that even simple scallops have complex vision. We 
+        learn what bees see in flowers, what songbirds hear in their tunes, and what 
+        dogs smell on the street. We listen to stories of pivotal discoveries in the 
+        field, while looking ahead at the many mysteries which lie unsolved. 
+        In An Immense World, author and acclaimed science journalist Ed Yong coaxes 
+        us beyond the confines of our own senses, allowing us to perceive the skeins 
+        of scent, waves of electromagnetism, and pulses of pressure that surround us.
+        Because in order to understand our world we don't need to travel to other 
+        places; we need to see through other eyes.</p>
+        <button onclick="readMore(this)" id="content-btn">Read More</button>
+      </div>
+  </div>
+
+</div>
+<!-- advertisement -->
+<div class="advertise-book">
+  <img src="../ad9.jpeg" style="margin-top: 0px;" alt="sidead">
+</div>
+
+</div>
+</section>
+
+
+
+
+<!-- footer -->
+
+
+  <footer class="footer-container">
+    <div><a href="#">Subscriptions</a></div>
+    <div> <a href="#">Advertise</a><a href="#">Press Releases</a><a href="#">Terms</a>
+      <a href="#">Privacy</a><a href="#">Cookies</a><a href="#">About</a> </div>
+      <p class="language">Hyperglot Magazine Archive:</p> <p><a href="#">English (US)</a> <a href="#">Deutsch</a> <a href="#">Francais</a></p> 
+     <p class="light">@2022 Hyperglot Worldwide Corporation . All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>

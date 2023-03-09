@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../literature.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>Nilanjana Roy</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+               <a href="Fiction.html">Fiction</a>
+               <a href="nonfiction.html">Non-Fiction</a>
+               <!-- <a href="Pages/recentreleases.html">Recent Releases</a> 
+               <a href="Pages/featuredauthors.html">Featured Authors</a> -->
+               <!-- <a href="#">Debut Authors</a>
+               <a href="#">Children's Books</a>
+               <a href="#">Regional Releases</a> -->
+           </div>
+           </div></li>
+           
+           <li><div class="dropdown"><a href="events.html">News & Events</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art & Design</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <a href="news.html">News</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+           <div id="sidebar" class="sidebar more">
+             <div><p><a href="index.html">Home</a></p></div>
+             <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="3" class="show"><a href="events.html">News & Events</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p><a href="aboutus.html">About Us</a></p></div>
+             <div><p><a href="submissions.html">Submissions</a></p></div>
+             <div><p>Follow Us</p></div>
+           </div>
+ 
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+             <div><p><a href="Fiction.html">Fiction</a></p></div>
+             <div><p><a href="nonfiction.html">Non-Fiction</a></p></div>
+             <!-- <div><p><a href="Pages/recentreleases.html">Recent Releases</a></p></div>
+             <div><p><a href="Pages/featuredauthors.html">Featured Authors</a></p></div> -->
+           </div>
+ 
+           <div id="sidebar" class="sidebar more3">
+             <div><p><a href="galleries.html">Art & Design</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="#">Culture & Lifestyle</a></p></div>
+             <div><p><a href="news.html">News</a></p></div>
+           </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+ 
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">Recent Releases</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+ <!-- main -->
+<section class="book-main">
+  <div class="art-flex ">
+
+  
+  <div class="art-container3">
+    <h3 class="light-dark"></h3>
+    <h1 class="art-top"></h1>
+
+    <div>
+       <img class="book-page-img" src="../book-img/BlackRiver.jpg" alt="book image">
+    </div>
+    
+    <div class="lit-info">
+    <h2>Black River (Nilanjana S. Roy) </h2>
+    <h4>Early Review</h4>
+    <p class="disclaimer">This review is the initial impression of our editorial team after reading approximately one-tenth of the book. </p>
+    <p class="disclaimer">DISCLAIMER: The opinions expressed in the Early Review might not necessarily have a correlation with the Final Review of the book. </p>
+    <p class="book-info contents">Roy's book opens with a description of a laidback rural space where time has 
+      stood still. Untouched by the rapid development in the nearby capital city, Teetarpur in 2017 is revelling 
+      in its anonymity and rejoicing the fact that all its inhabitants live an unimaginative life. Clearly this 
+      is a place where everyone knows everyone and nothing much happens or is expected to happen. Amidst all 
+      this the author introduces the character of Munia, a young girl celebrating her eighth birthday with 
+      icecream. In a place where time stands still Munia is an explorer who has created her own world of 
+      innocence as well as imagination. But then this is not the story of Munia; rather it is a story of how 
+      this spell of time standing still is broken in Teetarpur by a death which shakes the very core of this 
+      tiny community. Roy has cleverly created a space where a murder is the least likely thing to happen hence 
+      when it happens we are left with several questions and this death certainly wakes everyone out of their 
+      slumber. Suddenly the entire community must come to terms with this unnatural death that has occurred and 
+      a handful of policemen who are used to sleeping on duty are pushed into rounding up possible suspects and 
+      looking for clues. Roy has masterfully weaved a mystery which promises to be a page turner by creating 
+      chaos amidst peace. By adding the ingredient of doubt and uncertainty Roy dispels the myth of harmony that 
+      surrounds small towns and the readers can look forward to the unmasking of each character.</p>
+     <button onclick="readMore(this)" id="content-btn">Read More</button>
+
+     <hr class="abouthr" style="margin-bottom: 30px;">
+      <p><b>Original Title</b> : Black River</p>
+      <p><b>ISBN</b> : 9395767111 (ISBN13: 9789395767118)</p>
+      <p><b>Edition language</b> : English</p>
+      <p><b>Published</b> : November 2022</p>
+
+
+      <div>
+        
+      <hr class="abouthr" style="margin: 0px;">
+      <h4>Summary</h4>
+      <p class="contents">In the village of Teetarpur, a few hours from the capital city of Delhi, Chand's 
+        peaceful life is shattered as he is forced into a dangerous quest for justice.
+        At the station house, the jurisdiction of which extends to Teetarpur and the neighbouring villages, 
+        Sub-inspector Ombir Singh, who has known Chand's daughter Munia since she was born, wrestles with his 
+        conscience and the vagaries of his personal life as the increasingly murky case unfolds under the 
+        watchful eyes of the 'Delhi boy', SSP Pilania.      
+        Meanwhile, in the rough bylanes of Bright Dairy Colony, Chand's old companions Rabia and Badshah Miyan 
+        fight for their right to home and country as the politics of religion threaten to overwhelm their lives.
+        Framed as a police procedural, Black River is fast-paced and relentless, yet tender and reflective, 
+        in its exploration of friendship, love and grief.
+        'A riveting murder mystery. A psychological thriller. A magnificent work of literary fiction. Roy 
+        brings her formidable experience as a journalist to this story of crime in modern India. Black River 
+        addresses a society unravelling in the midst of change, a brutal class divide, the terror of religious 
+        strife, relentless violence against women—but it is also suffused with tenderness for the ordinary, 
+        heroic decency of those who persist in abiding by different rules. Reading this novel is like holding a 
+        prayer in one's hands.
+        — Kiran Desai
+        </p>
+        <button onclick="readMore(this)" id="content-btn">Read More</button>
+      </div>
+     
+    </div>
+
+
+
+  </div>
+
+
+<!-- advertisement -->
+<div class="advertise-book">
+  <img src="../ad7.jpeg" style="margin-top: 0px;" alt="sidead">
+</div>
+
+</div>
+</section>
+
+
+
+
+<!-- footer -->
+
+
+  <footer class="footer-container">
+    <div><a href="#">Subscriptions</a></div>
+    <div> <a href="#">Advertise</a><a href="#">Press Releases</a><a href="#">Terms</a>
+      <a href="#">Privacy</a><a href="#">Cookies</a><a href="#">About</a> </div>
+      <p class="language">Hyperglot Magazine Archive:</p> <p><a href="#">English (US)</a> <a href="#">Deutsch</a> <a href="#">Francais</a></p> 
+     <p class="light">@2022 Hyperglot Worldwide Corporation . All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>
