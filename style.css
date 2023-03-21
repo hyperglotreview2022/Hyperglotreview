@@ -1030,7 +1030,7 @@ font-size: 18px;
 }
 .art-hor-img img{
   width: 200px;
-  height: 200px;
+  height: 170px;
   margin-right: 20px;
 }
 .art-hor{
@@ -1459,7 +1459,7 @@ height: 600px;
 }
 .gal-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .gal-img-info p{
  margin: 0px;
