@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>White Domus</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+               <a href="Fiction.html">Fiction</a>
+               <a href="nonfiction.html">Non-Fiction</a>
+               <!-- <a href="Pages/recentreleases.html">Recent Releases</a> 
+               <a href="Pages/featuredauthors.html">Featured Authors</a> -->
+               <!-- <a href="#">Debut Authors</a>
+               <a href="#">Children's Books</a>
+               <a href="#">Regional Releases</a> -->
+           </div>
+           </div></li>
+           
+           <li><div class="dropdown"><a href="events.html">News & Events</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art & Design</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <a href="news.html">News</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+           <div id="sidebar" class="sidebar more">
+             <div><p><a href="index.html">Home</a></p></div>
+             <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="3" class="show"><a href="events.html">News & Events</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p><a href="aboutus.html">About Us</a></p></div>
+             <div><p><a href="submissions.html">Submissions</a></p></div>
+             <div><p>Follow Us</p></div>
+           </div>
+ 
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+             <div><p><a href="Fiction.html">Fiction</a></p></div>
+             <div><p><a href="nonfiction.html">Non-Fiction</a></p></div>
+             <!-- <div><p><a href="Pages/recentreleases.html">Recent Releases</a></p></div>
+             <div><p><a href="Pages/featuredauthors.html">Featured Authors</a></p></div> -->
+           </div>
+ 
+           <div id="sidebar" class="sidebar more3">
+             <div><p><a href="galleries.html">Art & Design</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="#">Culture & Lifestyle</a></p></div>
+             <div><p><a href="news.html">News</a></p></div>
+           </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+ 
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">White Domus</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2">
+    <h3 class="light-dark"></h3>
+    <h1 class="art-top"></h1>
+    <img class="artist-page-img" src="../Events-img/whitedomus (1).JPG" alt="events image">
+    <p class="credit">Image Credit - Hyperglot Review</p> 
+    <p>
+      White Domus, a specialized art and design studio, was founded in 2016 by brothers Aroosh and Nitush Mahipal. They aim to revolutionize the use of stainless steel in interior design by incorporating modern art into everyday objects using cutting-edge technology and skilled craftsmanship. The brothers draw inspiration from nature's fundamental beauty and familiarity, which they breathe into metallic forms and embellish into larger-than-life sculptures.<br><br> <br>
+
+      
+    <img class="artist-page-img" src="../Events-img/whitedomus (2).JPG" alt="events image">
+    <p class="credit">Image Credit - Hyperglot Review</p>
+     
+    The company's name, White Domus, reflects their view of home décor as a white canvas with endless possibilities for artistic expression. Their approach involves creating unique statement pieces that interact with light and surroundings, offering viewers an immersive and interactive experience. They collaborate with leading interior designers and architects to ideate and experiment in design art. They have mastered steel and work with the best craftsmen to deliver the best quality art. <br> <br> <br>
+
+     <img class="artist-page-img" src="../Events-img/whitedomus (3).JPG" alt="events image">
+     <p class="credit">Image Credit - Hyperglot Review</p>
+     
+     At India Design, White Domus showcased their new collection of sculptural objects, furniture, and lighting, which are a masterpiece of science, creativity, and expert craftsmanship that creates a unique and timeless aesthetic. The pieces are both functional and beautiful, including the captivating bubbly floor light, sleek console, cozy pouf, eye-catching Crescent wall sculpture, and their signature Peter Rabbit. The Carambola sculpture, which comprises six pieces that come together to form a beautiful 180cm by 90cm floor sculpture with a subtle matte finish, was the centerpiece of their booth at India Design.  <br> <br> <br> 
+
+     
+    <img class="artist-page-img" src="../Events-img/whitedomus (4).JPG" alt="events image">
+    <p class="credit">Image Credit - Hyperglot Review</p>
+
+    White Domus believes that every space should be as unique as the people who inhabit it, and their sculptural objects are the perfect way to achieve that vision. Their collection features stunning pieces that are both functional and beautiful, including the Tronco Armchair, Granada coffee table, and abstract wall panel in stainless steel. Their unique and pioneering approach to interior design, their attention to detail and dedication to quality have made them a sought-after brand for those looking to elevate their home décor. With their "If you can dream it, you can do it" attitude, they transform homes into unique spaces for self-expression with experiential installations that use seemingly impossible reflections. <br><br> <br>
+
+
+
+  </div>
+
+
+<!-- advertisement -->
+<div>
+  <div class="advertise">
+    <img src="../ad10.jpeg" style="margin-top: 30px;" alt="sidead">
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+  <footer class="footer-container mg-ontop">
+    <div><a href="#">Subscriptions</a></div>
+    <div> <a href="#">Advertise</a><a href="#">Press Releases</a><a href="#">Terms</a>
+      <a href="#">Privacy</a><a href="#">Cookies</a><a href="#">About</a> </div>
+      <p class="language">Hyperglot Magazine Archive:</p> <p><a href="#">English (US)</a> <a href="#">Deutsch</a> <a href="#">Francais</a></p> 
+     <p class="light">@2022 Hyperglot Worldwide Corporation . All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>
