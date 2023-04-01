@@ -1564,8 +1564,98 @@ label.sub-label{
 .margin-10{
   margin-left: 10px;
 }
+/*Basic structure of slider*/
+.container5{
+  width: 100vw;
+  position: relative;
+}
 
+/*Area of images*/
+.wrapper5{
+  width: 100vw;
+  display: flex;
+  animation: slide 24s infinite;
+}
 
+.simg{
+  width: 100vw;
+  height: 80vh;
+}
+.simg-info{
+  position: absolute;
+  top: 0;
+  height: 80vh;
+  width: 100vw;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  15%{
+    transform: translateX(0);
+  }
+  18%{
+      transform: translateX(-100vw);
+  }
+  35%{
+    transform: translateX(-100vw);
+  }
+  37%{
+      transform: translateX(-200vw);
+  }
+  52%{
+    transform: translateX(-200vw);
+  }
+  54%{
+      transform: translateX(-300vw);
+  }
+  70%{
+    transform: translateX(-300vw);
+  }
+  72%{
+      transform: translateX(-400vw);
+  }
+  85%{
+    transform: translateX(-400vw);
+  }
+  87%{
+      transform: translateX(-500vw);
+  }
+  98%{
+    transform: translateX(-500vw);
+}
+100%{
+  transform: translateX(-500vw);
+}
+}
+.sh1{
+  margin: 0 5vw;
+  font-size: 80px;
+}
+.sp1{
+  padding: 0 5vw;
+  font-size: 24px;
+}
+.shover{
+  color: white;
+  text-decoration: none;
+}
+.shover:hover{
+  text-decoration: underline;
+}
+.sh2{
+  padding: 0 5vw;
+  font-size: 32px;
+}
+.simg-info{
+  padding-top: 50px;
+}
+.slidersec{
+  margin: 100px 0px;
+}
 
 
 
