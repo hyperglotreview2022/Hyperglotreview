@@ -1580,6 +1580,7 @@ label.sub-label{
 .simg{
   width: 100vw;
   height: 80vh;
+  object-fit: cover;
 }
 .simg-info{
   position: absolute;
@@ -1836,6 +1837,7 @@ ul li{
   }
 }
 @media screen and (max-width: 768px){
+
   .form button{
     width: 190px;
     font-size: 22px;
@@ -2367,4 +2369,32 @@ padding-left:10px;
 .gal-img-cont1 img{
   padding: 20px 0px;
 }
+.simg{
+  width: 100vw;
+  max-height: 40vh;
 }
+.simg-info{
+  height: 40vh;
+}
+.sh1{
+  margin: 0 5vw;
+  font-size: 26px;
+}
+.sp1{
+  font-size: 14px;
+}
+.sh2{
+  padding: 0 5vw;
+  font-size: 22px;
+}
+.simg-info{
+  padding-top: 0px;
+}
+.container5{
+  overflow: hidden;
+}
+.slidersec{
+  margin: 100px 0px;
+}
+}
+
