@@ -1565,6 +1565,7 @@ label.sub-label{
   margin-left: 10px;
 }
 /*Basic structure of slider*/
+
 .container5{
   width: 100vw;
   position: relative;
@@ -1578,17 +1579,19 @@ label.sub-label{
 }
 
 .simg{
-  width: 100vw;
-  height: 80vh;
+  width: 96vw;
+  margin: 0 2vw;
+  height: 50vh;
   object-fit: cover;
 }
 .simg-info{
   position: absolute;
   top: 0;
-  height: 80vh;
-  width: 100vw;
+  margin: 0 2vw;
+  height: 50vh;
+  width: 96vw;
   color: white;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 /*Animation activated by keyframes*/
 @keyframes slide{
@@ -1634,11 +1637,11 @@ label.sub-label{
 }
 .sh1{
   margin: 0 5vw;
-  font-size: 80px;
+  font-size: 50px;
 }
 .sp1{
   padding: 0 5vw;
-  font-size: 24px;
+  font-size: 20px;
 }
 .shover{
   color: white;
@@ -1649,13 +1652,13 @@ label.sub-label{
 }
 .sh2{
   padding: 0 5vw;
-  font-size: 32px;
+  font-size: 26px;
 }
 .simg-info{
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .slidersec{
-  margin: 100px 0px;
+  margin: 100px 0;
 }
 
 
@@ -2372,6 +2375,7 @@ padding-left:10px;
 .simg{
   width: 100vw;
   max-height: 40vh;
+  margin: 0;
 }
 .simg-info{
   height: 40vh;
@@ -2389,6 +2393,8 @@ padding-left:10px;
 }
 .simg-info{
   padding-top: 0px;
+  margin: 0;
+  width: 100vw;
 }
 .container5{
   overflow: hidden;
@@ -2396,5 +2402,6 @@ padding-left:10px;
 .slidersec{
   margin: 100px 0px;
 }
+
 }
 
