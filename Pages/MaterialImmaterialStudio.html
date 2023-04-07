@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>Material Immaterial Studio</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+               <a href="Fiction.html">Fiction</a>
+               <a href="nonfiction.html">Non-Fiction</a>
+               <!-- <a href="Pages/recentreleases.html">Recent Releases</a> 
+               <a href="Pages/featuredauthors.html">Featured Authors</a> -->
+               <!-- <a href="#">Debut Authors</a>
+               <a href="#">Children's Books</a>
+               <a href="#">Regional Releases</a> -->
+           </div>
+           </div></li>
+           
+           <li><div class="dropdown"><a href="events.html">News & Events</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art & Design</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <a href="news.html">News</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+           <div id="sidebar" class="sidebar more">
+             <div><p><a href="index.html">Home</a></p></div>
+             <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="3" class="show"><a href="events.html">News & Events</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p><a href="aboutus.html">About Us</a></p></div>
+             <div><p><a href="submissions.html">Submissions</a></p></div>
+             <div><p>Follow Us</p></div>
+           </div>
+ 
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+             <div><p><a href="Fiction.html">Fiction</a></p></div>
+             <div><p><a href="nonfiction.html">Non-Fiction</a></p></div>
+             <!-- <div><p><a href="Pages/recentreleases.html">Recent Releases</a></p></div>
+             <div><p><a href="Pages/featuredauthors.html">Featured Authors</a></p></div> -->
+           </div>
+ 
+           <div id="sidebar" class="sidebar more3">
+             <div><p><a href="galleries.html">Art & Design</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="#">Culture & Lifestyle</a></p></div>
+             <div><p><a href="news.html">News</a></p></div>
+           </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+ 
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">Material Immaterial Studio</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2">
+    <h3 class="light-dark"></h3>
+    <h1 class="art-top"></h1>
+    <img class="artist-page-img" src="../Events-img/MaterialImmaterial  (1).JPG" alt="events image">
+    <p class="credit">Image Credit - Hyperglot Review</p> 
+    <p>
+      The Material Immaterial design studio was founded out of a love for creating artistic products with careful attention to detail and a focus on striking a balance between form and function. Their design ethos is based on the idea of emphasising the natural beauty of materials. Because each of their handcrafted products is individually constructed, no two items from their studio are ever exactly alike in terms of texture and appearance.
+
+      <br><br> <br>
+
+      
+    <img class="artist-page-img" src="../Events-img/MaterialImmaterial  (2).JPG" alt="events image">
+    <p class="credit">Image Credit - Hyperglot Review</p>
+     
+   
+At the 2023 India Design Week, Material Immaterial Studio showcased a range of their products. The Spaces collection, inspired by the most prominent concrete architecture of the last century, consists of miniature concrete residences that highlight the effectiveness and aesthetics of concrete in defining and constructing spaces in modern life.<br> <br> <br>
+
+     <img class="artist-page-img" src="../Events-img/MaterialImmaterial  (3).JPG" alt="events image">
+     <p class="credit">Image Credit - Hyperglot Review</p>
+     
+     Elements, a collection of micro concrete pieces, celebrates spatial memories forged in time. It highlights form, light, and shadow as essential elements of space that deepen our perception of its boundaries. The pieces are designed to evoke spatial memories, enabling the viewer to connect with the space around them. <br>
+
+     Balls-Eye 2.0 is a design initiative that Material Immaterial Studio created to inspire and reflect on all things creative. The minimalist aesthetic and impeccable detail that the studio is renowned for are evident in this collection.<br> <br> <br> 
+
+     
+    <img class="artist-page-img" src="../Events-img/MaterialImmaterial  (4).JPG" alt="events image">
+    <p class="credit">Image Credit - Hyperglot Review</p>
+
+    The Gambol collection mimics the playfulness of childhood, with rolling balls skipping around, hopping and gliding through paths carved alongside arcades and stairways. Drawing parallels with childhood experiences, the pieces evoke nostalgia while showcasing Material Immaterial Studio's impeccable craftsmanship. <br> <br>
+
+The Be-Hold art frame aims to be a convergence of spirit and space. It has a unique frame that speaks a complex language of geometric steps that are inspired by the instinctive coordination of light and shadow in architecture. The artwork it contains is highlighted, while the beautiful details astonish the viewer. BRACK {T} relies on architectural characteristics and functional and minimal art objects to generate the fascinating chiaroscuro effect. <br> <br>
+
+Finally, the Re-play collection is a composite of architectural components, arranged to create an overarching narrative of memories. An emotional play results from the intuitive assembly process, which is centred on the particular creator and their present mental state.
+
+
+Material Immaterial Studio showcased their one-of-a-kind products at the 2023 India Design Week celebrating the beauty of materials, evoking spatial memories, and inspiring creativity while reflecting the studio's minimalist aesthetic and impeccable craftsmanship.
+
+
+
+ <br><br> <br>
+
+
+
+  </div>
+
+
+<!-- advertisement -->
+<div>
+  <div class="advertise">
+    <img src="../ad12.jpeg" style="margin-top: 30px;" alt="sidead">
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+  <footer class="footer-container mg-ontop">
+    <div><a href="#">Subscriptions</a></div>
+    <div> <a href="#">Advertise</a><a href="#">Press Releases</a><a href="#">Terms</a>
+      <a href="#">Privacy</a><a href="#">Cookies</a><a href="#">About</a> </div>
+      <p class="language">Hyperglot Magazine Archive:</p> <p><a href="#">English (US)</a> <a href="#">Deutsch</a> <a href="#">Francais</a></p> 
+     <p class="light">@2022 Hyperglot Worldwide Corporation . All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>
