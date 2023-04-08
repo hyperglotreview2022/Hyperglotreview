@@ -1628,11 +1628,11 @@ label.sub-label{
   87%{
       transform: translateX(-500vw);
   }
-  98%{
+  94%{
     transform: translateX(-500vw);
 }
 100%{
-  transform: translateX(-500vw);
+  transform: translateX(0);
 }
 }
 .sh1{
