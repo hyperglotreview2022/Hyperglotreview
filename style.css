@@ -1660,6 +1660,9 @@ label.sub-label{
 .slidersec{
   margin: 100px 0;
 }
+.mg-bottom{
+  margin-bottom: 100px;
+}
 
 
 
@@ -2401,6 +2404,9 @@ padding-left:10px;
 }
 .slidersec{
   margin: 100px 0px;
+}
+.mg-bottom{
+  margin-bottom: 0px;
 }
 
 }
