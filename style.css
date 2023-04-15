@@ -1427,6 +1427,7 @@ height: 600px;
   position: relative;
   height: 250px;
   width: 25vw;
+  transition: 0.4s ease;
 }
 
 .gal-img-cont img{
@@ -1435,9 +1436,12 @@ height: 600px;
   max-height: 400px;
   width: 100%;
 }
-.gal-img-cont1 img:hover{
+.gal-img-cont1:hover{
 
-  transform: scale(112%);
+  transform: scale(105%);
+}
+.gal-img-cont1:hover .vginfo{
+  opacity: 0;
 }
 .gal-img-cont1 img{
   object-fit: cover;
@@ -1445,7 +1449,6 @@ height: 600px;
   max-height: 300px;
   position: absolute;
   width: 100%;
-  transition: 0.4s ease;
 }
 .gal-box{
   width: 25vw;
@@ -1662,6 +1665,15 @@ label.sub-label{
 }
 .mg-bottom{
   margin-bottom: 100px;
+}
+.vginfo{
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  bottom: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 
