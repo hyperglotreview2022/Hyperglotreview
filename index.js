@@ -145,7 +145,7 @@ productContainers2.forEach((item, i) => {
 
   nxtBtn2[i].addEventListener("click", () => {
     if (w <= 480) {
-      item.scrollLeft += 380;
+      item.scrollLeft += 372;
     } else {
       item.scrollLeft += 1535;
     }
@@ -153,7 +153,7 @@ productContainers2.forEach((item, i) => {
 
   preBtn2[i].addEventListener("click", () => {
     if (w <= 480) {
-      item.scrollLeft -= 380;
+      item.scrollLeft -= 372;
     } else {
       item.scrollLeft -= 1535;
     }
