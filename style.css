@@ -111,6 +111,9 @@ body{
   color: white;
   background-color: rgba(0, 0, 0, 0.9);
 }
+p.content{
+  font-size: 14px;
+}
 
 
 
@@ -642,11 +645,21 @@ cursor: pointer;
   overflow-y: hidden;
   scroll-behavior: smooth;
 }
+.product-container2 {
+  position: relative;
+  margin:0 30px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
 /* .p-c{
   background: linear-gradient(white,#cbcbcb, #a0a0a0,#cbcbcb, white);
 
 } */
-
+.product-container2::-webkit-scrollbar {
+  display: none;
+}
 .product-container1::-webkit-scrollbar {
   display: none;
 }
@@ -785,6 +798,25 @@ font-size: 18px;
   font-weight: 900;
 }
 
+.pre-btn2,
+.nxt-btn2 {
+  color: black;
+  border: none;
+  width: 3vw;
+  height: 7vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+  z-index: 8;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
 .pre-btn {
   top: 60%;
   left: 0;
@@ -802,9 +834,23 @@ font-size: 18px;
   transform: rotate(180deg);
 }
 
+.nxt-btn2 {
+  top: 50%;
+  right:0;
+}
+
+.pre-btn2 {
+  top: 50%;
+  left: 0;
+  transform: rotate(180deg);
+}
+
 .nxt-btn1 {
   top: 50%;
   right:0;
+}
+.up1{
+  top:60%;
 }
 .up{
   top:50%;
@@ -1571,7 +1617,6 @@ label.sub-label{
 
 .container5{
   width: 100vw;
-  position: relative;
 }
 
 /*Area of images*/
@@ -1589,8 +1634,8 @@ label.sub-label{
 }
 .simg-info{
   position: absolute;
-  top: 0;
-  margin: 0 2vw;
+  margin: 0 30px;
+  bottom: 5px;
   height: 50vh;
   width: 96vw;
   color: white;
@@ -1643,8 +1688,9 @@ label.sub-label{
   font-size: 50px;
 }
 .sp1{
-  padding: 0 5vw;
-  font-size: 20px;
+  padding-left: 5vw;
+  padding-right: 10vw;
+  font-size: 15px;
 }
 .shover{
   color: white;
@@ -1692,7 +1738,10 @@ label.sub-label{
   }
   p.content{
     margin: 5px 50px 10px 0px;
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .sp1{
+    font-size: 16px;
   }
   .logo{
     padding-left: 0;
@@ -1965,16 +2014,23 @@ ul li{
   .pre-btn,
 .nxt-btn {
   height: 80px;
-  width: 15vw;
+  width: 10vw;
   top: 55%;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.9);
 }
 .pre-btn1,
 .nxt-btn1 {
   height: 80px;
-  width: 15vw;
+  width: 10vw;
   top: 55%;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.9);
+}
+.pre-btn2,
+.nxt-btn2 {
+  height: 80px;
+  width: 10vw;
+  top: 55%;
+  background: rgba(255, 255, 255, 0.9);
 }
 .product{
   padding: 0px;
@@ -2387,19 +2443,24 @@ padding-left:10px;
 .gal-img-cont1 img{
   padding: 20px 0px;
 }
+.product-container2{
+  margin: 0 20px;
+}
 .simg{
-  width: 100vw;
+  width: 90vw;
   max-height: 40vh;
   margin: 0;
 }
 .simg-info{
   height: 40vh;
+  margin: 0;
 }
 .sh1{
   margin: 0 5vw;
   font-size: 26px;
 }
 .sp1{
+  padding-right: 5vw;
   font-size: 14px;
 }
 .sh2{
@@ -2409,7 +2470,7 @@ padding-left:10px;
 .simg-info{
   padding-top: 0px;
   margin: 0;
-  width: 100vw;
+  width: 100%;
 }
 .container5{
   overflow: hidden;
@@ -2419,6 +2480,9 @@ padding-left:10px;
 }
 .mg-bottom{
   margin-bottom: 0px;
+}
+p.content{
+  margin-right: 20px;
 }
 
 }

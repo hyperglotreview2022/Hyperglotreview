@@ -136,6 +136,30 @@ productContainers1.forEach((item, i) => {
   });
 });
 
+const productContainers2 = [...document.querySelectorAll(".product-container2")];
+const nxtBtn2 = [...document.querySelectorAll(".nxt-btn2")];
+const preBtn2 = [...document.querySelectorAll(".pre-btn2")];
+
+productContainers2.forEach((item, i) => {
+  var w = document.documentElement.clientWidth || window.innerWidth;
+
+  nxtBtn2[i].addEventListener("click", () => {
+    if (w <= 480) {
+      item.scrollLeft += 352;
+    } else {
+      item.scrollLeft += 1535;
+    }
+  });
+
+  preBtn2[i].addEventListener("click", () => {
+    if (w <= 480) {
+      item.scrollLeft -= 352;
+    } else {
+      item.scrollLeft -= 1535;
+    }
+  });
+});
+
 let noOfCharac = 140;
 let contents = document.querySelectorAll(".content");
 contents.forEach((content) => {
