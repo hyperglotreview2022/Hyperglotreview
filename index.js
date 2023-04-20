@@ -145,17 +145,17 @@ productContainers2.forEach((item, i) => {
 
   nxtBtn2[i].addEventListener("click", () => {
     if (w <= 480) {
-      item.scrollLeft += 372;
+      item.scrollLeft += 370;
     } else {
-      item.scrollLeft += 1535;
+      item.scrollLeft += 1565;
     }
   });
 
   preBtn2[i].addEventListener("click", () => {
     if (w <= 480) {
-      item.scrollLeft -= 372;
+      item.scrollLeft -= 370;
     } else {
-      item.scrollLeft -= 1535;
+      item.scrollLeft -= 1565;
     }
   });
 });

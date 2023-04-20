@@ -1627,17 +1627,16 @@ label.sub-label{
 }
 
 .simg{
-  width: 96vw;
-  margin: 0 2vw;
+  width: 1535px;
+  margin-right:30px;
   height: 50vh;
   object-fit: cover;
 }
 .simg-info{
   position: absolute;
-  margin: 0 30px;
   bottom: 5px;
   height: 50vh;
-  width: 96vw;
+  width: 1535px;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -2444,15 +2443,17 @@ padding-left:10px;
   padding: 20px 0px;
 }
 .product-container2{
-  margin: 0 20px;
+  margin: 0 10px;
+}
+.simg-cont{
+  width: 370px;
 }
 .simg{
-  width: 90vw;
-  max-height: 40vh;
+  width: 370px;
   margin: 0;
 }
 .simg-info{
-  height: 40vh;
+  width: 370px;
   margin: 0;
 }
 .sh1{
@@ -2470,7 +2471,6 @@ padding-left:10px;
 .simg-info{
   padding-top: 0px;
   margin: 0;
-  width: 100%;
 }
 .container5{
   overflow: hidden;
