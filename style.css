@@ -1720,6 +1720,9 @@ label.sub-label{
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
 }
+.magin-top{
+  margin-top: 100px;
+}
 
 
 
@@ -2003,10 +2006,11 @@ ul li{
   }
   .topic{
   font-weight: 700;
-  font-size: 50px;
+  font-size: 38px;
   margin-left: 10px;
   }
   .product-container{
+    height: 350px;
     padding: 0;
     padding-left: 12px;
   }
@@ -2036,7 +2040,7 @@ ul li{
 }
   .product-card{
   width: 360px;
-  height: 500px;
+  height: 300px;
   margin: 0px 10px 20px 0px;
   }
   .post{
@@ -2367,7 +2371,8 @@ textarea {
   font-weight: 700;
 }
 .product-info.lit-info{
-  background-color: rgba(255, 255, 255, 0.9);
+  height: 300px;
+  background-color: rgba(254, 254, 254, 0.7);
   top: 280px;
   text-align: center;
   width: 320px;
@@ -2391,7 +2396,7 @@ textarea::placeholder{
   font-size: 24px;
 }
 .post{
-  bottom: 170px;
+  bottom: 70px;
   padding: 0px;
 }
 .product-card:hover .post{
@@ -2439,6 +2444,9 @@ padding-left:10px;
 .margin-10{
   margin: 0px;
 }
+.product-info{
+  height: 100px;
+} 
 .gal-img-cont1 img{
   padding: 20px 0px;
 }
@@ -2483,6 +2491,12 @@ padding-left:10px;
 }
 p.content{
   margin-right: 20px;
+}
+.magin-top{
+  margin-top: 50px;
+}
+.marigin-top{
+  margin-top: 50px;
 }
 
 }
