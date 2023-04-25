@@ -2575,5 +2575,8 @@ p.content{
 .flex{
   padding: 0;
 }
+.f-sm{
+  margin-top: 150px;
+}
 }
 
