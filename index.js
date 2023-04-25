@@ -98,6 +98,9 @@ productContainers.forEach((item, i) => {
   nxtBtn[i].addEventListener("click", () => {
     if (w <= 480) {
       item.scrollLeft += 370;
+    }
+    else  if(w<=1200){
+      item.scrollLeft += 730;
     } else {
       item.scrollLeft += 1300;
     }
@@ -106,6 +109,9 @@ productContainers.forEach((item, i) => {
   preBtn[i].addEventListener("click", () => {
     if (w <= 480) {
       item.scrollLeft -= 370;
+    }
+    else  if(w<=1200){
+      item.scrollLeft -= 730;
     } else {
       item.scrollLeft -= 1300;
     }
@@ -146,7 +152,11 @@ productContainers2.forEach((item, i) => {
   nxtBtn2[i].addEventListener("click", () => {
     if (w <= 480) {
       item.scrollLeft += 370;
-    } else {
+    }
+  else  if(w<=1200){
+      item.scrollLeft += 730;
+    }
+   else {
       item.scrollLeft += 1565;
     }
   });
@@ -154,7 +164,10 @@ productContainers2.forEach((item, i) => {
   preBtn2[i].addEventListener("click", () => {
     if (w <= 480) {
       item.scrollLeft -= 370;
-    } else {
+    }  else  if(w<=1200){
+      item.scrollLeft -= 730;
+    }
+     else {
       item.scrollLeft -= 1565;
     }
   });

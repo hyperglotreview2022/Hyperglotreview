@@ -1731,6 +1731,21 @@ label.sub-label{
 
 
 @media screen and (max-width: 1200px){
+  .slideshow-container{
+    margin-top: 120px;
+    height: 600px;
+  }
+  .slideshow-container img{
+    height: 600px;
+  }
+  nav{
+    height: 120px;
+    background-color: white;
+    padding: 5% 10%;
+  }
+  .nav-buttons{
+    display: none;
+  }
   .product-brand{
     margin-right: 30px;
     font-size: 22px;
@@ -1746,10 +1761,8 @@ label.sub-label{
     font-size: 16px;
   }
   .logo{
+    height: 55px;
     padding-left: 0;
-  }
-  nav{
-    padding:0 5%;
   }
   #sidebar{
     display:block;
@@ -1757,9 +1770,12 @@ label.sub-label{
   }
   #menu{
     display: block;
-    padding-right: 5%;
+    padding: 15px;
     cursor: pointer;
     transition: 0.5s;
+    border: 1px solid rgb(94, 94, 94);
+    font-size: 24px;
+    border-radius: 5px;
   }
 ul li{
   display: none;
@@ -1778,7 +1794,6 @@ ul li{
   font-size: 24px;
   padding: 15px;
   border-radius: 5px;
-  margin-right: 5px;
   border: 1px solid rgb(94, 94, 94);
   display: none;
   text-align: center;
@@ -1835,7 +1850,49 @@ ul li{
   color: #1a1a1a;
   text-decoration: none;
 }
-
+.topic{
+  margin-left: 50px;
+}
+.magin-top{
+  margin-top: 30px;
+}
+.events{
+  margin-top: 30px;
+}
+.pre-btn{
+  top: 50%;
+  width: 50px;
+}
+.pre-btn1{
+  width: 50px;
+}
+.pre-btn2{
+  width: 50px;
+}
+.nxt-btn{
+  top: 50%;
+  width: 50px;
+}
+.nxt-btn2{
+  top: 50%;
+  width: 50px;
+}
+.nxt-btn3{
+  top: 50%;
+  width: 50px;
+}
+.product {
+  padding: 0 30px;
+}
+.product-container{
+  padding: 0 0 0 20px;
+}
+.product-container1{
+  padding: 0 0 0 20px;
+}
+.up1{
+  top:50%;
+}
  .dropdown{
   display: block;
  }
@@ -1869,7 +1926,7 @@ ul li{
   }
   .flex{
     grid-template-columns: 1fr;
-    padding: 0px;
+    padding:0 20px;
   }
   .flex .card-flex{
     width: 95vw;
@@ -1903,6 +1960,21 @@ ul li{
   }
   table{
     display: none;
+  }
+  footer{
+    height: 25vh;
+  }
+  .simg{
+    width: 700px;
+    height: 30vh;
+  }
+  .simg-info{
+    width: 700px;
+    top: 0px;
+  }
+  .sp1{
+    width: 90vw;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 768px){
@@ -2001,8 +2073,8 @@ ul li{
     border: 1px solid  rgb(94, 94, 94);
   }
   .slideshow-container img{
-    margin-top: 100px;
-    height: 225px;
+    height: 250px;
+    margin-top: 0px;
   }
   .topic{
   font-weight: 700;
@@ -2384,7 +2456,7 @@ textarea {
 width: 100%;
 }
 .slideshow-container{
-  height: 320px;
+  height: 250px;
 }
 .form-cont{
   margin: 0px;
@@ -2455,8 +2527,10 @@ padding-left:10px;
 }
 .simg-cont{
   width: 370px;
+  height: 300px;
 }
 .simg{
+  height: 300px;
   width: 370px;
   margin: 0;
 }
@@ -2470,7 +2544,7 @@ padding-left:10px;
 }
 .sp1{
   padding-right: 5vw;
-  font-size: 14px;
+  font-size: 12px;
 }
 .sh2{
   padding: 0 5vw;
@@ -2498,6 +2572,8 @@ p.content{
 .marigin-top{
   margin-top: 50px;
 }
-
+.flex{
+  padding: 0;
+}
 }
 
