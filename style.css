@@ -1227,6 +1227,11 @@ footer{
   margin-right: 30px;
   width: 45vw;
 }
+.about-cont1{
+  margin-top: 30px;
+  margin-right: 30px;
+  width: 45vw;
+}
 .abouthr{
   width: 100%;
 }
@@ -1238,6 +1243,9 @@ footer{
   margin: 0 30px;
 }
 .about-cont p{
+  margin: 0px 0px 0px 50px;
+}
+.about-cont1 p{
   margin: 0px 0px 0px 50px;
 }
 .art-flex .advertise1{
@@ -1976,6 +1984,82 @@ ul li{
     width: 90vw;
     font-size: 16px;
   }
+  .advertise{
+    display: none;
+  }
+  .arthr {
+    width: 90%;
+  }
+  .mg-top{
+    margin: 0px 0 0 5vw;
+  }
+  .f-sm{
+    margin-top: 150px;
+  }
+  .art-hor{
+    width: 90vw;
+  }
+  .art-hor-info {
+    width: 60vw;
+  }
+  .adver{
+    display: none;
+  }
+  .about-cont p{
+    width: 100%;
+  }
+  .map-sec{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .about-cont{
+    width: 90%;
+  }
+  .about-hr{
+    width: 90%;
+  }
+  .form textarea{
+    border: 1px solid black;
+  }
+  textarea{
+    width: 560px;
+  }
+  .sub-cont{
+    width: 90%;
+  }
+  .editorial-cont{
+    margin-left: 60px;
+  }
+  .about-cont1 {
+    width: 90%;
+  }
+  .about-cont1 p{
+    margin-left:0px;
+  }
+  .margin-60{
+    margin-left: 0;
+  }
+  .topic-sub{
+    margin-top: 50px;
+  }
+  .contact-cont{
+    margin: 0px 5vw 50px;
+  }
+  .abouthr{
+    width: 90%;
+  }
+  .advertise-book{
+    display: none;
+  }
+  .lit-info{
+    width: 70vw;
+  }
+  .art-container3{
+    width: 90%;
+  }
+  .art-container2{
+    width: 90%;
+  }
 }
 @media screen and (max-width: 768px){
 
@@ -2136,7 +2220,7 @@ ul li{
     margin-bottom: 50px;
   }
   .eventshr{
-    width: 90%;
+    width: 100%;
   }
   .product-card1{
     width: 320px;
@@ -2187,6 +2271,7 @@ ul li{
   display: block;
   margin-left:10px;
   margin-bottom: 50px;
+  width: 97%;
  }
  .art-hor-info{
   width: 100%;
@@ -2577,6 +2662,12 @@ p.content{
 }
 .f-sm{
   margin-top: 150px;
+}
+.about-cont p{
+  width: 95%;
+}
+.about-cont1{
+  margin-left: 10px;
 }
 }
 
