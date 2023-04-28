@@ -1635,8 +1635,7 @@ label.sub-label{
 }
 
 .simg{
-  width: 1535px;
-  margin-right:30px;
+  width: 1420px;
   height: 50vh;
   object-fit: cover;
 }
@@ -1644,7 +1643,7 @@ label.sub-label{
   position: absolute;
   bottom: 5px;
   height: 50vh;
-  width: 1535px;
+  width: 1420px;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -1739,6 +1738,9 @@ label.sub-label{
 
 
 @media screen and (max-width: 1200px){
+  .product-container2{
+    margin: 0 10px;
+  }
   .slideshow-container{
     margin-top: 120px;
     height: 600px;
@@ -1973,11 +1975,11 @@ ul li{
     height: 25vh;
   }
   .simg{
-    width: 700px;
+    width: 740px;
     height: 30vh;
   }
   .simg-info{
-    width: 700px;
+    width: 740px;
     top: 0px;
   }
   .sp1{

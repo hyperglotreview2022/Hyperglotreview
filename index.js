@@ -154,10 +154,10 @@ productContainers2.forEach((item, i) => {
       item.scrollLeft += 370;
     }
   else  if(w<=1200){
-      item.scrollLeft += 730;
+      item.scrollLeft += 740;
     }
    else {
-      item.scrollLeft += 1565;
+      item.scrollLeft += 1420;
     }
   });
 
@@ -165,10 +165,10 @@ productContainers2.forEach((item, i) => {
     if (w <= 480) {
       item.scrollLeft -= 370;
     }  else  if(w<=1200){
-      item.scrollLeft -= 730;
+      item.scrollLeft -= 740;
     }
      else {
-      item.scrollLeft -= 1565;
+      item.scrollLeft -= 1420;
     }
   });
 });
