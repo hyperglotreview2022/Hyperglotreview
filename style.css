@@ -1500,7 +1500,7 @@ height: 600px;
 .gal-img-cont1 img{
   object-fit: cover;
   bottom: 0px;
-  max-height: 300px;
+  height: 300px;
   position: absolute;
   width: 100%;
 }
@@ -1731,10 +1731,46 @@ label.sub-label{
   margin-top: 100px;
 }
 
+.vgtext{
+  color: rgb(101, 101, 101);
+  font-size: 13px;
+}
+.mgleft1{
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+  color: rgb(69, 69, 69);
+}
+.mgleft2{
+  margin-left: 20px; 
+  margin-bottom: 100px;
+  margin-top: 40px;
+  color: rgb(69, 69, 69);
+}
+.mgleft4{
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+.mgleft3{
+  margin: 40px 20px 100px;
+}
+
+
 
 
 
 @media screen and (max-width: 1200px){
+  .marigintop1{
+    margin-top: 100px;
+  }
+  .mgleft4{
+    margin: 40px 70px 80px;
+  }
+  .mgleft1{
+    margin-top: 40px;
+    margin-left: 60px;
+  }
   .product-container2{
     margin: 0 10px;
   }
@@ -2667,6 +2703,28 @@ p.content{
 }
 .about-cont1{
   margin-left: 10px;
+}
+.mgleft1{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.vgtext{
+  margin: 0;
+}
+.mgleft1{
+  margin: 0px 20px 50px;
+}
+.mgleft2{
+  margin:50px 20px 70px ;
+}
+.mgleft4{
+  margin: 0 20px 70px;
+}
+.mgleft3{
+  margin: 40px 20px 70px;
+}
+.gal-box1{
+  margin-bottom: 40px;
 }
 }
 
