@@ -1737,15 +1737,19 @@ label.sub-label{
 }
 .mgleft1{
   margin-top: 40px;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-bottom: 100px;
-  color: rgb(69, 69, 69);
+  color: rgb(111, 111, 111);
+  border-bottom: 3px solid rgb(111, 111, 111);
+  display: inline-block;
 }
 .mgleft2{
-  margin-left: 20px; 
+  margin-left: 40px; 
   margin-bottom: 100px;
-  margin-top: 40px;
-  color: rgb(69, 69, 69);
+  margin-top: 70px;
+  color: rgb(111, 111, 111);
+  border-bottom: 3px solid rgb(111, 111, 111);
+  display: inline-block;
 }
 .mgleft4{
   margin-top: 40px;
