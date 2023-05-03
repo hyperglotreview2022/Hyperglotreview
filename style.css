@@ -1015,8 +1015,7 @@ font-size: 18px;
 .flex1{
   display: flex;
   justify-content:center ;
-}
-.flex1 .card-flex1{
+}.flex1 .card-flex1{
   width: 750px;
   margin: 30px;
 }
@@ -1759,12 +1758,22 @@ label.sub-label{
 .mgleft3{
   margin: 40px 20px 100px;
 }
+.vgatitle{
+  margin: 40px 40px 70px;
+  color: rgb(111, 111, 111);
+  border-bottom: 2px solid rgb(111, 111, 111);
+  display: inline-block;
+  font-size: 17px;
+}
 
 
 
 
 
 @media screen and (max-width: 1200px){
+  .vgatitle{
+    margin: 30px 0 60px;
+  }
   .marigintop1{
     margin-top: 100px;
   }
@@ -1773,7 +1782,7 @@ label.sub-label{
   }
   .mgleft1{
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 80px;
   }
   .product-container2{
     margin: 0 10px;
@@ -2729,6 +2738,12 @@ p.content{
 }
 .gal-box1{
   margin-bottom: 40px;
+}
+.vgatitle{
+  margin: 0 0 40px;
+}
+.admargin{
+  margin-bottom: 50px;
 }
 }
 
