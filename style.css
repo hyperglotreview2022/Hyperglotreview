@@ -2620,7 +2620,7 @@ textarea::placeholder{
 }
 .event-info{
   pointer-events:none;
-  padding-top: 10px;
+  padding-top: 30px;
   top: 0;
   height: 250px;
 }
@@ -2753,6 +2753,9 @@ p.content{
 }
 .tag{
   font-size: 24px;
+}
+.eventlink h1{
+  font-size: 22px;
 }
 }
 
