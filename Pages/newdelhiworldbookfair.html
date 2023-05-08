@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <script defer src="../literature.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>New Delhi World Book Fair</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+               <a href="Fiction.html">Fiction</a>
+               <a href="nonfiction.html">Non-Fiction</a>
+               <!-- <a href="Pages/recentreleases.html">Recent Releases</a> 
+               <a href="Pages/featuredauthors.html">Featured Authors</a> -->
+               <!-- <a href="#">Debut Authors</a>
+               <a href="#">Children's Books</a>
+               <a href="#">Regional Releases</a> -->
+           </div>
+           </div></li>
+           
+           <li><div class="dropdown"><a href="events.html">News & Events</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art & Design</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <a href="news.html">News</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+           <div id="sidebar" class="sidebar more">
+             <div><p><a href="index.html">Home</a></p></div>
+             <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p id="3" class="show"><a href="events.html">News & Events</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+             <div><p><a href="aboutus.html">About Us</a></p></div>
+             <div><p><a href="submissions.html">Submissions</a></p></div>
+             <div><p>Follow Us</p></div>
+           </div>
+ 
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+             <div><p><a href="Fiction.html">Fiction</a></p></div>
+             <div><p><a href="nonfiction.html">Non-Fiction</a></p></div>
+             <!-- <div><p><a href="Pages/recentreleases.html">Recent Releases</a></p></div>
+             <div><p><a href="Pages/featuredauthors.html">Featured Authors</a></p></div> -->
+           </div>
+ 
+           <div id="sidebar" class="sidebar more3">
+             <div><p><a href="galleries.html">Art & Design</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="#">Culture & Lifestyle</a></p></div>
+             <div><p><a href="news.html">News</a></p></div>
+           </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+ 
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">New Delhi World Book Fair</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2 widith">
+    <div class="flex1">
+      <div class="card-flex1">
+        
+        <img src="../Events-img/NDWBF (1).JPG" alt="Artist Image">
+        <a href="worldbookfair.html" class="art-topic">New Delhi World Book Fair</a>
+        <p class="credit">Image Credit - Hyperglot Review</p>
+        <p>The New Delhi World Book Fair (NDWBF) is a highly anticipated event that has been a significant platform for promoting literature, exchanging ideas, and celebrating culture for 50 years. The 31st edition of the NDWBF was held from 25 February to 5 March 2023, organized by the National Book Trust, India, in collaboration with the India Trade Promotion Organization./p>
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img class="nostretch" src="../Events-img/drtarana.jpg" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="DrTaranaKhubchandani.html" class="art-topic">Dr. Tarana Khubchandani</a>
+        <p class="contents1"> Dr. Tarana Khubchandani, the founder of Art & Soul gallery, is a trailblazer in the Indian art world. With a passion for aesthetic syncretism, she has curated exhibitions that span art historical timelines, genres, and materials. In her latest venture, Dr. Khubchandani collaborated with veteran artist Brinda Miller to curate the Art of India exhibition, an initiative aimed at making art more accessible and democratic.
+          </p>
+          <a href="DrTaranaKhubchandani.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img class="nostretch" src="../Events-img/BrindaMiller.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="BrindaMiller.html" class="art-topic">Brinda Miller</a>
+        <p class="contents1">Brinda Miller is an artist who has mastered the art of blending multimedia techniques to create mesmerizing works of art. Her ability to seamlessly fuse realism and abstraction across a variety of mediums such as oils, acrylics, corrugated cardboard, cloth, and metallic paper is nothing short of magical. Brinda's work is a true testament to her artistic flair and her passion for experimenting with materials to create stunning three-dimensional effects. Her unique artistic philosophy is a rare blend of architectural elements with abstract urbanscapes that creates a visually striking and intellectually stimulating combination. Her latest works on display at the 2023 Art of India Exhibition, titled 'Syntagma', 'From dawn to dusk' and 'Achroma', showcase her exceptional talent and creativity.
+          </p>
+          <a href="BrindaMiller.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img class="nostretch" src="../Events-img/arzankhambatta.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="ArzanKhambatta.html" class="art-topic">Arzan Khambatta</a>
+        <p class="contents1">Arzan Khambatt hails from the vibrant city of Mumbai. With a passion for sculpting from a young age, Arzan has been creating awe-inspiring art for over three decades, becoming a leading figure in the local art scene. His artistic philosophy centers on using scrap materials found in junkyards and breathing new life into them with his creative vision.
+          One of his earliest works, Scraptures, is a testament to his ingenuity and serves as a representation of his artistic style. However, Arzan also experiments with fresh metal sheets, employing a range of techniques such as filing, bending, moulding, cutting, welding and burning to create dynamic and impactful sculptures. From explosive rivers of lava to spiraling planets in space, Arzan's artwork is a thrilling and imaginative journey.
+          </p>
+          <a href="ArzanKhambatta.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img class="nostretch" src="../Events-img/AdilWriter.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="Adil.html" class="art-topic">Adil Writer</a>
+        <p class="contents1">Adil Writer's Navagraha panels were a true highlight of the Art of India 2023 exhibition, showcasing his unique style and creative vision. The Navagraha panels he created were a tribute to the nine planets and their significance in Indian mythology. His unique approach to blending traditional concepts with contemporary art is a true testament to his creativity and vision. The panels were adorned with intricate designs that were inspired by the architecture of the temples of south India. Adil Writer gave these designs his own interpretation, creating a perfect blend of ancient and modern styles. The red dots, which were adorned on each of the panels, created a sense of sacred aura that one would experience in a temple. One of the most interesting aspects of Adil Writer's work was the use of burnt wood beneath the panels. This was a deliberate decision, as he wanted to create a visual interplay between negative spaces and positive spaces. The burnt wood added an element of depth and contrast to the panels, creating a mesmerizing effect. His work is a perfect blend of tradition and modernity, paying tribute to the rich heritage of Indian mythology and art.
+          </p>
+          <a href="Adil.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+   
+
+  </div>
+
+
+<!-- advertisement -->
+<div>
+  <div class="advertise">
+    <img src="../ad6.jpeg" style="margin-top: 30px;" alt="sidead">
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+  <footer class="footer-container mg-ontop">
+    <div><a href="#">Subscriptions</a></div>
+    <div> <a href="#">Advertise</a><a href="#">Press Releases</a><a href="#">Terms</a>
+      <a href="#">Privacy</a><a href="#">Cookies</a><a href="#">About</a> </div>
+      <p class="language">Hyperglot Magazine Archive:</p> <p><a href="#">English (US)</a> <a href="#">Deutsch</a> <a href="#">Francais</a></p> 
+     <p class="light">@2022 Hyperglot Worldwide Corporation . All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>

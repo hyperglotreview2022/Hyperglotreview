@@ -1765,6 +1765,12 @@ label.sub-label{
   display: inline-block;
   font-size: 17px;
 }
+.tag{
+margin: 0px;
+}
+.tag:hover{
+text-decoration: none;
+}
 
 
 
@@ -2744,6 +2750,9 @@ p.content{
 }
 .admargin{
   margin-bottom: 50px;
+}
+.tag{
+  font-size: 24px;
 }
 }
 
