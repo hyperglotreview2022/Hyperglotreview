@@ -1771,6 +1771,10 @@ margin: 0px;
 .tag:hover{
 text-decoration: none;
 }
+.tags{
+  display: inline;
+  font-size: 32px;
+}
 
 
 
@@ -2703,7 +2707,7 @@ padding-left:10px;
   margin-bottom: 0px;
 }
 p.content{
-  margin-right: 20px;
+width: 90vw;
 }
 .magin-top{
   margin-top: 50px;
