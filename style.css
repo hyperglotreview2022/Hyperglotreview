@@ -1775,7 +1775,53 @@ text-decoration: none;
   display: inline;
   font-size: 32px;
 }
-
+.videossection{
+  margin-top: 100px;
+}
+.videoscontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 100px;
+  gap: 50px;
+}
+.videoscontainer1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 50px;
+}
+.videocontainer{
+  width: 400px;
+}
+.videocontainer img{
+  width: 400px;
+}
+.videotitle{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.video{
+  margin-top: 30px;
+  height: 500px;
+  width: 55vw;
+  text-align: center;
+}
+.videocontainer1{
+  text-align: center;
+}
+.videopagelink{
+  color: black;
+  text-decoration: none;
+}
+.eventsbannerimgcontainer{
+  margin-top: 100px;
+  width: 100%;
+}
+.eventsbannerimg{
+  width: 100%;
+  height: 350px;
+}
 
 
 
@@ -2117,6 +2163,45 @@ ul li{
   }
   .art-container2{
     width: 90%;
+  }
+  .videossection{
+    margin-top: 100px;
+  }
+  .videoscontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 50px;
+    gap: 20px;
+  }
+  .videoscontainer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .videocontainer{
+    width: 40vw;
+  }
+  .videocontainer img{
+    width: 40vw;
+  }
+  .videotitle{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  .video{
+    margin-top: 30px;
+    height: 500px;
+    width: 90vw;
+    text-align: center;
+  }
+  .videocontainer1{
+    text-align: center;
+  }
+  .videopagelink{
+    color: black;
+    text-decoration: none;
   }
 }
 @media screen and (max-width: 768px){
@@ -2760,6 +2845,46 @@ p.content{
 }
 .eventlink h1{
   font-size: 22px;
+}
+
+.videossection{
+  margin-top: 100px;
+}
+.videoscontainer{
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  gap: 50px;
+}
+.videoscontainer1{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+}
+.videocontainer{
+  width: 95vw;
+}
+.videocontainer img{
+  width: 95vw;
+}
+.videotitle{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.video{
+  margin-top: 30px;
+  height: 270px;
+  width: 95vw;
+  text-align: center;
+}
+.videocontainer1{
+  text-align: center;
+}
+.eventsbannerimg{
+  width: 100%;
+  height: 250px;
 }
 }
 
