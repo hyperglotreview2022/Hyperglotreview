@@ -12,7 +12,9 @@
   --dark-grey:rgb(66, 66, 66);
   
 }
-
+footer{
+  margin-top: 50px;
+}
 .poplogo{
   height: 30px;
 }
@@ -216,7 +218,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35vw;
+  width: 30vw;
 
 }
 .end i{
@@ -1818,7 +1820,8 @@ text-decoration: none;
 .bannerimage{
   margin-top: 100px;
   width: 100vw;
-  height: 300px;
+  height: 400px;
+  object-fit: cover;
 }
 .product-card5 {
   flex: 0 0 auto;
@@ -1829,6 +1832,12 @@ text-decoration: none;
   margin-bottom: 100px;
   border: 1px solid rgb(92, 92, 92);
   border-radius: 20px;
+}
+.eventspageimg img{
+  background-color: grey;
+  height: 300px;
+  object-fit:cover;
+  width: 40vw;
 }
 .eventspageimg{
   background-color: grey;
@@ -1856,6 +1865,24 @@ text-decoration: none;
   overflow: hidden;
   border: 1px solid rgb(92, 92, 92);
   border-radius: 20px;
+}
+.eventspagelinksgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 20px;
+}
+.eventspagelinks{
+  margin-top: 10px;
+  color: rgb(58, 58, 58);
+  text-decoration:none;
+}
+.eventspageinfo h2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.eventspageinfo p{
+  margin-top: 10px;
+  padding-right: 20px;
 }
 
 
@@ -1984,6 +2011,18 @@ ul li{
   left: -1000px;
 }
 .more3.etc{
+  left:0;
+}
+.more4{
+  left: -1000px;
+}
+.more4.etc{
+  left:0;
+}
+.more5{
+  left: -1000px;
+}
+.more5.etc{
   left:0;
 }
 .more1{
@@ -2236,6 +2275,19 @@ ul li{
   .videopagelink{
     color: black;
     text-decoration: none;
+  }
+  .eventspageinfo h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .eventspageinfo p{
+    margin-top: 10px;
+  }
+  .eventspageimg{
+    height: 260px;
+  }
+  .eventspageimg img{
+    height: 260px;
   }
 }
 @media screen and (max-width: 768px){
@@ -2922,8 +2974,20 @@ p.content{
   margin: 0px 10px 20px 0px;
   }
 .eventspageimg{
-  height: 220px;
+  height: 200px;
   width: 100%;
+}
+.eventspageimg img{
+  height: 200px;
+  width: 100%;
+}
+.eventspageinfo h2{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.eventspageinfo p{
+  margin-top: 5px;
+  padding-right:0px ;
 }
 .eventspageflex{
   flex-direction: column;

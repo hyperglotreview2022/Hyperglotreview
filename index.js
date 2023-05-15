@@ -57,11 +57,15 @@ function hideall() {
   more1.style.left = "-1000px";
   more2.style.left = "-1000px";
   more3.style.left = "-1000px";
+  more4.style.left = "-1000px";
+  more5.style.left = "-1000px";
 }
 const extraslides = document.querySelectorAll(".show");
 const more1 = document.querySelector(".more1");
 const more2 = document.querySelector(".more2");
 const more3 = document.querySelector(".more3");
+const more4 = document.querySelector(".more4");
+const more5 = document.querySelector(".more5");
 
 function show() {
   if ((sidebar.style.left = "-1000px")) {
@@ -84,6 +88,12 @@ function showingmore(e) {
     sidebar.classList.toggle("active");
   } else if (e.target.id === "3") {
     more3.style.left = "0px";
+    sidebar.classList.toggle("active");
+  } else if (e.target.id === "4") {
+    more4.style.left = "0px";
+    sidebar.classList.toggle("active");
+  } else if (e.target.id === "5") {
+    more5.style.left = "0px";
     sidebar.classList.toggle("active");
   }
 }
