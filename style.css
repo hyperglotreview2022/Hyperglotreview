@@ -388,6 +388,15 @@ span:hover{
   height: 630px;
   overflow: hidden;
 }
+.slideshow-container1{
+  margin-top: 100px;
+  height: 450px;
+  overflow: hidden;
+}
+.slideshow-container1 img{
+  height: 450px;
+  object-fit: fill;
+}
 .slideshow-container img{
   height: 650px;
   object-fit: cover;
@@ -1826,12 +1835,16 @@ text-decoration: none;
 .product-card5 {
   flex: 0 0 auto;
   width: 40vw;
-  height: 450px;
+  height: 430px;
   margin-right: 40px;
   overflow: hidden;
   margin-bottom: 100px;
   border: 1px solid rgb(92, 92, 92);
   border-radius: 20px;
+  transition: 0.5s;
+}
+.product-card5:hover{
+  box-shadow: 12px 12px 7px rgb(172, 172, 172);
 }
 .eventspageimg img{
   background-color: grey;
@@ -1865,6 +1878,10 @@ text-decoration: none;
   overflow: hidden;
   border: 1px solid rgb(92, 92, 92);
   border-radius: 20px;
+  transition: 0.5s;
+}
+.product-card6:hover{
+  box-shadow: 12px 12px 7px rgb(172, 172, 172);
 }
 .eventspagelinksgrid{
   display: grid;
@@ -1888,6 +1905,13 @@ text-decoration: none;
 
 
 @media screen and (max-width: 1200px){
+  .slideshow-container1{
+    height: 600px;
+  }
+  .slideshow-container1 img{
+    object-fit: fill;
+    height: 600px;
+  }
   .vgatitle{
     margin: 30px 0 60px;
   }
@@ -2999,5 +3023,11 @@ p.content{
 }
 .bannerimage{
   height: 200px;
+}
+.slideshow-container1{
+  height: 300px;
+}
+.slideshow-container1 img{
+  height: 300px;
 }
 }
