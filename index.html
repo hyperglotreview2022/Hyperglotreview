@@ -20,6 +20,9 @@
   <script defer src="index.js"></script>
   <script defer src="animatedslider.js"></script>
   <script defer src="observer.js"></script>
+  <script defer src="slider.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animatedslider.css">
   <link rel="icon" type="image/x-icon" href="HyperglotLogos.png">
@@ -244,30 +247,32 @@
   </section> -->
 
 
-  <section class="product"> 
+
+
+  <section class="artsection"> 
 
       <h1 class="topic magin-top">ART</h1>
       <hr class="mg-btom">
 
-      
-    
-    <button class="pre-btn">&#10095;</button>
-    <button class="nxt-btn">&#10095;</button>
-    <div class="product-container">
-    <div class="product-card">
-      <a href="Pages/Yamini.html"><div class="product-image">
-          <img src="../news-img/Yamini.jpg" class="product-thumb" alt="artist image">
-      </div>
-    </a>
-      <div class="product-info">
-        <div class="post">
-          <a href="Pages/Yamini.html"><h2 class="product-brand">Yamini Nayar</h2></a>
-          <p class="content vis">Yamini Nayar combines photography, sculpture, and architecture to produce intricate visual riddles that ultimately take the shape of photographic records. Her pieces begin with instinctively constructed handcrafted sculptures and wall-based assemblages, which are inextricably linked to her lifelong fascination with architecture and the psychological aspects of space. The sculptures begin to take shape once they are in the camera's field of view. The artist considers time, event, and the body as elements to control and distort the material with the immaterial, putting process and the "holding" qualities of the built environment in the foreground.</p>
-              <!-- <a href="author-page/Sumedhaandnitin.html"><button id="content-btn">Read More</button></a> -->
-            </div>
-      </div>
+        <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide ">    
+        <div class="product-card">
+        <a href="Pages/Yamini.html"><div class="product-image">
+            <img src="../news-img/Yamini.jpg" class="product-thumb" alt="artist image">
+        </div>
+      </a>
+        <div class="product-info">
+          <div class="post">
+            <a href="Pages/Yamini.html"><h2 class="product-brand">Yamini Nayar</h2></a>
+            <p class="content vis">Yamini Nayar combines photography, sculpture, and architecture to produce intricate visual riddles that ultimately take the shape of photographic records. Her pieces begin with instinctively constructed handcrafted sculptures and wall-based assemblages, which are inextricably linked to her lifelong fascination with architecture and the psychological aspects of space. The sculptures begin to take shape once they are in the camera's field of view. The artist considers time, event, and the body as elements to control and distort the material with the immaterial, putting process and the "holding" qualities of the built environment in the foreground.</p>
+                <!-- <a href="author-page/Sumedhaandnitin.html"><button id="content-btn">Read More</button></a> -->
+              </div>
+        </div>
+    </div>
   </div>
-      <div class="product-card">
+      <div class="swiper-slide">      
+        <div class="product-card">
         <a href="Pages/tito.html"><div class="product-image">
             <img src="../news-img/tito.jpg" class="product-thumb" alt="artist image">
         </div>
@@ -280,20 +285,24 @@
               </div>
         </div>
     </div>
+  </div>
+      <div class="swiper-slide"> 
         <div class="product-card">
-            <a href="Pages/Arpita.html"><div class="product-image">
-                <img src="../news-img/Arpita.jpg" class="product-thumb" alt="artist image">
-            </div>
-          </a>
-            <div class="product-info">
-              <div class="post">
-                <a href="Pages/Arpita.html"><h2 class="product-brand">Arpita Akhanda</h2></a>
-                <p class="content vis">Arpita Akhanda was born in Cuttack, Odisha, in 1992 into a family of artists who had emigrated from Bangladesh to India before the partition. She received her degree in painting from Kala Bhavana, Visva Bharati, in 2017. Arpita's understanding of independence and the division of her country was shaped by the collections of colonial and post-colonial memories that her grandparents and parents cherished, including poems, photographs, written documents, letters, telegrams, postcards, oral histories, silence, the search for a roof, shifting identities, and political stance. Her art practice developed out of the need to decolonize these memories.</p>
-                    <!-- <a href="author-page/amitsaha.html"><button id="content-btn">Read More</button></a> -->
-                  </div>
-            </div>
+        <a href="Pages/Arpita.html"><div class="product-image">
+            <img src="../news-img/Arpita.jpg" class="product-thumb" alt="artist image">
         </div>
-      <div class="product-card">
+      </a>
+        <div class="product-info">
+          <div class="post">
+            <a href="Pages/Arpita.html"><h2 class="product-brand">Arpita Akhanda</h2></a>
+            <p class="content vis">Arpita Akhanda was born in Cuttack, Odisha, in 1992 into a family of artists who had emigrated from Bangladesh to India before the partition. She received her degree in painting from Kala Bhavana, Visva Bharati, in 2017. Arpita's understanding of independence and the division of her country was shaped by the collections of colonial and post-colonial memories that her grandparents and parents cherished, including poems, photographs, written documents, letters, telegrams, postcards, oral histories, silence, the search for a roof, shifting identities, and political stance. Her art practice developed out of the need to decolonize these memories.</p>
+                <!-- <a href="author-page/amitsaha.html"><button id="content-btn">Read More</button></a> -->
+              </div>
+        </div>
+    </div>
+  </div>
+      <div class="swiper-slide">      
+        <div class="product-card">
         <a href="Pages/ChandanBezBaruah.html"><div class="product-image">
             <img src="../news-img/ChandanBezBaruah.jpg" class="product-thumb" alt="artist image">
         </div>
@@ -306,64 +315,73 @@
               </div>
         </div>
     </div>
-      <div class="product-card">
-          <a href="Pages/AnjuDodiya.html"><div class="product-image">
-          <img src="../news-img/AnjuDodiya.jpg" class="product-thumb" alt="artist image">
+  </div>
+      <div class="swiper-slide">      
+        <div class="product-card">
+        <a href="Pages/AnjuDodiya.html"><div class="product-image">
+        <img src="../news-img/AnjuDodiya.jpg" class="product-thumb" alt="artist image">
+    </div>
+  </a>
+      <div class="product-info">
+        <div class="post">
+          <a href="Pages/AnjuDodiya.html"><h2 class="product-brand">Anju Dodiya</h2></a>
+          <p class="content vis">Anju Dodiya is a Mumbai-based artist who is known for her sensitive "fictional self-portraits" that address the terrifying act of creation. She received her degree in painting from Sir J.J. School of Art in 1986, and since the 1990s, she has been acknowledged as one of her generation's most well-known painters. In her works, she challenges the limits of watercolour on hostile surfaces in terms of scale and texture. Her paintings usually contrast hard-edged charcoal incursions with soft, spontaneous watercolour blotches and stains and her artworks frequently address socio-economic and cultural events as they unfold in a subtly critical manner. Imbued with complex symbolism, the details in her paintings depict the disparity between appearance and reality.</p>
+              <!-- <a href="author-page/kuntal.html"><button id="content-btn">Read More</button></a> -->
+            </div>
+      </div>
+  </div>
+</div>
+      <div class="swiper-slide">
+        <div class="product-card">
+          <a href="Pages/Manjunath.html"><div class="product-image">
+          <img src="../news-img/Manjunath.jpg" class="product-thumb" alt="artist image">
       </div>
     </a>
         <div class="product-info">
           <div class="post">
-            <a href="Pages/AnjuDodiya.html"><h2 class="product-brand">Anju Dodiya</h2></a>
-            <p class="content vis">Anju Dodiya is a Mumbai-based artist who is known for her sensitive "fictional self-portraits" that address the terrifying act of creation. She received her degree in painting from Sir J.J. School of Art in 1986, and since the 1990s, she has been acknowledged as one of her generation's most well-known painters. In her works, she challenges the limits of watercolour on hostile surfaces in terms of scale and texture. Her paintings usually contrast hard-edged charcoal incursions with soft, spontaneous watercolour blotches and stains and her artworks frequently address socio-economic and cultural events as they unfold in a subtly critical manner. Imbued with complex symbolism, the details in her paintings depict the disparity between appearance and reality.</p>
+            <a href="Pages/Manjunath.html"><h2 class="product-brand">Manjunath Kamath</h2></a>
+            <p class="content vis"> Manjunath Kamath creates art in a diverse range of media, including clay, digital art, painting, and drawing. His artwork is influenced by a variety of cultural references, including the sculptures, frescoes, and carvings in the basadis (Jain temples) near where he was raised in south Karnataka; the elaborately costumed characters in Yakshagana plays; the tales and myths from the Indian epics; the paintings of Raja Ravi Varma and, further away, he is also influenced by Michelangelo and Rembrandt; Persian and Indian miniatures; Middle Eastern architecture's arabesque patterns, chinese ceramics and Victorian upholstery.</p>
                 <!-- <a href="author-page/kuntal.html"><button id="content-btn">Read More</button></a> -->
               </div>
         </div>
     </div>
-
-    <div class="product-card">
-      <a href="Pages/Manjunath.html"><div class="product-image">
-      <img src="../news-img/Manjunath.jpg" class="product-thumb" alt="artist image">
   </div>
-</a>
-    <div class="product-info">
-      <div class="post">
-        <a href="Pages/Manjunath.html"><h2 class="product-brand">Manjunath Kamath</h2></a>
-        <p class="content vis"> Manjunath Kamath creates art in a diverse range of media, including clay, digital art, painting, and drawing. His artwork is influenced by a variety of cultural references, including the sculptures, frescoes, and carvings in the basadis (Jain temples) near where he was raised in south Karnataka; the elaborately costumed characters in Yakshagana plays; the tales and myths from the Indian epics; the paintings of Raja Ravi Varma and, further away, he is also influenced by Michelangelo and Rembrandt; Persian and Indian miniatures; Middle Eastern architecture's arabesque patterns, chinese ceramics and Victorian upholstery.</p>
-            <!-- <a href="author-page/kuntal.html"><button id="content-btn">Read More</button></a> -->
-          </div>
-    </div>
-</div>
-
-  <div class="product-card">
-    <a href="Pages/VayedaBrothers.html"><div class="product-image">
-      <img src="../news-img/VayedaBrothers.jpg" class="product-thumb" alt="artist image">
-  </div>
-</a>
-    <div class="product-info">
-      <div class="post">
-        <a href="Pages/VayedaBrothers.html"><h2 class="product-brand">Tushar Vayeda & Mayur Vayeda</h2></a>
-        <p class="content vis">Mayur and Tushar Vayeda, brothers and artists, were born and raised in the Warli village of Ganjad in rural Maharashtra. There, they were exposed to Warli folklore, rituals, and ceremonial Warli paintings, which are distinctive because of their geometric forms and natural and communal themes. The Vayeda brothers have created a technique that adheres to the traditional Warli materials and themes in an effort to "bring back the history of Warli artforms practised by tribal ancestors." They use white pigment to create rhythmic alphabet-like forms on surfaces that have been primed with contrasting reddish-brown cow dung. In addition to sharing myths and folktales that have been passed down through the centuries, the brothers also reflect on the state of the modern world using the ancient visual language.</p>
-            <!-- <a href="author-page/soumen.html"><button id="content-btn">Read More</button></a> -->
-          </div>
-    </div>
-</div>
-
-<div class="product-card">
-  <a href="Pages/devika.html">
-    <div class="product-image">
-      <img src="../news-img/iartfair.jpg" class="product-thumb" alt="artist image">
-    </div>
-  <div class="product-info">
-    <div class="post">
-      <a href="Pages/devika.html"><h2 class="product-brand">Devika Sundar</h2></a>
-      <p class="content vis">Winner of India Art Fair and BMW India led 'The Future is Born of Art' Commission is Devika Sundar. Devika Sundar, a multidisciplinary artist based in Bangalore, uses collage, painting, printmaking, and photography to produce contemplative pieces that examine the strength and fragility of the human body. The artist describes his vision for Forwardism as "a future where art, science, and fantasy combine and blur borders, to provoke experiences of awe, and inspire new possibilities of discovery.</p>
-          <!-- <a href="author-page/suparna.html"><button id="content-btn">Read More</button></a> -->
+      <div class="swiper-slide">
+        <div class="product-card">
+          <a href="Pages/VayedaBrothers.html"><div class="product-image">
+            <img src="../news-img/VayedaBrothers.jpg" class="product-thumb" alt="artist image">
         </div>
-  </div>
-</a>
-</div>
-
+      </a>
+          <div class="product-info">
+            <div class="post">
+              <a href="Pages/VayedaBrothers.html"><h2 class="product-brand">Tushar Vayeda & Mayur Vayeda</h2></a>
+              <p class="content vis">Mayur and Tushar Vayeda, brothers and artists, were born and raised in the Warli village of Ganjad in rural Maharashtra. There, they were exposed to Warli folklore, rituals, and ceremonial Warli paintings, which are distinctive because of their geometric forms and natural and communal themes. The Vayeda brothers have created a technique that adheres to the traditional Warli materials and themes in an effort to "bring back the history of Warli artforms practised by tribal ancestors." They use white pigment to create rhythmic alphabet-like forms on surfaces that have been primed with contrasting reddish-brown cow dung. In addition to sharing myths and folktales that have been passed down through the centuries, the brothers also reflect on the state of the modern world using the ancient visual language.</p>
+                  <!-- <a href="author-page/soumen.html"><button id="content-btn">Read More</button></a> -->
+                </div>
+          </div>
+      </div>
     </div>
+      <div class="swiper-slide">
+        <div class="product-card">
+          <a href="Pages/devika.html">
+            <div class="product-image">
+              <img src="../news-img/iartfair.jpg" class="product-thumb" alt="artist image">
+            </div>
+          <div class="product-info">
+            <div class="post">
+              <a href="Pages/devika.html"><h2 class="product-brand">Devika Sundar</h2></a>
+              <p class="content vis">Winner of India Art Fair and BMW India led 'The Future is Born of Art' Commission is Devika Sundar. Devika Sundar, a multidisciplinary artist based in Bangalore, uses collage, painting, printmaking, and photography to produce contemplative pieces that examine the strength and fragility of the human body. The artist describes his vision for Forwardism as "a future where art, science, and fantasy combine and blur borders, to provoke experiences of awe, and inspire new possibilities of discovery.</p>
+                  <!-- <a href="author-page/suparna.html"><button id="content-btn">Read More</button></a> -->
+                </div>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+    
 </section>
 
  <!-- book cards -->
@@ -1152,7 +1170,8 @@
   </footer>
 
 
-  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ 
 
 </body>
 </html>

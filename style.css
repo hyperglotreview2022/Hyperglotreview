@@ -12,6 +12,28 @@
   --dark-grey:rgb(66, 66, 66);
   
 }
+.swiper{
+  margin: 0 30px;
+}
+.swiper-wrapper{
+  margin: 0 30px;
+}
+.swiper-button-prev{
+  width: 30px;
+  background: white;
+  color: black;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.swiper-button-next{
+  width: 30px;
+  background: white;
+  color: black;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
 footer{
   margin-top: 50px;
 }
@@ -577,12 +599,12 @@ hr{
 
 
 .post{
-  padding: 0px 10px;
+  padding: 0px 40px 0 10px;
   background-color: white;
   height: 60px;
-  width: 40vw;
+  width: 44vw;
   position: absolute;
-  bottom: 70px;
+  bottom: 0px;
   transition: 0.5s;
   color: black;
 }
@@ -680,11 +702,11 @@ cursor: pointer;
 
 .product-card {
   flex: 0 0 auto;
-  width: 40vw;
+  margin-right: 0px;
+  width: 44vw;
   height: 380px;
-  margin-right: 40px;
   overflow: hidden;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   transition: 0.5s ease;
 }
 
@@ -699,7 +721,7 @@ cursor: pointer;
 }
 
 .product-thumb{
-width: 40vw;
+width: 45vw;
 height: 380px;
 object-fit: cover;
 transition: 1s;
@@ -1647,13 +1669,13 @@ label.sub-label{
 
 .simg{
   width: 1420px;
-  height: 50vh;
+  height: 400px;
   object-fit: cover;
 }
 .simg-info{
   position: absolute;
   bottom: 5px;
-  height: 50vh;
+  height: 400px;
   width: 1420px;
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
@@ -1905,6 +1927,9 @@ text-decoration: none;
 
 
 @media screen and (max-width: 1200px){
+  .swiper{
+    margin: 0 ;
+  }
   .slideshow-container1{
     height: 600px;
   }
@@ -2423,12 +2448,22 @@ ul li{
     padding: 0;
     padding-left: 12px;
   }
-  .pre-btn,
-.nxt-btn {
+.swiper-button-prev,.swiper-button-next{
   height: 80px;
   width: 10vw;
-  top: 55%;
-  background: rgba(255, 255, 255, 0.9);
+  top: 45%;
+  background: rgba(255, 255, 255, 0.7);
+}
+.swiper-button-prev{
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+.swiper-button-next{
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+.swiper-wrapper {
+  margin: 0 15px;
 }
 .pre-btn1,
 .nxt-btn1 {
