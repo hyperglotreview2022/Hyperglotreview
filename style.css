@@ -12,6 +12,10 @@
   --dark-grey:rgb(66, 66, 66);
   
 }
+.eventzsection{
+  margin: 0 2vw;
+  padding:0 2vw;
+}
 .swiper{
   margin: 0 30px;
 }
@@ -3064,5 +3068,9 @@ p.content{
 }
 .slideshow-container1 img{
   height: 300px;
+}
+.eventzsection{
+  margin: 0 ;
+  padding:0;
 }
 }

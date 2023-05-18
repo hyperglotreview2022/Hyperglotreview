@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
   <script defer src="../index.js"></script>
+  <script defer src="../slider.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
   <title>Events</title>
@@ -201,65 +203,71 @@
  <!-- main -->
 
 
- <section class="product"> 
+ <section class="eventzsection"> 
 
-  <h1 class="topic" style="margin-top:50px">Upcoming Events</h1>
+  <h1 class="topic magin-top">Upcoming Events</h1>
   <hr class="mg-btom">
 
-  
-
-<button class="pre-btn">&#10095;</button>
-<button class="nxt-btn">&#10095;</button>
-<div class="product-container">
-<div class="product-card5">
-  <a class="eventspagelinks" href="artforpaws.html">
-    <div class="eventspageimg">
-      <img style="object-fit: fill;" src="../Events-img/artforpaws.jpg" alt="image">
+    <div class="swiper mySwiper">
+<div class="swiper-wrapper">
+  <div class="swiper-slide ">    
+    <div class="product-card5">
+      <a class="eventspagelinks" href="artforpaws.html">
+        <div class="eventspageimg">
+          <img style="object-fit: fill;" src="../Events-img/artforpaws.jpg" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Art for Paws</h2>
+          <p>Proposed Dates: 8th to 11th of June, 2023  <br>
+            Proposed Venue: Art Gallery, CSOI, Vinay Marg, Chanakyapuri, New Delhi <br></p>
+        </div>
+      </a>
     </div>
-    <div class="eventspageinfo">
-      <h2>Art for Paws</h2>
-      <p>Proposed Dates: 8th to 11th of June, 2023  <br>
-        Proposed Venue: Art Gallery, CSOI, Vinay Marg, Chanakyapuri, New Delhi <br></p>
-    </div>
-  </a>
 </div>
-<div class="product-card5">
-  <a class="eventspagelinks" href="tagspectrumofcreativity.html">
-    <div class="eventspageimg">
-      <img src="../Events-img/tagspectrum.png" alt="image">
+  <div class="swiper-slide">      
+    <div class="product-card5">
+      <a class="eventspagelinks" href="tagspectrumofcreativity.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/tagspectrum.png" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Spectrum of Creativity - TAG</h2>
+          <p>Dates: Sat, 15 April, 2023<br>
+            Venue: D-24, Defence Colony, New Delhi - 110024
+          </p>
+        </div>
+      </a>
     </div>
-    <div class="eventspageinfo">
-      <h2>Spectrum of Creativity - TAG</h2>
-      <p>Dates: Sat, 15 April, 2023<br>
-        Venue: D-24, Defence Colony, New Delhi - 110024
-      </p>
-    </div>
-  </a>
 </div>
-<div class="product-card5">
-  <a class="eventspagelinks" href="dhoomimal.html">
-    <div class="eventspageimg">
-      <img src="../Events-img/dhoomimal.JPG" alt="image">
+  <div class="swiper-slide"> 
+    <div class="product-card5">
+      <a class="eventspagelinks" href="dhoomimal.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/dhoomimal.JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Dhoomimal Gallery of Divergent practices</h2>
+          <p>Dates: 19th of Mar to 10th of May 2023 <br>
+            Venue: G-42, Connaught Place, New Delhi-110001</p>
+        </div>
+      </a>
     </div>
-    <div class="eventspageinfo">
-      <h2>Dhoomimal Gallery of Divergent practices</h2>
-      <p>Dates: 19th of Mar to 10th of May 2023 <br>
-        Venue: G-42, Connaught Place, New Delhi-110001</p>
-    </div>
-  </a>
 </div>
-<div class="product-card5">
-  <a class="eventspagelinks" href="artofindia.html">
-    <div class="eventspageimg">
-      <img src="../Events-img/artofindia (1).JPG" alt="image">
+  <div class="swiper-slide">      
+    <div class="product-card5">
+      <a class="eventspagelinks" href="artofindia.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/artofindia (1).JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Art of India 2023</h2>
+          <p>Dates: APRIL 7th - 13th, 2023 <br>
+            Venue: BIKANER HOUSE, Pandara Road, New Delhi 110003</p>
+        </div>
+      </a>
     </div>
-    <div class="eventspageinfo">
-      <h2>Art of India 2023</h2>
-      <p>Dates: APRIL 7th - 13th, 2023 <br>
-        Venue: BIKANER HOUSE, Pandara Road, New Delhi 110003</p>
-    </div>
-  </a>
 </div>
+<div class="swiper-slide"> 
 <div class="product-card5">
   <a class="eventspagelinks" href="indiadesign.html">
     <div class="eventspageimg">
@@ -272,21 +280,14 @@
     </div>
   </a>
 </div>
-<div class="product-card5">
-  <a class="eventspagelinks" href="indiaartfair.html">
-    <div class="eventspageimg">
-      <img src="../news-img/iartf1.jpg" alt="image">
-    </div>
-    <div class="eventspageinfo">
-      <h2>India Art Fair 2023</h2>
-      <p>Dates: February 9th - 12th, 2023 <br>
-        Venue: NSIC Exhibition Grounds, Okhla, New Delhi</p>
-    </div>
-  </a>
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
 </div>
 
-</div>
 </section>
+
 
 
  <!-- main -->
@@ -459,5 +460,7 @@
    <p class="light">@2022 Hyperglot Solutions OPC Private Limited . All Rights Reserved.</p>
 </footer>
   
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 </body>
 </html>
