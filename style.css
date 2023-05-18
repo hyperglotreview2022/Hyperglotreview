@@ -1728,7 +1728,7 @@ label.sub-label{
 }
 .sp1{
   padding-left: 5vw;
-  padding-right: 10vw;
+  width: 85vw;
   font-size: 15px;
 }
 .shover{
@@ -2899,16 +2899,16 @@ padding-left:10px;
   margin: 0 10px;
 }
 .simg-cont{
-  width: 370px;
+  width: 92vw;
   height: 300px;
 }
 .simg{
   height: 300px;
-  width: 370px;
+  width: 92vw;
   margin: 0;
 }
 .simg-info{
-  width: 370px;
+  width: 92vw;
   margin: 0;
 }
 .sh1{

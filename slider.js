@@ -55,6 +55,20 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
   });
 
+  var swiper3 = new Swiper(".mySwiper3", {
+    slidesPerView: 1,
+    loop: true,
+    spaceBetween: 0,
+    pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+    },
+    navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    },
+    });
+
 var appendNumber = 4;
 var prependNumber = 1;
 document
