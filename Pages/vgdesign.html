@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <script defer src="../literature.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <meta name="title" content="Hyperglot Review - Virtual Gallery">
+  <title>Design - Virtual Gallery</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="../index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+              <a href="recentreleases.html">Recent Releases</a>
+              <a href="featuredauthors.html">Featured Authors</a>
+              <a href="emergingauthors.html">Emerging Authors</a>
+              <a href="authorsinspotlight.html">Authors in Spotlight</a>
+              <a href="litvirtualgallery.html">Virtual Gallery</a>
+           </div>
+           </div></li>
+           <li><div class="dropdown"><a href="design.html">Design</a>
+            <div class="dropdown-content">
+              <a href="featuredbrands.html">Featured Brands</a>
+              <a href="emergingbrands.html">Emerging Brands</a>
+              <a href="designerinsoptlight.html">Designers in Spotlight</a>
+              <a href="vgdesign.html">Virtual Gallery</a>
+          </div>
+          </div></li>
+          <li><a href="eventz.html">Events</a></li>
+           <li><div class="dropdown"><a href="events.html">News</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art Events</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+         <div id="sidebar" class="sidebar more">
+          <div><p><a href="../index.html">Home</a></p></div>
+          <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="3" class="show"><a href="events.html">Design</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="eventz.html">Events</a></p></div>
+          <div><p id="4" class="show"><a href="events.html">News</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="aboutus.html">About Us</a></p></div>
+          <div><p><a href="submissions.html">Submissions</a></p></div>
+          <div><p id="5" class="show">Follow Us<i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+        </div>
+  
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+            <div><p><a href="recentreleases.html">Recent Releases</a></p></div>
+            <div><p><a href="featuredauthors.html">Featured Authors</a></p></div>
+            <div><p><a href="emergingauthors.html">Emerging Authors</a></p></div>
+            <div><p><a href="authorsinspotlight.html">Authors in Spotlight</a></p></div>
+            <div><p><a href="litvirtualgallery.html">Virtual Gallery</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more3">
+            <div><p><a href="featuredbrands.html">Featured Brands</a></p></div>
+            <div><p><a href="emergingbrands.html">Emerging Brands</a></p></div>
+            <div><p><a href="designerinsoptlight.html">Designers in Spotlight</a></p></div>
+            <div><p><a href="vgdesign.html">Virtual Gallery</a></p></div>
+          </div>
+  
+           <div id="sidebar" class="sidebar more4">
+             <div><p><a href="galleries.html">Art Events</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="designerinsoptlight.html">Culture & Lifestyle</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more5">
+            <div><p><a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"> </i> Instagram</a></p></div>
+            <div><p><a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> Facebook</a></p></div>
+            <div><p><a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i> Twitter</a></p></div>
+            <div><p><a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p></div>
+            <div><p><a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"> </i> Youtube</a></p></div>
+          </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+  
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+
+ <h1 class="topic mg-top f-sm">Design - <span style="font-size: 36px;">Virtual Gallery</span> </h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+ <!-- main -->
+<section>
+  
+  <div class="art-flex">
+ 
+  
+  <div class="art-container1">
+    
+    <div class="flex1">
+      <div class="card-flex1">
+        
+        <img class="limit" src="../news-img/indiadesign2023/day1 (1).JPG" alt="Art image">
+        <a href="vgindiadesign2023.html" class="art-topic">India Design 2023 ID - Virtual Gallery</a>
+        <p>Each February, India Design ID, an initiative of Ogaan Media and the country's premier luxury design event, is held at New Delhi's expansive NSIC Grounds in Okhla. It is the biggest exhibition of the very finest in furniture, architecture, and interior design.
+        </p>
+      </div>
+    </div>
+<!-- 
+    <hr class="hr-art">
+
+
+
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../Events-img/vgdhoomimal.JPG" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vgdhoomimal.html" class="art-topic">Dhoomimal Gallery - Of Divergent Practice</a>
+        <p class="contents1">The 'Of Divergent Practice: The Trajectory of Printmakers' exhibition at Dhoomimal Gallery, curated by Ina Puri and designed by Reha Sodhi, aims to highlight the significance of printmaking and draw in more participation from younger artists. The exhibit features works by the founding members of 'Multiple Encounters' and veteran artists who served as their mentors. The showcased prints range from non-representational to simple aesthetics inspired by Japanese space and abstraction.
+        </p>
+          <a href="vgdhoomimal.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+
+
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../news-img/iartf1.jpg" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="virtual-Gallery.html" class="art-topic">India Art Fair - Virtual Gallery</a>
+        <p class="contents1">Taking place annually in India's capital, New Delhi, the fair celebrates modern-day South Asia, combining cutting-edge contemporary visual art with modern masters and vernacular artistic traditions. Positioning art and the artist's voice at its core, the fair's programme draws together galleries and institutions, private foundations and arts charities, artists collectives and national museums, cultural events and festivals, enabling local and international audiences to engage in innovative ways with the cultural history and development of the region.
+        </p>
+          <a href="virtual-Gallery.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    
+    <hr class="hr-art">
+
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../Events-img/artofindia (10).JPG" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vgartofindia.html" class="art-topic">Art of India - Virtual Gallery</a>
+        <p class="contents1">The Art of India exhibition honours the country's rich and diverse history of visual arts and crafts. India has an honoured tradition of creating exceptional artistic works that go back to the very beginning of human civilisation, producing incredible sculptures, paintings, architecture as well as innovative art forms. Art has always had a profound impact on humanity and served as a means of creative expression that allowed for individual perception.
+        </p>
+          <a href="vgartofindia.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../virtualgalleryimg/khojstudios/khojstudios (1).JPG" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vgkhojstudios.html" class="art-topic">Khoj Studios - Threading the Horizon</a>
+        <p class="contents1">Threading the Horizon: Propositions on Worldmaking through Socially Engaged Art Practice foregrounds the quotidian experience of violence experienced by women and gendered others explicated through acts of invisibility, exclusion, inequality and discrimination. In this entanglement of fourteen community-based projects across India, acts of resilience emerge
+        </p>
+          <a href="vgkhojstudios.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../virtualgalleryimg/exhibit320/exhibit320 (1).JPG" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vgexhibit320.html" class="art-topic">EXHIBIT320 - Into the Gathering Night (Gopi Gajwani) 
+        </a>
+        <p class="contents1">Active as an artist, photographer, designer and filmmaker over a period of nearly six decades, Gopi Gajwani has always achieved his discoveries through the dissolution of the singular image. Whether he works in charcoal or acrylic, or employs pastel or Chinese ink, or renders his paintings in oils, or explores a combination of charcoal and watercolour, Gopi invites us to savour the electricity of the line that he teases into currents and stipples, into stac
+        </p>
+          <a href="vgexhibit320.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../virtualgalleryimg/vadheraart/vadheraart (1).JPG" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vgvadheraart.html" class="art-topic">Vadehra Art Gallery - Through Wakefulness, A Night Rising (Benodebehari Mukherjee)</a>
+        <p class="contents1">Through Wakefulness, A Night Rising presents a special body of work (from the early 1920s to the late 1950s) from across Mukherjee's travels and interests, including landscapes, figurations, flower studies, wood-cuts self-portraits as well as some post-blindness collages and compositions that create a memorable discourse around how vision appeared to him. Mukherjee's poignant reclamation of sight through intuition - replacing overt realism - suggests an unexpected but distinctive brand of late modernism in which individual perspective is prioritize
+        </p>
+          <a href="vgvadheraart.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../virtualgalleryimg/gallerynavya/gallerynavya (1).JPG" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vggallerynavya.html" class="art-topic">Gallerie Nvya - L'informe</a>
+        <p class="contents1">George Bataille introduced the notion of 'l'informe' - Formlessness. What Bataille means by Formlessness is that art should be brought down to earth, off of its pedestal where it has been standing since antiquity. For Bataille, creativity is in the process. The Formless, in a way, is abstract and indefinable - Bataille himself claims that a word has no definition. It is performative, rather than explanatory.In this exhibition, it is explored how these artists transcend from form to formlessness in 
+        </p>
+          <a href="vggallerynavya.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../virtualgalleryimg/blueprint12/blueprint12 (1).JPG" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vgblueprint12.html" class="art-topic">Blueprint.12 - Adrift & at Sea (Devika Sundar)</a>
+        <p class="contents1">Zeenat Nagree writes “ Reimagining the meaning of being 'adrift at sea', Devika Sundar presents the internal expanse of the human body as aqueous forms that are unbound and untethered. In doing so, she brings out the uncanny echoes between us and bodies of water, in the way that they can be imaged, heard, and understood. This mode of enquiry emerged from Sundar's experiences with undiagnosed chronic pain a
+        </p>
+          <a href="vgblueprint12.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+      <img src="../virtualgalleryimg/galleryartpositive/galleryartpositive (1).JPG" style="object-fit:cover" alt="Art image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vgartpositive.html" class="art-topic">Gallery Art Positive - Bengalnama</a>
+        <p class="contents1">Be it about alienation or issues of resistance; radical criticism of the socio- political systems or playful irony and banter about the 'bhadralok', you find a rich diversity and multiplicity in the image-making emerging from the region. Landscapes and geographies dwell on memory as much as the flux in the present environment and the churn of both. 'Bengal-nama' pays tribute to artistic practitioners who approach a
+        </p>
+          <a href="vgartpositive.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div> -->
+
+
+  </div>
+
+
+<!-- advertisement -->
+<div class="advertise" style="height: 600px;">
+  <img src="../ad11.jpeg" style="margin-top: 30px;" alt="sidead">
+</div>
+
+</div>
+</section>
+
+
+
+
+<!-- footer -->
+
+
+<footer>
+  <div class="footer-container">
+    
+
+  <div>
+    <a href="submissions.html">Submissions</a><a href="aboutus.html">About Us</a>
+  </div>
+  <p class="language">Follow Us On:</p> 
+  <p>
+    <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a> 
+    <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a> 
+    <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a> </p>
+    <p>
+    <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+    <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a></p> 
+   <p class="light">@2022 Hyperglot Solutions OPC Private Limited . All Rights Reserved.</p>
+</footer>
+  
+</body>
+</html>

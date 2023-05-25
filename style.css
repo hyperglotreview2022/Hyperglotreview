@@ -1131,6 +1131,12 @@ font-size: 18px;
   text-decoration: none;
   font-size: 22px;
 }
+.art-topic2{
+  color: black;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 22px;
+}
 .art-topic:hover{
   text-decoration: underline;
 }
@@ -1253,7 +1259,7 @@ footer{
   margin-bottom: 50px;
 }
 .editorial-cont{
-  margin-left: 100px;
+  margin-left: 50px;
 }
 .about-topic1{
   font-size: 50px;
@@ -1927,10 +1933,64 @@ text-decoration: none;
   margin-top: 10px;
   padding-right: 20px;
 }
+.printissuecont{
+  padding: 0 10vw;
+  display: flex;
+  gap: 5vw;
+}
+.printissueimg{
+  height: 500px;
+  width: 25vw;
+  box-shadow: 12px 30px 40px rgb(172, 172, 172);
+}
+.printissueheading{
+  font-size: 36px;
+}
+.printissuedesc{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.downloadbtn{
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 15vw;
+  transition: 0.5s;
+}
+.downloadbtn:hover{
+  cursor: pointer;
+  box-shadow: 12px 10px 10px rgb(232, 232, 232);
+}
+.newsubtopics{
+  font-size: 28px;
+  margin: 0 14vw 20px;
+}
+.vgvadhera{
+  width: 60vw;
+}
 
 
 
 @media screen and (max-width: 1200px){
+
+  .vgvadhera{
+    width: 100vw;
+  }
+  .newsubtopics{
+    margin: 20px 10vw 20px;
+  }
+  .printissuecont{
+    padding: 0 7vw;
+  }
+  .printissuedesc{
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .downloadbtn{
+    width: 50vw;
+  }
   .swiper{
     margin: 0 ;
   }
@@ -2204,14 +2264,14 @@ ul li{
   }
   .simg{
     width: 740px;
-    height: 30vh;
+    height: 400px;
   }
   .simg-info{
     width: 740px;
     top: 0px;
   }
   .sp1{
-    width: 90vw;
+    width: 80vw;
     font-size: 16px;
   }
   .advertise{
@@ -2258,7 +2318,7 @@ ul li{
     width: 90%;
   }
   .editorial-cont{
-    margin-left: 60px;
+    margin-left: 30px;
   }
   .about-cont1 {
     width: 90%;
@@ -3072,5 +3132,31 @@ p.content{
 .eventzsection{
   margin: 0 ;
   padding:0;
+}
+.sp1{
+  width: 90vw;
+}
+.printissuecont{
+  padding: 0 10px;
+  flex-direction: column;
+}
+.downloadbtn{
+  width: 90vw;
+}
+.printissueheading{
+  font-size:22px ;
+}
+.printissuedesc{
+  font-size: 14px;
+}
+.printissueimg{
+  width: 100%;
+  box-shadow: 12px 15px 15px rgb(172, 172, 172);
+}
+.newsubtopics{
+  margin: 20px ;
+}
+.vgvadhera{
+  width: 100vw;
 }
 }
