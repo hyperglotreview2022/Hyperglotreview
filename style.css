@@ -3299,6 +3299,7 @@ transition: 0.2s;
   border-radius: 0%;
 }
 .booksideimages{
+  text-align: left;
   margin-right: 0px;
 }
 .backtotop{
