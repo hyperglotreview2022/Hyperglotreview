@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
 
-
+*{
+  scroll-behavior: smooth;
+}
 :root{
   --grey:rgb(240, 240, 240);
   --light-grey:rgb(239, 239, 239);
@@ -142,6 +144,22 @@ body{
 p.content{
   font-size: 14px;
 }
+.backtotop{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.backtotop button{
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.booksideimages{
+  text-align: center;
+  margin-right: 20px;
+}
 
 
 
@@ -155,7 +173,28 @@ p.content{
 
 
 
-
+.mainmenusubtopic{
+  font-size: 32px;
+  margin-left: 10vw;
+  font-family: 'Cinzel', serif;
+}
+.mainmenulinks{
+  text-align: center;
+  margin: 20px 0 20px;
+}
+.mainmenulink{
+  border-right: 1px solid black;
+}
+.mainmenulinks a{
+  font-size: 14px;
+color: black;
+text-decoration: none;
+padding: 0px 20px;
+transition: 0.2s;
+}
+.mainmenulinks a:hover{
+  text-decoration: underline;
+}
 .nav-scrolled {
   --text:white;
   --text-inverse: black;
@@ -1054,11 +1093,11 @@ font-size: 18px;
   display: flex;
   justify-content:center ;
 }.flex1 .card-flex1{
-  width: 750px;
-  margin: 30px;
+  width: 50vw;
+  margin: 30px 0;
 }
 .flex1 .card-flex1 img{
-  width: 700px;
+  width: 50vw;
 
 }
 .grey{
@@ -1102,10 +1141,10 @@ font-size: 18px;
   font-size: 50px;
 }
 .mg-top{
-  margin: 120px 0px 0px 16vw;
+  margin: 120px 0px 0px 10vw;
 }
 .arthr{
-  width: 70%;
+  width: 80%;
   margin-top: 0;
 }
 .art-container1{
@@ -1208,7 +1247,6 @@ font-size: 18px;
   line-height: 0px;
 }
 footer{
-  height: 30vh;
   background-color: var(--footer-color);
   padding: 20px 0;
   text-align: center;
@@ -1263,7 +1301,7 @@ footer{
 }
 .about-topic1{
   font-size: 50px;
-  margin: 100px 40px 0px;
+  margin: 100px 0px 0px;
 }
 .about-cont{
   margin-top: 30px;
@@ -1279,17 +1317,18 @@ footer{
   width: 100%;
 }
 .about-hr{
-  margin-left: 45px;
+  margin-left: 0px;
 }
 .about-topic{
   font-size: 50px;
   margin: 0 30px;
 }
 .about-cont p{
-  margin: 0px 0px 0px 50px;
+  margin: 0px;
+  width: 50vw;
 }
 .about-cont1 p{
-  margin: 0px 0px 0px 50px;
+  margin: 0px 0px 0px 0px;
 }
 .art-flex .advertise1{
   height: 90vh;
@@ -1404,7 +1443,7 @@ margin:0 2vw;
 
 
 .art-container2{
-  width: 40vw;
+  width: 50vw;
 }
 .art-top{
   font-family: 'Cinzel', serif;
@@ -1458,7 +1497,7 @@ margin:0 2vw;
   margin: 30px;
 }
 .lit-info{
-  width: 40vw;
+  width: 60vw;
 }
 .art-container3{
   display: flex;
@@ -1498,15 +1537,22 @@ color: white;
 .book-info{
   width: 100%;
 }
+.book-page-authorimg{
+  margin-top: 25px;
+  height: 160px;
+  border-radius: 50%;
+}
 .book-page-img{
   height: 300px;
-  margin-top: 20px;
-  margin-right: 20px;
+  margin-top: 50px;
 }
 
 .book-page-img0{
 width:80%;
 height: 600px;
+}
+.extracontent{
+display: none;
 }
 
 
@@ -1659,7 +1705,7 @@ label.sub-label{
   gap: 2px;
 }
 .margin-60{
-  margin-left: 60px;
+  margin-left: 0px;
 }
 .margin-10{
   margin-left: 10px;
@@ -1964,7 +2010,11 @@ text-decoration: none;
 }
 .newsubtopics{
   font-size: 28px;
-  margin: 0 14vw 20px;
+  margin: 0 10vw 20px;
+}
+.newsubtopics1{
+  font-size: 28px;
+  margin: 100px 10vw 20px;
 }
 .vgvadhera{
   width: 60vw;
@@ -1973,11 +2023,28 @@ text-decoration: none;
 
 
 @media screen and (max-width: 1200px){
-
+  .about-cont p{
+    margin-left: 40px;
+  }
+  .eventspageflex{
+    display: flex;
+    padding: 0;
+    gap: 10px;
+  }
+  .product-card6{
+    margin-right: 0px;
+    width: 30vw;
+    height: 450px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 20px;
+  }
   .vgvadhera{
     width: 100vw;
   }
   .newsubtopics{
+    margin: 20px 10vw 20px;
+  }
+  .newsubtopics1{
     margin: 20px 10vw 20px;
   }
   .printissuecont{
@@ -2336,6 +2403,7 @@ ul li{
     margin: 0px 5vw 50px;
   }
   .abouthr{
+    margin-left: 50px;
     width: 90%;
   }
   .advertise-book{
@@ -2401,6 +2469,34 @@ ul li{
   }
   .eventspageimg img{
     height: 260px;
+  }
+  .mainmenulinks{
+    margin: 20px 50px;
+  }
+  .mainmenulink{
+    border-right: 1px solid black;
+  }
+  .mainmenulinks a{
+    font-size: 24px;
+  color: black;
+  text-decoration: none;
+  padding: 0px 30px 0px 0px;
+  transition: 0.2s;
+  }
+  .mainmenulinks a:hover{
+    text-decoration: underline;
+  }
+  .flex1 .card-flex1{
+    width: 90vw;
+  }
+  .flex1 .card-flex1 img{
+    width: 90vw;
+  }
+  .mainmenusubtopic{
+    margin-left: 40px;
+  }
+  .mainmenulinks{
+text-align: left;
   }
 }
 @media screen and (max-width: 768px){
@@ -3156,7 +3252,45 @@ p.content{
 .newsubtopics{
   margin: 20px ;
 }
+.newsubtopics1{
+  margin: 20px ;
+}
 .vgvadhera{
   width: 100vw;
 }
+
+.mainmenulinks{
+  text-align: left;
+  margin: 10px 10px;
+}
+.mainmenulink{
+  border-right: 1px solid black;
+}
+.mainmenulinks a{
+  font-size: 20px;
+color: black;
+text-decoration: none;
+padding: 0px 20px 0px 0px;
+transition: 0.2s;
+}
+.mainmenulinks a:hover{
+  text-decoration: underline;
+}
+.mainmenusubtopic{
+  margin: 20px 10px 0px;
+}
+.book-page-authorimg{
+  margin-top: 20px;
+  height: auto;
+  width: 100%;
+  border-radius: 0%;
+}
+.booksideimages{
+  margin-right: 0px;
+}
+.backtotop{
+  bottom: 30px;
+  right: 30px;
+}
+
 }
