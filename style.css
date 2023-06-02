@@ -1547,8 +1547,10 @@ color: white;
 }
 .book-page-authorimg{
   margin-top: 25px;
-  height: 160px;
-  border-radius: 50%;
+  height: 140px;
+  object-fit: cover;
+  width: 140px;
+  border-radius: 100%;
 }
 .book-page-img{
   height: 300px;
