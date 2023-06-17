@@ -14,10 +14,25 @@
   --dark-grey:rgb(66, 66, 66);
   
 }
+.artistsname{
+  display: flex;
+  gap: 20vw;
+  margin-bottom: 30px;
+}
 .writtenby{
   font-size: 12px;
   font-style: italic;
   color: var(--more-grey);
+}
+.ppartners{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.partnerstitle{
+  display: block;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
 }
 .eventzsection{
   margin: 0 2vw;
@@ -465,7 +480,7 @@ span:hover{
 }
 .slideshow-container1 img{
   height: 450px;
-  object-fit: fill;
+  object-fit: cover;
 }
 .slideshow-container img{
   height: 650px;
@@ -1926,7 +1941,6 @@ text-decoration: none;
   height: 430px;
   margin-right: 40px;
   overflow: hidden;
-  margin-bottom: 100px;
   border: 1px solid rgb(92, 92, 92);
   border-radius: 20px;
   transition: 0.5s;
@@ -3310,5 +3324,8 @@ transition: 0.2s;
 }
 .abouthr1{
   width: 100%;
+}
+.ppartners{
+  flex-direction: column;
 }
 }
