@@ -14,6 +14,9 @@
   --dark-grey:rgb(66, 66, 66);
   
 }
+.eventspagemargin{
+  margin-bottom: 70px;
+}
 .artistsname{
   display: flex;
   gap: 20vw;
@@ -1661,7 +1664,7 @@ display: none;
   object-position:50% 0;
 }
 .widith{
-  width: 45vw;
+  width: 50vw;
 }
 
 
