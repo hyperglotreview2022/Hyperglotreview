@@ -2684,7 +2684,7 @@ text-align: left;
   padding: 0px;
 }
   .product-card{
-  width: 360px;
+  width: 92vw;
   height: 300px;
   margin: 0px 10px 20px 0px;
   }
@@ -2712,7 +2712,7 @@ text-align: left;
     width: 100%;
   }
   .product-card1{
-    width: 360px;
+    width: 92vw;
     height: 450px;
     margin: 0px 10px 20px 0px;
   }
@@ -3257,7 +3257,7 @@ p.content{
   padding: 0 10px;
 }
 .product-card6{
-  width: 100%;
+  width: 92%;
   height: 350px;
 }
 .bannerimage{
