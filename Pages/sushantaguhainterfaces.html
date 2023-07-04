@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>Sushanta Guha</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="../index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+              <a href="recentreleases.html">Recent Releases</a>
+              <a href="featuredauthors.html">Featured Authors</a>
+              <a href="emergingauthors.html">Emerging Authors</a>
+              <a href="authorsinspotlight.html">Authors in Spotlight</a>
+              <a href="litvirtualgallery.html">Virtual Gallery</a>
+           </div>
+           </div></li>
+           <li><div class="dropdown"><a href="design.html">Design</a>
+            <div class="dropdown-content">
+              <a href="featuredbrands.html">Featured Brands</a>
+              <a href="emergingbrands.html">Emerging Brands</a>
+              <a href="designerinsoptlight.html">Designers in Spotlight</a>
+              <a href="vgdesign.html">Virtual Gallery</a>
+          </div>
+          </div></li>
+          <li><a href="eventz.html">Events</a></li>
+           <li><div class="dropdown"><a href="events.html">News</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art Events</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+         <div id="sidebar" class="sidebar more">
+          <div><p><a href="../index.html">Home</a></p></div>
+          <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="3" class="show"><a href="design.html">Design</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="eventz.html">Events</a></p></div>
+          <div><p id="4" class="show"><a href="events.html">News</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="aboutus.html">About Us</a></p></div>
+          <div><p><a href="submissions.html">Submissions</a></p></div>
+          <div><p id="5" class="show">Follow Us<i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+        </div>
+  
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+            <div><p><a href="recentreleases.html">Recent Releases</a></p></div>
+            <div><p><a href="featuredauthors.html">Featured Authors</a></p></div>
+            <div><p><a href="emergingauthors.html">Emerging Authors</a></p></div>
+            <div><p><a href="authorsinspotlight.html">Authors in Spotlight</a></p></div>
+            <div><p><a href="litvirtualgallery.html">Virtual Gallery</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more3">
+            <div><p><a href="featuredbrands.html">Featured Brands</a></p></div>
+            <div><p><a href="emergingbrands.html">Emerging Brands</a></p></div>
+            <div><p><a href="designerinsoptlight.html">Designers in Spotlight</a></p></div>
+            <div><p><a href="vgdesign.html">Virtual Gallery</a></p></div>
+          </div>
+  
+           <div id="sidebar" class="sidebar more4">
+             <div><p><a href="galleries.html">Art Events</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="designerinsoptlight.html">Culture & Lifestyle</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more5">
+            <div><p><a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"> </i> Instagram</a></p></div>
+            <div><p><a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> Facebook</a></p></div>
+            <div><p><a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i> Twitter</a></p></div>
+            <div><p><a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p></div>
+            <div><p><a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"> </i> Youtube</a></p></div>
+          </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+  
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">Sushanta Guha</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2">
+    <h3 class="light-dark"></h3>
+    <div class="flex1">
+      <div class="card-flex1">
+    <img src="../Events-img/interfaces/sushantaguha/sushantaguha (3).jpeg" alt="Artist Image">
+    <p>Sushanta Guha is a highly accomplished printmaker known for his dedication to the art form throughout his professional career. With a rare combination of formal training and practical experience, he has established himself as a prominent figure in the printmaking world. <br><br>
+      Sushanta's artistic style is characterized by its humanistic and realistic approach, while avoiding strict naturalism. His themes reflect the contemporary global concerns of the relentless encroachment of indiscriminate architectural constructions on ecologically important spaces, paralleled by the breakdown of human contact and relationships in the virtual world. His early works showcased a quasi-realistic style reminiscent of modern Indian art, and he fearlessly undertakes ambitious projects that involve intricate lithographic stone grinding and the composition of large-scale images using multiple stones. <br><br>
+      Over the years, Sushanta's imagery has evolved into a highly personal and somewhat ornate style. His near-grotesque figures exhibit a raw organic flow, possessing a strange beauty and an iconic quality. They are often surrounded by densely packed and enigmatic structures that sometimes dissolve into patterns and dark spaces, blurring the line between reality and imagination.
+    </p> <br> <br>
+
+      <img src="../Events-img/interfaces/sushantaguha/sushantaguha (1).jpeg" alt="Artist Image">
+      <br><br>
+      <!-- <p class="credit">Human Landscape-Period 2022 -E
+        Linocut on paper, 60 x 32 inches, Ed: 2/6,2021</p>
+      <p class="credit">Image Credit - Hyperglot Review</p> -->
+      <h2 class="partnerstitle">Shows and Exhibition</h2>
+      <p> Sushanta has showcased his artwork in numerous national and international exhibitions, biennales, and triennales. His participation in renowned events like the Bharat Bhavan in Bhopal, Maastricht, Ljubljana, Yugoslavia, the Biennale of Engraving in Caixa Ourence, Spain, and the Print Triennale in Kanagawa, Japan, has solidified his position in the international printmaking community.</p>
+      <br><br>
+
+
+      <img src="../Events-img/interfaces/sushantaguha/sushantaguha (2).jpeg" alt="Artist Image">
+      <br><br>
+      <h2 class="partnerstitle">Awards and Acheivements</h2>
+      <p>- Senior Fellowship in Visual Art (Printmaking) from the Ministry of HRD, Government of India <br>
+      - National Akademi Award from Lalit Kala Akademi <br>
+    - AIFACS Award from New Delhi</p>
+      <br><br>
+      </div>
+    </div>
+  </div>
+
+
+<!-- advertisement -->
+<div>
+  <div class="advertise">
+    <img src="../ad3.jpeg" style="margin-top: 50px;" alt="sidead">
+</div>
+
+</div>
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+<footer>
+  <div class="footer-container">
+    
+
+  <div>
+    <a href="submissions.html">Submissions</a><a href="aboutus.html">About Us</a>
+  </div>
+  <p class="language">Follow Us On:</p> 
+  <p>
+    <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a> 
+    <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a> 
+    <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a> </p>
+    <p>
+    <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+    <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a></p> 
+   <p class="light">@2022 Hyperglot Solutions OPC Private Limited . All Rights Reserved.</p>
+</footer>
+  
+</body>
+</html>
