@@ -3024,7 +3024,7 @@ textarea {
   background-color: rgba(254, 254, 254, 0.8);
   top: 280px;
   text-align: center;
-  width: 360px;
+  width: 100%;
 }
 .post1:hover .product-info.lit-info{
   top: 280px;
