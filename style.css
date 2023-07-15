@@ -186,6 +186,9 @@ p.content{
   text-align: center;
   margin-right: 20px;
 }
+.topicwidth{
+  width: 75vw;
+}
 
 
 
@@ -3348,5 +3351,8 @@ transition: 0.2s;
 }
 .art-grid{
 width: 100vw;
+}
+.topicwidth{
+  width: 100vw;
 }
 }
