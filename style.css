@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:opsz,wght@12..72,100;12..72,200;12..72,300;12..72,400;12..72,500;12..72,600;12..72,700;12..72,800;12..72,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
   scroll-behavior: smooth;
@@ -190,14 +191,92 @@ p.content{
   width: 75vw;
 }
 
-
-
-
-
-
-
-
 /* navbar */
+
+.newaimagecont{
+  position: relative;
+}
+.newaimagecont1{
+  margin-top: 50px;
+  position: relative;
+}
+.newaimage{
+  width: 100vw;
+  height: 500px;
+  object-fit: cover;
+}
+.newainfo{
+  top: 0;
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newartinfobox{
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 35vw;
+  height: 250px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.newartinfobox h2,h3,h4{
+  margin: 18px 0;
+}
+.newartinfobox h2{
+  font-weight: 800;
+  font-size: 24px;
+}
+.newartinfobox h3{
+  font-weight: 300;
+  font-size: 20px;
+}
+.newartinfobox h4{
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
+.newabutton{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color:black;
+  border: 1px solid white;
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+.newabutton:hover{
+  background-color:white;
+}
+.newabutton a{
+  color: white;
+  text-decoration: none;
+  transition: 0.8s;
+}
+.newabutton a:hover{
+  color: black;
+}
+.buttongroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newabuttonsize1{
+  width: 20vw;
+  height: 70px;
+}
+.newabuttonsize2{
+  width: 15vw;
+  height: 40px;
+}
 
 
 
@@ -1121,13 +1200,21 @@ font-size: 18px;
 .flex1{
   display: flex;
   justify-content:center ;
+
 }.flex1 .card-flex1{
   width: 50vw;
   margin: 30px 0;
 }
 .flex1 .card-flex1 img{
   width: 50vw;
+}
+.flex1 .card-flex1 .artistprofileimages{
+  width: 20vw;
 
+}
+.imagesartistcontainer{
+  float: left;
+  margin: 0 3vw 0 0;
 }
 .grey{
   color:grey;
@@ -1135,6 +1222,9 @@ font-size: 18px;
 .credit{
   font-size: 12px;
   color:grey
+}
+.artistfirstpara{
+  margin: 0;
 }
 
 
@@ -1171,6 +1261,9 @@ font-size: 18px;
 }
 .mg-top{
   margin: 120px 0px 0px 10vw;
+}
+.mg-top2{
+  margin: 50px 0px 0px 10vw;
 }
 .arthr{
   width: 80%;
@@ -2536,11 +2629,39 @@ ul li{
   .flex1 .card-flex1 img{
     width: 90vw;
   }
+  .flex1 .card-flex1 .artistprofileimages{
+    width: 40vw;
+  }
+  .imagesartistcontainer{
+    float:left;
+    margin: 0 5vw 0 0;
+  }
   .mainmenusubtopic{
     margin-left: 40px;
   }
   .mainmenulinks{
 text-align: left;
+  }
+  .newainfo{
+    height: 450px;
+  }
+  .newaimage{
+    height: 450px;
+  }
+  .newartinfobox{
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 90vw;
+    height: 350px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .newabuttonsize2{
+    width: 35vw;
+  }
+  .newartinfobox h2,h3,h4{
+    margin: 35px 0;
   }
 }
 @media screen and (max-width: 768px){
@@ -3354,5 +3475,34 @@ width: 100vw;
 }
 .topicwidth{
   width: 100vw;
+}
+.flex1 .card-flex1 .artistprofileimages{
+  width: 98%;
+
+}
+.imagesartistcontainer{
+  float:none;
+  margin: 0;
+}
+.newartinfobox{
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 90vw;
+  height: 250px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.newabuttonsize2{
+  width: 60vw;
+}
+.newartinfobox h2,h3,h4{
+  margin: 20px 0;
+}
+.newainfo{
+  height: 350px;
+}
+.newaimage{
+  height: 350px;
 }
 }
