@@ -7,6 +7,12 @@ body{
   padding: 0;
   background-color: black;
 }
+.hide{
+ width: 50px;
+ height: 50px;
+ color: black;
+ display: none;
+}
 .box h1{
   font-size: 36px;
 }
@@ -41,6 +47,7 @@ align-items: center;
 }
 .low-header ul{
   display: flex;
+  align-items: center;
   gap: 2vw;
   margin: 0;
 
@@ -147,4 +154,36 @@ border-radius: 10px;
 .box-container{
   top: 0;
   position: fixed;
+}
+
+
+@media screen and (max-width: 768px){
+  .bvcontainer{
+    grid-template-columns: 1fr;
+  }
+
+  .bvcard{
+    width: 100%;
+  }
+
+  .box-container{
+    height: 125vh;
+  }
+
+  .box{
+    width: 60vw;
+  }
+
+  .show{
+    display: none;
+  }
+  .hide{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    position: absolute;
+    right: 20px;
+    display: block;
+  }
 }
