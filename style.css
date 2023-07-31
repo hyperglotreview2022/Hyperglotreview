@@ -190,6 +190,26 @@ p.content{
 .topicwidth{
   width: 75vw;
 }
+.simg-cont5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 46vw;
+  height: 450px;
+  overflow: hidden;
+}
+.artistpimg{
+  object-fit: contain;
+  height: 440px;
+}
+.artistpsubtopic{
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  display: block;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
 
 /* navbar */
 
@@ -2663,6 +2683,11 @@ text-align: left;
   .newartinfobox h2,h3,h4{
     margin: 35px 0;
   }
+  .simg-cont5{
+    margin-left: 10px;
+    width: 90%;
+    height: 450px;
+  }
 }
 @media screen and (max-width: 768px){
 
@@ -3502,7 +3527,20 @@ width: 100vw;
 .newainfo{
   height: 350px;
 }
+.artistpsubtopic{
+  width: 95vw;
+  border-bottom: 1px solid black;
+}
 .newaimage{
   height: 350px;
+}
+.simg-cont5{
+  margin-left: 0;
+  border: none;
+  height: 400px;
+  overflow: hidden;
+}
+.artistpimg{
+  height: 400px;
 }
 }

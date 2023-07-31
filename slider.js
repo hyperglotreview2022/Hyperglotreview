@@ -98,6 +98,21 @@ var swiper2 = new Swiper(".mySwiper2", {
     },
     });
 
+    var swiper5 = new Swiper(".mySwiper5", {
+      slidesPerView: 1,
+      loop: true,
+      speed: 2000,
+      spaceBetween: 0,
+      pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+      },
+      navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+      },
+      });
+
 var appendNumber = 4;
 var prependNumber = 1;
 document
