@@ -101,7 +101,9 @@ var swiper2 = new Swiper(".mySwiper2", {
     var swiper5 = new Swiper(".mySwiper5", {
       slidesPerView: 1,
       loop: true,
-      speed: 2000,
+      delay: 6000,
+      speed: 1500,
+      autoplay: true,
       spaceBetween: 0,
       pagination: {
       el: ".swiper-pagination",
