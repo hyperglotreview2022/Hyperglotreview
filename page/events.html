@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <script defer src="../slider.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>Events</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="../index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+              <a href="recentreleases.html">Recent Releases</a>
+              <a href="featuredauthors.html">Featured Authors</a>
+              <a href="emergingauthors.html">Emerging Authors</a>
+              <a href="authorsinspotlight.html">Authors in Spotlight</a>
+              <a href="litvirtualgallery.html">Virtual Gallery</a>
+           </div>
+           </div></li>
+           <li><div class="dropdown"><a href="design.html">Design</a>
+            <div class="dropdown-content">
+              <a href="featuredbrands.html">Featured Brands</a>
+              <a href="emergingbrands.html">Emerging Brands</a>
+              <a href="designerinsoptlight.html">Designers in Spotlight</a>
+              <a href="vgdesign.html">Virtual Gallery</a>
+          </div>
+          </div></li>
+          <li><a href="events.html">Events</a></li>
+           <li><div class="dropdown"><a href="news.html">News</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art Events</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+         <div id="sidebar" class="sidebar more">
+          <div><p><a href="../index.html">Home</a></p></div>
+          <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="3" class="show"><a href="design.html">Design</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="events.html">Events</a></p></div>
+          <div><p id="4" class="show"><a href="news.html">News</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="aboutus.html">About Us</a></p></div>
+          <div><p><a href="submissions.html">Submissions</a></p></div>
+          <div><p id="5" class="show">Follow Us<i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+        </div>
+  
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+            <div><p><a href="recentreleases.html">Recent Releases</a></p></div>
+            <div><p><a href="featuredauthors.html">Featured Authors</a></p></div>
+            <div><p><a href="emergingauthors.html">Emerging Authors</a></p></div>
+            <div><p><a href="authorsinspotlight.html">Authors in Spotlight</a></p></div>
+            <div><p><a href="litvirtualgallery.html">Virtual Gallery</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more3">
+            <div><p><a href="featuredbrands.html">Featured Brands</a></p></div>
+            <div><p><a href="emergingbrands.html">Emerging Brands</a></p></div>
+            <div><p><a href="designerinsoptlight.html">Designers in Spotlight</a></p></div>
+            <div><p><a href="vgdesign.html">Virtual Gallery</a></p></div>
+          </div>
+  
+           <div id="sidebar" class="sidebar more4">
+             <div><p><a href="galleries.html">Art Events</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="designerinsoptlight.html">Culture & Lifestyle</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more5">
+            <div><p><a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"> </i> Instagram</a></p></div>
+            <div><p><a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> Facebook</a></p></div>
+            <div><p><a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i> Twitter</a></p></div>
+            <div><p><a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p></div>
+            <div><p><a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"> </i> Youtube</a></p></div>
+          </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+  
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+
+   <section>
+    <div class="slideshow-container1">
+
+      <div class="mySlides fade">
+        <img class="sliderimg" src="../images/images1.JPG" alt="slider image 1" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img class="sliderimg" src="../images/images2.JPG" alt="slider image 2" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img class="sliderimg" src="../images/images3.JPG" alt="slider image 3" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img class="sliderimg" src="../images/images4.JPG" alt="slider image 4" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img class="sliderimg" src="../images/images5.JPG" alt="slider image 4" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img class="sliderimg" src="../images/images6.JPG" alt="slider image 4" style="width:100%">
+      </div>
+
+
+    </div>
+    <br>
+    
+  </section>
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none" style="margin-bottom:50px"><img src="../hyperglot 1.0.jpg" alt="ad-img"><div></div></div>
+
+ <!-- main -->
+
+
+ <section class="eventzsection"> 
+
+  <h1 class="topic magin-top">Upcoming Events</h1>
+  <hr class="mg-btom">
+
+    <div class="swiper mySwiper">
+<div class="swiper-wrapper">
+  <div class="swiper-slide ">    
+    <div class="product-card5">
+      <a class="eventspagelinks" href="youngartistaward.html">
+        <div class="eventspageimg">
+          <img style="object-fit: fill;" src="../Events-img/youngaa1.jpeg" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Young Artist Award 2023</h2>
+          <p>Submission Deadline : 31 August, 2023 <br>
+             Venue: CSOI Art Gallery, Chanakyaapuri, New Delhi <br></p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide ">    
+    <div class="product-card5">
+      <a class="eventspagelinks" href="redrawingartscapes.html">
+        <div class="eventspageimg">
+          <img style="object-fit: fill;" src="../Events-img/REDRAWINGartscapes1.jpeg" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>REDRAWING ARTSCAPES</h2>
+          <p> Dates: 25th August, 2023  <br>
+             Venue: CSOI Art Gallery, Chanakyaapuri, New Delhi <br></p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide ">    
+    <div class="product-card5">
+      <a class="eventspagelinks" href="interfaces2.html">
+        <div class="eventspageimg">
+          <img style="object-fit: fill;" src="../Events-img/interfacespart2.png" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>INTERFACES - Part 2</h2>
+          <p> Dates: 28th July - 31st July, 2023  <br>
+             Venue: Gallerie Romain Rolland, Alliance Française de Delhi, Lodhi Road, New Delhi <br></p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide ">    
+    <div class="product-card5">
+      <a class="eventspagelinks" href="interfaces.html">
+        <div class="eventspageimg">
+          <img style="object-fit: fill;" src="../Events-img/interfaces3.JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>INTERFACES - Part 1</h2>
+          <p> Dates: 23 June to 3 July, 2023  <br>
+             Venue: Gallerie Romain Rolland, Alliance Française de Delhi, Lodhi Road, New Delhi <br></p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide ">    
+    <div class="product-card5">
+      <a class="eventspagelinks" href="artforpaws.html">
+        <div class="eventspageimg">
+          <img style="object-fit: fill;" src="../Events-img/artforpaws2 (2).JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Art for Paws</h2>
+          <p> Dates: 8th to 11th of June, 2023  <br>
+             Venue: Art Gallery, CSOI, Vinay Marg, Chanakyapuri, New Delhi <br></p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide">      
+    <div class="product-card5">
+      <a class="eventspagelinks" href="tagspectrumofcreativity.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/tagspectrum.png" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Spectrum of Creativity - TAG</h2>
+          <p>Dates: Sat, 15 April, 2023<br>
+            Venue: D-24, Defence Colony, New Delhi - 110024
+          </p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide"> 
+    <div class="product-card5">
+      <a class="eventspagelinks" href="dhoomimal.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/dhoomimal.JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Dhoomimal Gallery of Divergent practices</h2>
+          <p>Dates: 19th of Mar to 10th of May 2023 <br>
+            Venue: G-42, Connaught Place, New Delhi-110001</p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide">      
+    <div class="product-card5">
+      <a class="eventspagelinks" href="artofindia.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/artofindia (1).JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h2>Art of India 2023</h2>
+          <p>Dates: APRIL 7th - 13th, 2023 <br>
+            Venue: BIKANER HOUSE, Pandara Road, New Delhi 110003</p>
+        </div>
+      </a>
+    </div>
+</div>
+<div class="swiper-slide"> 
+<div class="product-card5">
+  <a class="eventspagelinks" href="indiadesign.html">
+    <div class="eventspageimg">
+      <img src="../Events-img/indiadesign2023.JPG" alt="image">
+    </div>
+    <div class="eventspageinfo">
+      <h2>India Design 2023 ID</h2>
+      <p>Dates: February 23th - 26th, 2023 <br>
+        Venue: New Delhi's sprawling NSIC Grounds in Okhla</p>
+    </div>
+  </a>
+</div>
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+
+</section>
+
+<section class="eventzsection"> 
+
+  <h1 class="topic magin-top">Art Events</h1>
+  <hr class="mg-btom">
+
+    <div class="swiper mySwiper4">
+<div class="swiper-wrapper">
+  <div class="swiper-slide">    
+    <div class="product-card6">
+      <a class="eventspagelinks" href="interfacesevent.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/interfaces3.JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h3>INTERFACES - Part 1</h3>
+          <p>Dates: 23 June to 3 July, 2023<br>
+            Venue: Gallerie Romain Rolland , Alliance Française de Delhi , Lodhi Road, New Delhi
+          </p>
+        </div>
+      </a>
+    </div>
+</div>
+<div class="swiper-slide">    
+  <div class="product-card6">
+    <a class="eventspagelinks" href="artforpawspage.html">
+      <div class="eventspageimg">
+        <img src="../Events-img/artforpaws2 (2).JPG" alt="image">
+      </div>
+      <div class="eventspageinfo">
+        <h3>Art For Paws</h3>
+        <p>Dates: 8th to 11th of June, 2023<br>
+          Venue: Art Gallery, CSOI, Vinay Marg, Chanakyapuri, New Delhi
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+  <div class="swiper-slide">    
+    <div class="product-card6">
+      <a class="eventspagelinks" href="tagspectrumofcreativity.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/tagspectrum.png" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h3>Spectrum of Creativity - TAG</h3>
+          <p>Dates: Sat, 15 April, 2023<br>
+            Venue: D-24, Defence Colony, New Delhi - 110024
+          </p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide">      
+    <div class="product-card6">
+      <a class="eventspagelinks" href="dhoomimal.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/dhoomimal.JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h3>Dhoomimal Gallery of Divergent practices</h3>
+          <p>Dates: 19th of Mar to 10th of May 2023 <br>
+            Venue: G-42, Connaught Place, New Delhi-110001</p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide"> 
+    <div class="product-card6">
+      <a class="eventspagelinks" href="artofindia.html">
+        <div class="eventspageimg">
+          <img style="object-fit: fill;" src="../Events-img/artofindia (1).JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h3>Art of India 2023</h3>
+          <p>Dates: APRIL 7th - 13th, 2023 <br>
+            Venue: BIKANER HOUSE, Pandara Road, New Delhi 110003 <br></p>
+        </div>
+      </a>
+    </div>
+</div>
+<div class="swiper-slide"> 
+  <div class="product-card6">
+    <a class="eventspagelinks" href="indiaartfair.html">
+      <div class="eventspageimg">
+        <img style="object-fit: fill;" src="../news-img/iartf1.jpg" alt="image">
+      </div>
+      <div class="eventspageinfo">
+        <h3>India Art Fair 2023</h3>
+        <p>Dates: February 9th - 12th 2023 <br>
+          Venue: NSIC Exhibition Grounds, Okhla, New Delhi <br></p>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="swiper-slide"> 
+  <div class="product-card6">
+    <a class="eventspagelinks" href="kochi.html">
+      <div class="eventspageimg">
+        <img style="object-fit: fill;" src="../Events-img/Kochi-muzirisbiennale.jpg" alt="image">
+      </div>
+      <div class="eventspageinfo">
+        <h3>Kochi-Muziris Biennale</h3>
+        <p>Dates: 12 December, 2022 - 10 April, 2023 <br>
+          </p>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="swiper-slide"> 
+  <div class="product-card6">
+    <a class="eventspagelinks" href="sumakshi.html">
+      <div class="eventspageimg">
+        <img style="object-fit: fill;" src="../news-img/sumakshi.jpg" alt="image">
+      </div>
+      <div class="eventspageinfo">
+        <h3>Afterlife by Sumakshi Singh</h3>
+        <p>Dates: 27th January - 2nd March, 2023 <br>
+          Venue: F-320, Old MB Mall, Lado Sarai, New Delhi-110030 <br></p>
+      </div>
+    </a>
+  </div>
+</div>
+
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+
+</section>
+
+ <!-- main -->
+
+ <section class="eventzsection"> 
+
+  <h1 class="topic magin-top">Literature Events</h1>
+  <hr class="mg-btom">
+
+    <div class="swiper mySwiper4">
+<div class="swiper-wrapper">
+  <div class="swiper-slide">    
+    <div class="product-card6">
+      <a class="eventspagelinks" href="IICevent.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/IICevent (1).JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h3>A Book discussion - India's Finance...</h3>
+          <p>Dates: July 4th, 2023<br>
+            Venue:  India International Centre. 40, Max Mueller Marg New Delhi 110003</p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide">    
+    <div class="product-card6">
+      <a class="eventspagelinks" href="ChappaiChhabiVoll2.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/Chappai Chhabi  (2).jpeg" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h3>Chappai Chhabi Vol. 2 - Book Launch</h3>
+          <p>Dates: 24 June, 2023 <br>
+            Venue:  Gallerie Romain Rolland , Alliance Française de Delhi , Lodhi Road, New Delhi</p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide">      
+    <div class="product-card6">
+      <a class="eventspagelinks" href="keralalitfest.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/keralalitfest1.JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h3>Kerala Literature Festival</h3>
+          <p>Dates: January 12 to 15, 2023 <br>
+          Venue: Kozhikode beach</p>
+        </div>
+      </a>
+    </div>
+</div>
+  <div class="swiper-slide"> 
+    <div class="product-card6">
+      <a class="eventspagelinks" href="jaipurlitfest.html">
+        <div class="eventspageimg">
+          <img src="../Events-img/jlf.JPG" alt="image">
+        </div>
+        <div class="eventspageinfo">
+          <h3>Jaipur Literature Festival</h3>
+          <p>Dates: January 19 to 23, 2023 <br>
+            Venue: Hotel Clarks Amer</p>
+        </div>
+      </a>
+    </div>
+</div>
+<div class="swiper-slide"> 
+  <div class="product-card6">
+    <a class="eventspagelinks" href="muskanlitfest.html">
+      <div class="eventspageimg">
+        <img src="../Events-img/Muskaan1.JPG" alt="image">
+      </div>
+      <div class="eventspageinfo">
+        <h3>Muskaan Literature Festival</h3>
+        <p>Dates: January 10 to 13, 2023 <br>
+          Venue: SAMVET Auditorium, Ground Floor & India International Centre</p>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="swiper-slide"> 
+  <div class="product-card6">
+    <a class="eventspagelinks" href="banglore.html">
+      <div class="eventspageimg">
+        <img src="../Events-img/banglorelitfest.JPG" alt="image">
+      </div>
+      <div class="eventspageinfo">
+        <h3>Bangalore literature Festival</h3>
+        <p>Dates: January 19 to 23, 2023 <br>
+          Venue: Hotel Clarks Amer</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+
+</section>
+
+
+<!-- <section class="product"> 
+
+  <h1 class="topic" style="margin-top:50px">Design Events</h1>
+  <hr class="mg-btom">
+
+<div class="eventspageflex">
+  <div class="product-card6">
+    <a class="eventspagelinks" href="#">
+      <div class="eventspageimg">
+      </div>
+      <div class="eventspageinfo">
+        <h2>Coming Soon</h2>
+        <p>To be determined</p>
+      </div>
+    </a>
+  </div>
+  <div class="product-card6">
+    <a class="eventspagelinks" href="#">
+      <div class="eventspageimg">
+      </div>
+      <div class="eventspageinfo">
+        <h2>Coming Soon</h2>
+        <p>To be determined</p>
+      </div>
+    </a>
+  </div>
+  <div class="product-card6">
+    <a class="eventspagelinks" href="#">
+      <div class="eventspageimg">
+      </div>
+      <div class="eventspageinfo">
+        <h2>Coming Soon</h2>
+        <p>To be determined</p>
+      </div>
+    </a>
+  </div>
+</div>  
+
+
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+
+<footer>
+  <div class="footer-container">
+    
+
+  <div>
+    <a href="submissions.html">Submissions</a><a href="aboutus.html">About Us</a>
+  </div>
+  <p class="language">Follow Us On:</p> 
+  <p>
+    <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a> 
+    <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a> 
+    <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a> </p>
+    <p>
+    <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+    <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a></p> 
+   <p class="light">@2022 Hyperglot Solutions OPC Private Limited . All Rights Reserved.</p>
+</footer>
+  
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</body>
+</html>
