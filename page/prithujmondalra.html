@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script defer src="../index.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <script defer src="../slider.js"></script>
+  <script defer src="../observer.js"></script>
+  
+  <title>Prithuj Mondal</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../images/logo1.jpg" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="../index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+              <a href="recentreleases.html">Recent Releases</a>
+              <a href="featuredauthors.html">Featured Authors</a>
+              <a href="emergingauthors.html">Emerging Authors</a>
+              <a href="authorsinspotlight.html">Authors in Spotlight</a>
+              <a href="litvirtualgallery.html">Virtual Gallery</a>
+           </div>
+           </div></li>
+           <li><div class="dropdown"><a href="design.html">Design</a>
+            <div class="dropdown-content">
+              <a href="featuredbrands.html">Featured Brands</a>
+              <a href="emergingbrands.html">Emerging Brands</a>
+              <a href="designerinsoptlight.html">Designers in Spotlight</a>
+              <a href="vgdesign.html">Virtual Gallery</a>
+          </div>
+          </div></li>
+          <li><a href="events.html">Events</a></li>
+           <li><div class="dropdown"><a href="news.html">News</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art Events</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="submissions.html">Submissions</a></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+         <div id="sidebar" class="sidebar more">
+          <div><p><a href="../index.html">Home</a></p></div>
+          <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="3" class="show"><a href="design.html">Design</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="events.html">Events</a></p></div>
+          <div><p id="4" class="show"><a href="news.html">News</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="aboutus.html">About Us</a></p></div>
+          <div><p><a href="submissions.html">Submissions</a></p></div>
+          <div><p id="5" class="show">Follow Us<i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+        </div>
+  
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+            <div><p><a href="recentreleases.html">Recent Releases</a></p></div>
+            <div><p><a href="featuredauthors.html">Featured Authors</a></p></div>
+            <div><p><a href="emergingauthors.html">Emerging Authors</a></p></div>
+            <div><p><a href="authorsinspotlight.html">Authors in Spotlight</a></p></div>
+            <div><p><a href="litvirtualgallery.html">Virtual Gallery</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more3">
+            <div><p><a href="featuredbrands.html">Featured Brands</a></p></div>
+            <div><p><a href="emergingbrands.html">Emerging Brands</a></p></div>
+            <div><p><a href="designerinsoptlight.html">Designers in Spotlight</a></p></div>
+            <div><p><a href="vgdesign.html">Virtual Gallery</a></p></div>
+          </div>
+  
+           <div id="sidebar" class="sidebar more4">
+             <div><p><a href="galleries.html">Art Events</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="designerinsoptlight.html">Culture & Lifestyle</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more5">
+            <div><p><a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"> </i> Instagram</a></p></div>
+            <div><p><a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> Facebook</a></p></div>
+            <div><p><a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i> Twitter</a></p></div>
+            <div><p><a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p></div>
+            <div><p><a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"> </i> Youtube</a></p></div>
+          </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+  
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">Prithuj Mondal</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2">
+    <h3 class="light-dark"></h3>
+    <div class="flex1">
+      <div class="card-flex1">
+        <div class="topartistcontainer">
+          <div class="imagesartistcontainer">
+          <img class="artistprofileimages" src="../Events-img/redrawing artscapes/prithujmondal/prithujmondal (1).jpeg" alt="Artist Image">
+          <p class="credit">Image Credit - Artist</p>
+          </div>
+          <div class="someheight">
+             <p class="artistfirstpara">Prithuj Mondal's works are a
+              study in the violent fusion of
+              symmetry and asymmetry,
+              geometric forms and human
+              shapes, artistic consistency and
+              singular rebelliousness.
+              Intricacies of form and shapes
+              might overwhelm the visual sense
+              but the emotions and human
+              experiences cannot escape the
+              audience. Mathematical forms
+              reach a fever pitch, a
+              contradiction of remarkable
+              proportions, and yet we are able
+              to discern it with ease.
+          </p>
+          <p>The forms are less than the
+            shapes and figures, yet more.
+            The vision is infinite, but
+            accessible. That is the power of
+            his art. </p>
+          </div>
+
+        </div>
+
+      <br>
+
+
+      <h3 class="artistpsubtopic">Gallery</h3>
+
+      <div style="margin: 0;" class="swiper mySwiper5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide ">   
+            <div class="simg-cont5">
+              <img class="artistpimg" src="../Events-img/redrawing artscapes/prithujmondal/prithujmondal (1).png" alt="">
+            </div>
+            <p class="credit">Image Credit - Artist</p>
+          </div>
+          <div class="swiper-slide ">   
+            <div class="simg-cont5">
+              <img class="artistpimg" src="../Events-img/redrawing artscapes/prithujmondal/prithujmondal (2).png" alt="">
+            </div>
+            <p class="credit">Image Credit - Artist</p>
+          </div>
+          <div class="swiper-slide ">   
+            <div class="simg-cont5">
+              <img class="artistpimg" src="../Events-img/redrawing artscapes/prithujmondal/prithujmondal (3).png" alt="">
+            </div>
+            <p class="credit">Image Credit - Artist</p>
+          </div>
+          <div class="swiper-slide ">   
+            <div class="simg-cont5">
+              <img class="artistpimg" src="../Events-img/redrawing artscapes/prithujmondal/prithujmondal (4).png" alt="">
+            </div>
+            <p class="credit">Image Credit - Artist</p>
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <br><br>
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- advertisement -->
+<div>
+  <div class="advertise" style="height: 900px;">
+    <img src="../ad3.jpeg" style="margin-top: 50px;" alt="sidead">
+</div>
+
+</div>
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+<footer>
+  <div class="footer-container">
+    
+
+  <div>
+    <a href="submissions.html">Submissions</a><a href="aboutus.html">About Us</a>
+  </div>
+  <p class="language">Follow Us On:</p> 
+  <p>
+    <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a> 
+    <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a> 
+    <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a> </p>
+    <p>
+    <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+    <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a></p> 
+   <p class="light">@2022 Hyperglot Solutions OPC Private Limited . All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+</body>
+</html>

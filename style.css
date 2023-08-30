@@ -7,6 +7,9 @@
 *{
   scroll-behavior: smooth;
 }
+.someheight{
+  min-height: 200px;
+}
 :root{
   --grey:rgb(240, 240, 240);
   --light-grey:rgb(239, 239, 239);
