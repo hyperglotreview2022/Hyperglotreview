@@ -49,6 +49,10 @@
   padding-bottom: 5px;
 }
 .eventzsection{
+  margin: 0;
+  padding:0;
+}
+.eventzsection1{
   margin: 0 2vw;
   padding:0 2vw;
 }
@@ -540,8 +544,16 @@ input {
 }
 
 
-
-
+.instapage{
+  margin-top: 20px;
+}
+.instapage h4{
+margin: 0;
+font-size: 20px;
+}
+.instapage .italic{
+  font-style: italic;
+}
 
 
 
@@ -2072,7 +2084,7 @@ text-decoration: none;
 }
 .product-card5 {
   flex: 0 0 auto;
-  width: 40vw;
+  width: 30vw;
   height: 430px;
   margin-right: 40px;
   overflow: hidden;
@@ -2087,7 +2099,7 @@ text-decoration: none;
   background-color: grey;
   height: 300px;
   object-fit:cover;
-  width: 40vw;
+  width: 30vw;
 }
 .eventspageimg{
   background-color: grey;

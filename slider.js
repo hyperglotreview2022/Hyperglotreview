@@ -21,11 +21,40 @@ breakpoints: {
     spaceBetween: 0,
   },
   1024: {
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 0,
   },
 },
 });
+
+var swiper = new Swiper(".mySwiper6", {
+  // slidesPerView: 2,
+  loop: true,
+  centeredSlides: false,
+  spaceBetween: 0,
+  pagination: {
+  el: ".swiper-pagination",
+  type: "fraction",
+  },
+  navigation: {
+  nextEl: ".swiper-button-next",
+  prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+  },
+  });
 
 var swiper = new Swiper(".mySwiper4", {
   // slidesPerView: 2,
