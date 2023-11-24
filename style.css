@@ -16,7 +16,6 @@
   --more-grey:rgb(62, 62, 62);
   --footer-color:#202223;
   --dark-grey:rgb(66, 66, 66);
-  
 }
 
 .artistpsubtopic{
@@ -55,6 +54,9 @@
 .eventzsection1{
   margin: 0 2vw;
   padding:0 2vw;
+}
+.swiperslider10{
+  width: 100vw;
 }
 .swiper{
   margin: 0 30px;
@@ -614,12 +616,7 @@ span:hover{
   object-fit: cover;
 }
 .sliderimg{
-  animation-name: zoom;
-  animation-duration: 3s;
-}
-@keyframes zoom {
-  from {transform: scale(1);}
-  to {transform: scale(1.05);}
+  width: 100%;
 }
 
 /* Hide the images by default */

@@ -10,7 +10,6 @@ const sectionOneObserver = new IntersectionObserver(function(
   sectionOneObserver
 ) {
   entries.forEach(entry => {
-   
     if (!entry.isIntersecting) { 
       header.classList.remove("nav-scrolled");
     } else {

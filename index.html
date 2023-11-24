@@ -23,6 +23,7 @@
   <script defer src="slider.js"></script>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animatedslider.css">
   <link rel="icon" type="image/x-icon" href="HyperglotLogos.png">
@@ -210,33 +211,59 @@
 
   <!-- top-section -->
   <section>
-    <div class="slideshow-container">
+    <div class="swiper mySwiper20 slideshow-container">
+    <div class="swiper-wrapper" style="margin-left: 0;">
 
       <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img class="sliderimg" src="../images/images1.JPG" alt="slider image 1" style="width:100%">
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/images1.JPG" alt="slider image 1" style="width:100%" loading="lazy">
       </div>
     
-      <div class="mySlides fade">
-        <img class="sliderimg" src="../images/images2.JPG" alt="slider image 2" style="width:100%">
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/images2.JPG" alt="slider image 2" style="width:100%" loading="lazy">
       </div>
     
-      <div class="mySlides fade">
-        <img class="sliderimg" src="../images/images3.JPG" alt="slider image 3" style="width:100%">
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/images3.JPG" alt="slider image 3" style="width:100%" loading="lazy">
       </div>
-      <div class="mySlides fade">
-        <img class="sliderimg" src="../images/images4.JPG" alt="slider image 4" style="width:100%">
+
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/images4.JPG" alt="slider image 4" style="width:100%" loading="lazy">
       </div>
-      <div class="mySlides fade">
-        <img class="sliderimg" src="../images/images5.JPG" alt="slider image 4" style="width:100%">
+
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/images5.JPG" alt="slider image 5" style="width:100%" loading="lazy">
       </div>
-      <div class="mySlides fade">
-        <img class="sliderimg" src="../images/images6.JPG" alt="slider image 4" style="width:100%">
+
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/images6.JPG" alt="slider image 6" style="width:100%" loading="lazy">
       </div>
+
+      <!-- <div class="swiper-slide">
+        <img class="sliderimg" src="../images/11 (1).JPG" alt="slider image 6" style="width:100%" loading="lazy">
+      </div>
+
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/11 (2).JPG" alt="slider image 6" style="width:100%" loading="lazy">
+      </div>
+
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/11 (3).JPG" alt="slider image 6" style="width:100%" loading="lazy">
+      </div>
+
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/11 (4).JPG" alt="slider image 6" style="width:100%" loading="lazy">
+      </div>
+
+      <div class="swiper-slide">
+        <img class="sliderimg" src="../images/11 (5).JPG" alt="slider image 6" style="width:100%" loading="lazy">
+      </div> -->
+
       <!-- Next and previous buttons -->
       <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
     </div>
+  </div>
     <br>
     
   </section>
@@ -1355,7 +1382,18 @@
   </footer>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper20", {
+      spaceBetween: 0,
+      lazy: true,
+      autoplay: {
+        delay: 4000,
+      },
+    });
+  </script>
  
 
 </body>
