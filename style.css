@@ -697,9 +697,25 @@ span:hover{
   font-size: 50px;
   margin: 0 0 20px 150px ;
 }
+.iafeditorsnote{
+  font-family: 'Cinzel', serif;
+  padding: 20px 10vw;
+  font-weight: 500;
+}
 hr{
   margin-bottom: 70px;
   width: 90%;
+}
+.topic5{
+  font-family: 'Cinzel', serif;
+  /* font-family: 'Texturina', serif; */
+  font-weight: 700;
+  font-size: 40px;
+  margin: 40px 0 20px 10%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 80%;
+  padding: 15px 0;
 }
 .mg-bt{
   width: 100%;
@@ -2172,7 +2188,18 @@ text-decoration: none;
   width: 15vw;
   transition: 0.5s;
 }
+.downloadbtn1{
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 15vw;
+  transition: 0.5s;
+}
 .downloadbtn:hover{
+  cursor: pointer;
+  box-shadow: 12px 10px 10px rgb(232, 232, 232);
+}
+.downloadbtn1:hover{
   cursor: pointer;
   box-shadow: 12px 10px 10px rgb(232, 232, 232);
 }
@@ -2187,11 +2214,57 @@ text-decoration: none;
 .vgvadhera{
   width: 60vw;
 }
-
+.iafpageflex{
+  padding: 20px 10%;
+  display: flex;
+}
+.iafpageimg{
+  width: 20vw;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.iafwrittenpad{
+  padding: 0 2vw;
+}
+.iafwritten{
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  line-height: 40px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.iafwrittenbig{
+  font-size: 20px;
+  width: 20vw;
+}
+.iafnames{
+  width: 40vw;
+  font-weight: 400;
+}
+.editorsregards{
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  padding-left: 10vw;
+}
 
 
 @media screen and (max-width: 1200px){
-  
+  .iafpageflex{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .iafpageimg {
+    width: 100%;
+  }
+  .iafwritten{
+    display: flex;
+    gap: 10px;
+  }
+  .iafnames{
+    width:50vw;
+    flex-wrap: wrap;
+  }
   .about-cont p{
     margin-left: 40px;
   }
@@ -2225,6 +2298,9 @@ text-decoration: none;
     font-weight: 300;
   }
   .downloadbtn{
+    width: 50vw;
+  }
+  .downloadbtn1{
     width: 50vw;
   }
   .swiper{
@@ -2371,7 +2447,13 @@ ul li{
 .more5{
   left: -1000px;
 }
+.more6{
+  left: -1000px;
+}
 .more5.etc{
+  left:0;
+}
+.more6.etc{
   left:0;
 }
 .more1{
@@ -2706,7 +2788,14 @@ text-align: left;
   }
 }
 @media screen and (max-width: 768px){
-
+  .iafwritten{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .iafnames{
+    width: 100%;
+  }
   .form button{
     width: 190px;
     font-size: 22px;
@@ -3447,6 +3536,9 @@ p.content{
 }
 .downloadbtn{
   width: 90vw;
+}
+.downloadbtn1{
+  width: 80vw;
 }
 .printissueheading{
   font-size:22px ;
