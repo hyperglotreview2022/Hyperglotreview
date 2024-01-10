@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
+
+body{
+  font-family: 'Familjen Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* h1{
+
+} */
+.topnav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px 5vw 20px ;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+.logo{
+  width: 6vw;
+}
+.logotext{
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-weight: 800;
+}
+.logotextblack1{
+  border: 2px solid black;
+  padding: 0px 10px 10px;
+}
+.logotextblack{
+  color: white;
+  background-color: black;
+  padding: 2px 10px 12px;
+}
+.navlinks{
+  display: flex;
+  flex-direction: row;
+  gap: 7vw;
+  padding: 10px 5vw;
+  border-bottom: 1px solid black;
+  margin: 0;
+  background-color: white;
+}
+.navlinks li{
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(40, 40, 40);
+  border-radius: 5px;
+}
+.navlinks li:hover{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.herocontainer{
+  font-family: 'EB Garamond', serif;
+  display: flex;
+  padding: 20px 5vw 50px;
+  background-color: white;
+}
+.imgcontainer{
+  width: 45vw;
+  height: 500px;
+}
+.img,.img1,.img2,.img3{
+  width: 45vw;
+  height: 500px;
+  object-fit: cover;
+}
+.show2:hover , .show1:hover ,.show3:hover ,.show4:hover{
+  background-color: rgb(14, 14, 14);
+}
+.herotextcont{
+  padding: 10px 0;
+  padding-left: 2vw;
+  border-bottom: 1px solid white;
+}
+.herotextcont:hover{
+  cursor: pointer;
+}
+.herofirsttext{
+  font-style: italic;
+}
+.herosectext{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.herolasttext{
+  font-family: 'Familjen Grotesk', sans-serif;
+}
+.herotextbigcont{
+  background-color: black;
+  color: white;
+  height: 500px;
+  width: 43vw;
+}
+.seemore{
+  font-family: 'Familjen Grotesk', sans-serif;
+  color: rgb(174, 174, 174);
+  padding: 20px 2vw;
+  transition: 0.3s;
+}
+.seemore:hover{
+  cursor: pointer;
+  color: white;
+}
+/* .herocontainer:hover .imgcontainer{
+  background-image: url('../Events-img/anandamoybanerji (5).JPG');
+} */
+.img1,.img2,.img3{
+  display: none;
+}
+.fromcontainer{
+  width: 40vw;
+  background-color: white;
+  position: relative;
+  padding: 30px 4vw;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 12px 12px 16px;
+}
+.fromimg{
+  width: 5vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: -2.5vw;
+}
+.from1{
+  font-weight: 800;
+  font-size: 30px;
+}
+.from2{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.from3{
+font-weight: 800;
+display: inline;
+}
+.from3:hover{
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.fromleft{
+  width: 20vw;
+}
+.fromright{
+  margin-top: 100px;
+  width: 20vw;
+  color: rgb(61, 61, 61);
+}
+.frommedcont{
+  display: flex;
+}
+.fixedimg{
+  position: fixed;
+  z-index: -10;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.newcontainer{
+  padding: 50px 5vw;
+  background-color: rgb(241, 241, 241);
+}
+.blankspacel{
+  width: 42vw;
+  height: 400px;
+}
+.blankspacel1, .blankspacel2, .blankspacel3{
+width: 42vw;
+}
+.blankspacel2{
+  height: 310px;
+}
+.blankspacel1, .blankspacel3{
+  height: 50px;
+  background-color: rgb(241, 241, 241);
+}
+.blankspacer{
+  width: 5vw;
+  height: 400px;
+  background-color: rgb(241, 241, 241);
+}
+.blankspace{
+  display: flex;
+}
+.frommedcont1{
+  display: flex;
+  flex-direction: row-reverse;
+}
