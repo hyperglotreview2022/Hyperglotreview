@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <script defer src="../literature.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>India Art Fair 2024</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../newestlogo.png" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="../index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <a href="spotlight.html">Artists in Spotlight</a>
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <a href="sculptures.html">Sculptures & Installations</a>
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+              <a href="recentreleases.html">Recent Releases</a>
+              <a href="featuredauthors.html">Featured Authors</a>
+              <a href="emergingauthors.html">Emerging Authors</a>
+              <a href="authorsinspotlight.html">Authors in Spotlight</a>
+              <a href="litvirtualgallery.html">Virtual Gallery</a>
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="design.html">Design</a>
+            <div class="dropdown-content">
+              <a href="featuredbrands.html">Featured Brands</a>
+              <a href="emergingbrands.html">Emerging Brands</a>
+              <a href="designerinsoptlight.html">Designers in Spotlight</a>
+              <a href="vgdesign.html">Virtual Gallery</a>
+          </div>
+          </div></li> -->
+          <li><a href="events.html">Events</a></li>
+           <li><div class="dropdown"><a href="news.html">News</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art Events</a>
+             <a href="eliterature.html">Literary Events</a>
+             <a href="#">Culture & Lifestyle</a>
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><div class="submission">Submissions</div></li>
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+         <div id="sidebar" class="sidebar more">
+          <div><p><a href="../index.html">Home</a></p></div>
+          <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <!-- <div><p id="3" class="show"><a href="design.html">Design</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div> -->
+          <div><p><a href="events.html">Events</a></p></div>
+          <div><p id="4" class="show"><a href="news.html">News</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="aboutus.html">About Us</a></p></div>
+          <div><div class="submissionslink">Submissions</div></div>
+          <div><p id="5" class="show">Follow Us<i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+        </div>
+  
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div>
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div>
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+            <div><p><a href="recentreleases.html">Recent Releases</a></p></div>
+            <div><p><a href="featuredauthors.html">Featured Authors</a></p></div>
+            <div><p><a href="emergingauthors.html">Emerging Authors</a></p></div>
+            <div><p><a href="authorsinspotlight.html">Authors in Spotlight</a></p></div>
+            <div><p><a href="litvirtualgallery.html">Virtual Gallery</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more3">
+            <div><p><a href="featuredbrands.html">Featured Brands</a></p></div>
+            <div><p><a href="emergingbrands.html">Emerging Brands</a></p></div>
+            <div><p><a href="designerinsoptlight.html">Designers in Spotlight</a></p></div>
+            <div><p><a href="vgdesign.html">Virtual Gallery</a></p></div>
+          </div>
+  
+           <div id="sidebar" class="sidebar more4">
+             <div><p><a href="galleries.html">Art Events</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="designerinsoptlight.html">Culture & Lifestyle</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more5">
+            <div><p><a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"> </i> Instagram</a></p></div>
+            <div><p><a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> Facebook</a></p></div>
+            <div><p><a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i> Twitter</a></p></div>
+            <div><p><a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p></div>
+            <div><p><a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"> </i> Youtube</a></p></div>
+          </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+  
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">India Art Fair 2024</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2 widith">
+    <div class="flex1">
+      <div class="card-flex1">
+        
+        <img src="../virtualgalleryimg/indiaartfair2024/iaf.JPG" alt="Artist Image">
+        <p class="credit">Image Credit - Hyperglot Review</p>
+        <p class="credit">Text Credit - India Art Fair 2024</p>
+        <a href="./iaf24page.html" class="art-topic tag">India Art Fair 2024</a>
+
+        <p>Taking place annually in India's capital, New Delhi, the fair celebrates modern-day South Asia, combining cutting-edge contemporary visual art with modern masters and vernacular artistic traditions.</p>
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/anantart.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="anantartgalleryiaf24.html" class="art-topic">Anant Art Gallery</a>
+        <p class="contents1">Established in the early 2000s, Anant Art gallery has been one of the leading galleries in promoting contemporary South Asian art practices. Since its inception, it has engaged with a cross-section of young and established artists, providing multiple venue exhibitions, residencies and art fair representations. Aesthetically inclined towards the miniature technique and conceptually robust artworks, our vision is to promote various art forms in collaboration, and facilitate a new generation of art collectors and patrons by a meticulously curated platform.
+          </p>
+          <a href="anantartgalleryiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/anupamehta.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="anupamehtacontempraryiart24.html" class="art-topic">Anupa Mehta Contemporary Art</a>
+        <p class="contents1">Initiated in 2008, ANUPA MEHTA CONTEMPORARY ART (AMCA), earlier housed in an erstwhile textile mill in Mumbai India, is now located in Colaba on the Mumbai Art Mile. AMCA promotes mid-career contemporary artists through exhibitions and events. We stock art of several genres and periods at our stockroom, and provide art advisory services, acquisition support, and undertake commissions for/site-specific works.
+          </p>
+          <a href="anupamehtacontempraryiart24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/apparaogalleries.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="apparaogalleries.html" class="art-topic">Apparao Galleries</a>
+        <p class="contents1">Apparao Galleries is a leading Indian gallery with outposts in Chennai and New Delhi. Since its founding in 1983, the gallery has built a strong reputation for representing an exceptional range of modern and contemporary Indian artists. Along with organising compelling exhibitions, Apparao Galleries also runs a critically engaging and ambitious outreach programme to encourage academic research and international exchange.
+          </p>
+          <a href="apparaogalleries.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/artalive.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="artalivegalleryiaf24.html" class="art-topic">Art Alive Gallery</a>
+        <p class="contents1">Art Alive Gallery has looked at contemporary Indian art from a holistic lens. Founded in 2001 by Sunaina Anand, the gallery believes in engaging the artists as well as art lovers, stoking the inquisitive nature of the two sides and feeding it with the creative energy that defines the Indian art scene. The shows promoted by the gallery extend beyond the ordinary and intend to bridge the gap between artists and patrons to nurture a culture of engagement with art and encourage a deeper connect between the two worlds.
+          </p>
+          <a href="artalivegalleryiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/artexplore.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="artexploreiaf24.html" class="art-topic">Art Explore</a>
+        <p class="contents1">Established in 2016, we are a contemporary art gallery in New Delhi, India. We believe artistic expression extends far beyond the confines of exclusivity. Art speaks loudest when it transcends barriers, fostering conversation and connection. <br><br>
+
+          We curate exhibitions with intention, weaving relatable narratives through thought-provoking contemporary Indian art. Our artists hail from diverse backgrounds, their voices echoing concerns pertinent to our times - social justice, environmental anxieties, and everything in between. Myriad of perspectives challenge the status quo, offering a multifaceted vision of our nation's artistic landscape.
+          </p>
+          <a href="artexploreiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/artincept.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="artincept.html" class="art-topic">Art Incept</a>
+        <p class="contents1">Art Incept is a purpose-driven gallery that is dedicated to nurturing and promoting emerging talent in the visual arts. Our gallery operates with a “mentors first” approach, placing the artist's journey and development at the forefront of everything we do. Our team of experienced curators and experts are always available to provide guidance and support to artists, helping them navigate the complex world of art and reach their full potential.
+
+          Art Incept also runs the Inception Grant, a popular grant for young emerging artists. The grant receives over a 1,000 applications each year, and has become a significant stepping stone for South Asian artists looking to make their mark. Recognising the work done, the grant is now supported by collaborations from institutions like the Triveni Kala Sangam and the Amarnath Sehgal Museum. Art Incept also organises workshops and training sessions designed to help our artists hone their skills and expand their creative horizons. Our goal is to provide them with the knowledge, skills, and resources they need to succeed.
+          </p>
+          <a href="artincept.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/blueprint12.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="blueprint12iaf24.html" class="art-topic">Blueprint12</a>
+        <p class="contents1">Blueprint12 stands as an artist-centric contemporary art gallery with a distinct focus on the South Asian region. Guided by a vision that transcends national boundaries and a discerning perspective on shared art practices within the region, the gallery is committed to introducing art collectors to both emerging and established talents who continuously push the boundaries of their artistic expression.
+          </p>
+          <a href="blueprint12iaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/carpentersworkshopgallery.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="carpentersworkshopiaf24.html" class="art-topic">Carpenters Workshop Gallery</a>
+        <p class="contents1">Carpenters Workshop Gallery is a contemporary art gallery, focused on redefining the boundaries between art, sculpture and design. Operating since 2006 within the market of Functional Art and Collectible Design, Carpenters Workshop Gallery curates exhibitions that obscure traditional artistic genres. Carpenters Workshop Gallery has crafted an ecosystem that values individual expertise at the service of a collective artistic adventure.
+          </p>
+          <a href="carpentersworkshopiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/chatterjee&lal.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="Chatterjee&laliaf24.html" class="art-topic">Chatterjee & Lal</a>
+        <p class="contents1">Chatterjee & Lal was formed in 2003 by husband and wife team Mortimer Chatterjee and Tara Lal. Today based in Mumbai’s Colaba art district, the gallery is an important node in the city's maturing art scene. Whilst the gallery has always focused on the work of emerging and mid-career artists, more recently programming has included historical material that adds to the corpus of knowledge on twentieth century histories of art and design.
+
+          Gallery artists exhibit globally and the gallery participates in select art fairs. The directors are published authors, regularly sharing their insights on art in national and international publications.
+          </p>
+          <a href="Chatterjee&laliaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/DHI.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="DHIcontemporary.html" class="art-topic">DHI Contemporary</a>
+        <p class="contents1">Dhi Contemporary aims to be a one-stop destination for young and emerging artistic talents in India. At its core, Dhi Contemporary wants to create a new generation of collectors, and art enthusiasts in Hyderabad by bringing them in sync with the shifting practices of contemporary art globally. Envisioned by artist, art collector, and gallerist Bhargavi Gundala, Dhi Contemporary sets out to expand the critical dialogues Dhi Artspace has been fostering since 2014. Through a fresh set of curated exhibitions, performances, film screenings, site-specific commissions, and more, Dhi Contemporary will lead the city into a new chapter pledging to build its visual art scene at par with the other art centers of the country.
+          </p>
+          <a href="DHIcontemporary.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/emamiart.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="emamiartiaf24.html" class="art-topic">Emami Art</a>
+        <p class="contents1">Emami Art is a leading contemporary art gallery and space for cultural production. Established in 2017 with a focus on a future-forward, complex, multi-dimensional approach that echoes South Asia's history, socio-cultural and geo-political narratives, Emami Art has an inclusive, symbiotic framework where profitability supports sustainable resource regeneration and public service. The gallery is a green building and strictly maintains free access to all policies.
+
+ 
+
+          Emami Art represents emerging, mid-career and established contemporary artists. The gallery also has a dynamic programme of wide-ranging registers of exhibitions. Since its inception, Emami Art has curated and hosted large-scale to intimate shows and participated in national and international events and fairs. Our artists' works are also part of prominent national and international collections, including public foundations and museums.
+          </p>
+          <a href="emamiartiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/experimenter.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="experimenteriaf24.html" class="art-topic">Experimenter</a>
+        <p class="contents1">Experimenter was co-founded by Prateek & Priyanka Raja in 2009 in Kolkata, India. With a multidisciplinary approach, the gallery is an incubator for an ambitious and challenging contemporary practice. The program represents some of the most critical contemporary artists worldwide. The program, rooted in dialogue and dissent, is considered to be a 'pace-setter' for its region, and extends from exhibition-making to knowledge creation, through regular talks, performances, workshops and through its much acclaimed, annual curatorial intensive - Experimenter Curators' Hub. A second, more ambitious space was added in 2018, marking a deeper inquisition into the gallery's realm of interest. Its third space Experimenter Colaba, established in 2022, marks the commitment of its discursive programming to Mumbai, a city that in turn represents the diverse pluralities of the region.
+
+
+          The gallery attempts to expand the scope of contemporary practice beyond the ambit of its expected role. In 2016, its artist-book publishing wing was launched followed by the Experimenter Learning Program in 2018 which enables learning in fields of contemporary and performing arts, curatorship, film, writing, language and social culture. In 2019, Experimenter Outpost, an iterative exhibitions program outside the physical gallery temporarily inhabiting disused, characterful spaces was formed. 2020 marked the beginning of Experimenter Labs, an inclusive, experimental and multi- dimensional online platform in addition to the onsite gallery programming.
+          </p>
+          <a href="experimenteriaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/galleryespace.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="galleryespaceiaf24.html" class="art-topic">Gallery Espace</a>
+        <p class="contents1">Gallery Espace was established in New Delhi in 1989 by Renu Modi with the encouragement of M F Husain who also designed its distinctive galloping horse logo. The legendary painter was a friend of the Modis, one of India's foremost industrialists with a rich history of contribution in nation-building; in the mid-1980s, he also designed the Modi family home in New Delhi, which remains his only sculptural installation*. Spurred by her friendship with Husain, Manjit Bawa and other artists, Mrs Modi found herself drawn into the world of Indian art. And when Husain spoke of the need for professionally run galleries in the then rapidly growing Indian art market, she decided to take the plunge. 
+
+          Gallery Espace opened its doors in October 1989 with a show of autobiographical works* by Husain. It was located in a small boardroom of a corporate office in New Delhi's upscale New Friends Colony market. Three decades on, it continues to occupy the same address though it is now a two tiered space with state-of-the-art lighting and display systems.
+          </p>
+          <a href="galleryespaceiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/galleryragini.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="galleryraginiiaf24.html" class="art-topic">Gallery Ragini</a>
+        <p class="contents1">Gallery Ragini established in September 2005 aims to provide an innovative forum for contemporary art and traditional Indian art forms. Since its inception the gallery has been working towards creating opportunities for young Indian artists to hone their talents and showcase their art.
+
+          It is the gallery's ongoing endeavor to act as a medium to increase awareness, understanding and appreciation of contemporary art forms among the general public through its gallery space, outreach programs, art residencies and travelling art shows. Also the gallery engages in programs to enhance art knowledge amongst young artists as well as young collectors by way of conducting talks and interviews of established contemporary artists.
+          
+          At the gallery we also aim at providing a platform for films and art performances. The program Screenings aims to bring forward Independent contemporary cinema and encourages film makers and critics to present their views. Also the program often discusses Hollywood and Bollywood classics and their relevance to the current film scenario.
+          
+          Critically acclaimed for its exhibition of Modern and Contemporary art and its pioneering educational and public events; the gallery has showcased different forms of art over the years and has had top Indian curators and art historians like Johny ML, Sushma Bahl, Keshav Malik, Dr. Alka Pandey and Arpana Kaur curating its shows.
+          </p>
+          <a href="galleryraginiiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/galleryske.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="galleryskeiaf24.html" class="art-topic">GALLERYSKE</a>
+        <p class="contents1">GALLERYSKE is dedicated to presenting art grounded in contemporary Indian culture. The gallery's roster includes a selection of established and emerging artists with distinct practices drawing deeply from the emotional, psychological and natural terrain of the region. The gallery aims to develop and support work that reflects upon and engages with the astonishingly rich set of experiences that constitute the current Indian moment.
+          </p>
+          <a href="galleryskeiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/inheritedartforums.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="inheritedartforumsiaf24.html" class="art-topic">Inherited Arts Forum</a>
+        <p class="contents1">Inherited Arts Forum is a collaboration between two contemporary galleries, Exhibit 320 & Blueprint12.  Under this banner, the mission of the gallery is to create a platform for folk and traditional artists to present their work and perspectives. The vision of the gallery is to enable folk and indigenous art forms to travel from its origins in traditional spiritual and religious expressions into the mainstream art world. 
+          </p>
+          <a href="inheritedartforumsiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/iramart.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="iramartiaf24.html" class="art-topic">Iram Art</a>
+        <p class="contents1">Iram Art's primary objective is to discover and promote artists of various genre and media, while simultaneously work with established artists to create a cohesive and supportive community of artists and collectors both locally and globally. We are committed to promoting ideas around contemporary art and critical thought within Ahmedabad, a city entrenched in cultural history, but without, until now, a strong contemporary art presence. It is our mission to set a global benchmark, considering best practices and supportive holistic programming to showcase local emerging talent along with Indian and International artists so that our community of artists, collectors, and art lovers have space within their own city to learn, discover and engage. We aim to create value and make a difference through showing a global standard of artworks, established and emerging and working with various stakeholders to create an ongoing curation of annual programming, both at our physical space in Ahmedabad, as well as online channels and with temporary multicity presence through art fairs and temporary exhibitions.
+          </p>
+          <a href="iramartiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/lattitude28.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="latitude28iaf24.html" class="art-topic">Latitude 28</a>
+        <p class="contents1">Since 2010, LATITUDE 28 has probed into new gallery practice, one that is lateral, disruptive and avant-garde. Discerning emerging artists making their mark in the Indian Subcontinent including Pakistan, Nepal and Sri Lanka and beyond such as Iran, LATITUDE 28’s artists respond to the critical conversations of our times or the annals of their surreal imaginations. LATITUDE 28 has stimulated artists, writers, critics, researchers and curators to experiment with medium, material, dialogue, perspective and practice while fostering collectors, art enthusiasts and takers of a new era. These maker-market relationships have grown through the gallery's interactive incubation space, where ideas have been generated through curatorial projects within art history and socio-political contexts, site-specific artworks and artist talks. The gallery makes art accessible and inclusive with exhibitions located at the intersection of artists, art institutions, collectors and many different publics. With its critical writing on contemporary art through TAKE on Art Magazine, it has supported cutting-edge content, critical writing ensembles, workshops and awards for new writers. LATITUDE 28's vision is shaped by its Founder/Director, Bhavna Kakar, who is also the founder and editor of TAKE on Art – South Asia's leading contemporary art publication.
+          </p>
+          <a href="latitude28iaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/naturemorte.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="naturemorteiaf24.html" class="art-topic">Nature Morte</a>
+        <p class="contents1">Nature Morte was the first gallery from India to be included in the most important international art fairs (starting with The Armory Show in New York in 2005) and has participated in Art Basel, Fiac Paris, Art Basel Miami Beach, Paris Photo, Art Dubai, Tokyo Art Fair, Art Basel Hong Kong, Abu Dhabi Art Fair, and Frieze London and New York, among others. Nature Morte has also organized projects and exhibitions with international artists coming to India and combining their works with those of Indian artists to foster cross-cultural communications. In addition to its own programming, Nature Morte has collaborated with institutions in India such as the British Council, the Alliance Francais, the Sanskriti Foundation, the India International Centre, the India Habitat Centre, Max Mueller Bhavan, the Italian Cultural Center, Khoj International Artists Association, the Dr. Bhau Daji Lad Museum, and the National Gallery of Modern Art in both New Delhi and Mumbai.
+          </p>
+          <a href="naturemorteiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/neugerriemschnieder.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="neugerriemschniederiaf24.html" class="art-topic">neugerriemschnieder</a>
+        <p class="contents1">neugerriemschneider was established by Tim Neuger and Burkhard Riemschneider in 1994 in Berlin and was inaugurated with an exhibition of Jorge Pardo. In its first two years, the gallery presented some of the first solo exhibitions of the then-little-known artists Olafur Eliasson, Sharon Lockhart, Michel Majerus, Tobias Rehberger, Elizabeth Peyton, Rirkrit Tiravanija and Pardo, who remain part of the program today. Steadily expanding over the past three decades, today neugerriemschneider also counts Ai Weiwei, Pawel Althamer, Thomas Bayrle, James Benning, Billy Childish, Keith Edmier, Cevdet Erek, Andreas Eriksson, Noa Eshkol, Mario García Torres, Isa Genzken, Shilpa Gupta, Thilo Heinzmann, Renata Lucas, Antje Majewski, Mike Nelson, Tomás Saraceno, Simon Starling, Thaddeus Strode and Pae White, as part of its program.
+          </p>
+          <a href="neugerriemschniederiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/rukshaanart.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="rukshaanartiaf24.html" class="art-topic">Rukshaan Art</a>
+        <p class="contents1">Rukshaan Art was established in 2007 by Rukshaan Krishna to promote contemporary art.  She works with a host of talented artists who belong to different parts of India and work with a variety of mediums and subjects.  After interacting closely with them and discovering their potential, the need to establish an artists' studio became imperative.
+        Rukshaan Art Studio was founded in 2009 in Baroda.  The studio nurtures painters, sculptors and printmakers who have demonstrated extraordinary skills and promise in the field of fine art, and also hosts camps and residencies for artists.  The studio stands strong, even today because of the support of its artists.
+          </p>
+          <a href="rukshaanartiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/shrineempire.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="shrineempireiaf24.html" class="art-topic">Shrine Empire</a>
+        <p class="contents1">Anahita Taneja and Shefali Somani founded Shrine Empire in 2008. Since its inception, Shrine Empire has consistently focused on promoting artists from the South Asian region whose practices emphasize process, research, and conceptual use of media and material. The gallery's programming has created a unique identity for the space through curated exhibitions and propositions, as well as commissioned projects which explore crossings between aesthetics and social/political concerns of its immediate context. Shrine Empire's community includes a large network of local and international partners, and in collaboration, the gallery contributes to building discourse on contemporary art in South Asia through discussions, artist talks, workshops and patronage. For the past several years, the gallery extended its outreach programs to build a strong base for the arts locally through sustained educational initiatives and by supporting alternative practices. In 2017 these initiatives were formally consolidated as the not-for-profit initiative, Prameya Art Foundation.
+          </p>
+          <a href="shrineempireiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/taoartgallery.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="taoartgalleryiaf24.html" class="art-topic">Tao Art Gallery</a>
+        <p class="contents1">Established in the year 2000, Tao has developed into a well-recognized brand in the Mumbai art space. Guided by connoisseur and self-taught artist, Kalpana Shah, it has seen the art market in all its highs and lows. From the days when the gallery's walls were resplendent with the works of Indian Masters like Hussain, Raza, and Tyeb Mehta in the early 2000's, to recovery after the financial crisis with a new younger crop of artists, Tao has experienced many waves of change. 
+          In its 20-year history, Tao has curated uniquely conceptualized shows highlighting diverse art forms like painting, photography, sculpture, video, performance as well as installation arts in its two exhibition galleries. The Gallery is very open-minded towards any creative expression and emphasizes on the powerful and innovative presentation of artistic ability, building a thought provoking experience for all its viewers and inviting dialogue on culture, aesthetics and the tradition of visual arts. Tao has also been actively involved in publishing various art books and organizing art education workshops, interactive sessions with artists and other knowledge-based lectures that aim to propagate love for art, and boost the presence of Indian Art in the global arena. Tao's macro-vision sees art not in isolation, but as having a cohesive relationship with life itself.
+          </p>
+          <a href="taoartgalleryiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../virtualgalleryimg/indiaartfair2024/vadehraart.JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="vadehraartiaf24.html" class="art-topic">Vadehra Art Gallery</a>
+        <p class="contents1">Vadehra Art Gallery's active and comprehensive programming takes the form of carefully curated and frequent exhibitions at two prominent locations in Delhi, alongside art events, engaging conversations and a growing digital platform, including virtual exhibitions and an online shop. With a maturing global presence, the gallery continues to present curated projects at prestigious art fairs and institutional venues around the world, including the Frieze fairs in London and New York, and Art Basel in Basel and Hong Kong, among others.
+
+          As a key artistic interlocutor to regional and international audiences, the gallery ventured into publishing in 1996, finding a crucial need for adequate documentation, critical writing, and quality reproduction of images in Indian art. Over the last two decades, the gallery has published several books and monographs in collaboration with major publishing houses like Penguin and Prestel, as well as hundreds of illustrated exhibition catalogues, in addition to contemporaneously producing literature on ongoing exhibitions and artist projects.
+          </p>
+          <a href="vadehraartiaf24.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+   
+
+  </div>
+
+
+<!-- advertisement -->
+<div>
+  <div class="advertise" style="height: 1200px;">
+    <img src="../ad6.jpeg" style="margin-top: 30px;" alt="sidead">
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+<footer>
+  <div class="footer-container">
+    
+
+  <div>
+    <a href="submissions.html">Submissions</a><a href="aboutus.html">About Us</a>
+  </div>
+  <p class="language">Follow Us On:</p> 
+  <p>
+    <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a> 
+    <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a> 
+    <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a> </p>
+    <p>
+    <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+    <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a></p> 
+   <p class="light">@2022 Hyperglot Solutions OPC Private Limited . All Rights Reserved.</p>
+</footer>
+  
+</body>
+</html>
