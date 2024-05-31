@@ -2334,7 +2334,7 @@ text-decoration: none;
     margin: 0 10px;
   }
   .slideshow-container{
-    margin-top: 120px;
+    margin-top: 50px;
     height: 600px;
   }
   .slideshow-container img{
@@ -2399,13 +2399,13 @@ ul li{
   padding: 20px 0;
 }
 #hide{
-  width: 53px;
-  font-size: 24px;
-  padding: 15px;
+  font-size: 14px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid rgb(94, 94, 94);
   display: none;
   text-align: center;
+  margin-right: 5px;
 }
 #menu.hide{
   display: none;
@@ -2417,7 +2417,7 @@ ul li{
   display: block;
   position: absolute;
   /* left: -1000px; */
-  top: 100px;
+  top: 70px;
   width: 30vw;
   background-color: rgb(255, 254, 254);
   transition: 1s ease;
@@ -2860,7 +2860,7 @@ text-align: left;
     height: 100px;
   }
   .logo{
-    height: 55px;
+    height: 25px;
     width: auto;
     padding-left: 10px;
     margin-right: 40px;
@@ -2868,8 +2868,9 @@ text-align: left;
 
   nav{
     background: white;
-    padding: 15px;
+    padding: 20px 10px;
     margin: 0;
+    height: auto;
   }
   #search{
     display: inline;
@@ -2894,8 +2895,8 @@ text-align: left;
     width: 100vw;
   }
   #menu{
-    font-size: 24px;
-    padding: 15px;
+    font-size: 14px;
+    padding: 10px;
     border-radius: 5px;
     margin-right: 5px;
     border: 1px solid  rgb(94, 94, 94);
@@ -3418,7 +3419,7 @@ p.content{
   padding: 0;
 }
 .f-sm{
-  margin-top: 150px;
+  margin-top: 90px;
 }
 .about-cont p{
   width: 95%;
@@ -3529,6 +3530,7 @@ p.content{
   height: 200px;
 }
 .slideshow-container1{
+  margin-top: 70px;
   height: 300px;
 }
 .slideshow-container1 img{
