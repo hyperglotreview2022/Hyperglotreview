@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <script defer src="../literature.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../HyperglotLogos.png">
+  <title>Kalabimb</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../newestlogo.png" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="../index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <!-- <a href="spotlight.html">Artists in Spotlight</a> -->
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <!-- <a href="sculptures.html">Sculptures & Installations</a> -->
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+              <a href="recentreleases.html">Recent Releases</a>
+              <a href="featuredauthors.html">Featured Authors</a>
+              <!-- <a href="emergingauthors.html">Emerging Authors</a>
+              <a href="authorsinspotlight.html">Authors in Spotlight</a> -->
+              <a href="litvirtualgallery.html">Virtual Gallery</a>
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="design.html">Design</a>
+            <div class="dropdown-content">
+              <a href="featuredbrands.html">Featured Brands</a>
+              <a href="emergingbrands.html">Emerging Brands</a>
+              <a href="designerinsoptlight.html">Designers in Spotlight</a>
+              <a href="vgdesign.html">Virtual Gallery</a>
+          </div>
+          </div></li> -->
+          <li><a href="events.html">Events</a></li>
+           <li><div class="dropdown"><a href="news.html">News</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art Events</a>
+             <a href="eliterature.html">Literary Events</a>
+             <!-- <a href="#">Culture & Lifestyle</a> -->
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <!-- <li><div class="submission">Submissions</div></li> -->
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+         <div id="sidebar" class="sidebar more">
+          <div><p><a href="../index.html">Home</a></p></div>
+          <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <!-- <div><p id="3" class="show"><a href="design.html">Design</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div> -->
+          <div><p><a href="events.html">Events</a></p></div>
+          <div><p id="4" class="show"><a href="news.html">News</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="aboutus.html">About Us</a></p></div>
+          <!-- <div><div class="submissionslink">Submissions</div></div> -->
+          <div><p id="5" class="show">Follow Us<i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+        </div>
+  
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <!-- <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div> -->
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <!-- <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div> -->
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+            <div><p><a href="recentreleases.html">Recent Releases</a></p></div>
+            <div><p><a href="featuredauthors.html">Featured Authors</a></p></div>
+            <!-- <div><p><a href="emergingauthors.html">Emerging Authors</a></p></div>
+            <div><p><a href="authorsinspotlight.html">Authors in Spotlight</a></p></div> -->
+            <div><p><a href="litvirtualgallery.html">Virtual Gallery</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more3">
+            <div><p><a href="featuredbrands.html">Featured Brands</a></p></div>
+            <div><p><a href="emergingbrands.html">Emerging Brands</a></p></div>
+            <div><p><a href="designerinsoptlight.html">Designers in Spotlight</a></p></div>
+            <div><p><a href="vgdesign.html">Virtual Gallery</a></p></div>
+          </div>
+  
+           <div id="sidebar" class="sidebar more4">
+             <div><p><a href="galleries.html">Art Events</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="designerinsoptlight.html">Culture & Lifestyle</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more5">
+            <div><p><a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"> </i> Instagram</a></p></div>
+            <div><p><a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> Facebook</a></p></div>
+            <div><p><a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i> Twitter</a></p></div>
+            <div><p><a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p></div>
+            <div><p><a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"> </i> Youtube</a></p></div>
+          </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+  
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">Kalabimb</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2 widith">
+    <div class="flex1">
+      <div class="card-flex1">
+        
+        <img src="../Events-img/kalabimb/1.JPG" alt="Artist Image">
+        <p class="credit">Image Credit - Hyperglot Review</p>
+        <div class="art-topic tag">Kalabimb</div>
+
+        <p>Just few words...<br/>
+          Kalabimb-24 is an exhibition of the finest works from 24 well established artists from all over India, showcasing the diverse and dynamic expressions of contemporary art. This year's collection bringstogether a vibrant array of artists, each pushing the boundaries of creativity through innovative techniques and thought-provoking themes.<br/>
+          Finetouch Art Motivators & Educators (FAME) conceiving with a view to encourage a rejuvenation of spirit within the visual art community. Art is an expression of emotion and the feeling deep within one's heart. We thought that all art enthusiasts may enjoy and at the same time provide an added avenue for the artists to show their works in their visual languages as Paintings, Digital, Photographs and mix media.<br/>
+          Indian art continually stirred by a long history of engagement with the practice of making art and of facing complex relationships with forces from within and beyond the country. Intense migration, exceptional mixture, precocious mastery, devotion to image and commitment to its critique, and a sentimental affection for the folk and the curiosity to mediate the western and modern - these are only some of the contexts of the art of the current time and these likewise implicate the currency of recognition as Indian art circulates quite actively in the region and elsewhere.<br/>
+          The diversity of Indian art became more robust by permeated artistic practice and cut across the realms of the personal and the political. The state of the earth, the position of women in society, the changing landscape of cities, the vexing spectre of identity were some of the most cogent themes and concerns informing the work of artists.<br/>
+          "FAME" curate group exhibitions in which artists revolves around the theme of "Interconnected Realities." In an era where the digital and physical realms increasingly intersect, this exhibition explores how artists navigate and merge these spaces. The artworks featured interrogate the complexities of identity, technology, and environment, reflecting the multifaceted experiences of our contemporary world.</p>
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (8).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Anitagoyal.html" class="art-topic">Anita Goyal</a>
+        <p class="contents1">Technically trained in fine arts, creatively inclined, dabbling in everything from flower arrangement to painting home furnishings commercially. Her niche is in abstract expressionism, inspired by post war modernism, and how the field borrows from abstract art floating between cubism, impressionism and expressionism.
+          This collection is inspired by post war impressionists and artists of that era. Following the example of J.M.W
+          turner and Mark Rothko who constructed their pictures from freely brushed colours, that took precedence over lines and contours. It is this movement that inspired the artist Anita to adopt the style and blend it with her abstract art.
+          </p>
+          <a href="./Anitagoyal.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (11).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Anjaligupta.html" class="art-topic">Anjali Gupta</a>
+        <p class="contents1">Anjali Gupta is an accomplished artist basically painting abstract expressionism form. She plays with colours contemplating on thoughts and feelings and giving a meaning to the abstract art. With a stint at Triveni Kala Sangam, Delhi, she added more depth and gestures with imagination and bold strokes. She tries to send a message to society through her art. She has had many exhibitions in leading galleries of Delhi NCR like Visual Art Gallery Habitat Centre, AIFACS, Artizen Gallery, RKG, Gandhi Art Gallery etc.
+          She has worked in Advertising, Marketing and Education industry and has about 19 years of experience. With a Masters and honorary PhD degree in Mass Communication, she teaches in colleges of Delhi NCR.
+          </p>
+          <a href="./Anjaligupta.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (14).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Suryasnatamohanty.html" class="art-topic">Suryasnata Mohanty</a>
+        <p class="contents1">Suryasnata Mohanty is an accomplished contemporary artist, whose works have been shown in the India Art Architecture & Design Biennale 2023 at Red Fort and in prestigious group shows at NGMA, Lalit Kala Akademi, Visual Arts Gallery, The Lalit, Salarjung Museum Hyderabad, Pracheen Kala Kendra Chandigarh, Tagore National Exhibition Bhopal etc, besides in solo shows at India Habitat Centre and DLF Promenade, New Delhi. She featured in the reputed art journal 'The Indian Creative Minds' September 2022 issue. Famously, the 'Kalash' (clay pot) painted by Suryasnata in a Lalit Kala Akademi camp at Garhi for 'Amrit Kalash Mahotsav' got selected and was held by Hon'ble PM of India to culminate the nationwide 'Meri Maati Mera Desh' campaign at India Gate in New Delhi in October 2023. Subsequently she became the first visual artist to receive the "Delhi Star Award 2023" in 'The Innovator of the Year' category. She is also a recipient of "Rashtriya Rajat Samman" of Kalavart Nyas, Ujjain, MP, during its silver jubilee international art camp in Dec 2023.
+          </p>
+          <a href="./Suryasnatamohanty.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (4).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Fullachandramistry.html" class="art-topic">Fulla Chandra Mistry</a>
+        <p class="contents1">Born in a quaint village nestled in the heart of West Bengal, this rising luminary in the world of art and painting embodies a unique fusion of rustic ethos and metropolitan flair. Despite his unassuming appearance, he possesses a prodigious talent for innovation, brimming with a supernatural ability to transmute imagination into tangible reality through his artistry.
+          His canvases breathe with the essence of his own ideology, a harmonious blend of traditional finesse and contemporary vision. Each stroke of his brush is
+          imbued with the whispers of rural landscapes and the pulse of urban life, creating a tapestry that resonates with viewers on a profound level.
+          </p>
+          <a href="./Fullachandramistry.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (12).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Harshinderloomba.html" class="art-topic">Harsh Inder Loomba</a>
+        <p class="contents1">Harsh, An M.F.A. from prestigious Academy of Fine Arts n.a. V.I. Surikov, Moscow, Russia and a recipient of Senior Fellow Award from Ministry of Culture, India for her fourty years outstanding contribution in the field of Visual Art.
+          As an author of Art Research book, She has been invited to talk as an expert scholar at various International seminars and conferences.
+          Harsh has developed a neoteric style of painting. She is inspired by Nature and explores shapes - especially circles and spirals, which are the age- old symbols of spiritual development and our identity with Universe.
+          </p>
+          <a href="./Harshinderloomba.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (5).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Himanipasricha.html" class="art-topic">Himani Pasricha</a>
+        <p class="contents1">Himani Pasricha, a visionary artist, masterfully intertwines abstract painting with the profound themes of life and chakras. Through her captivating use of color theory, she navigates the intricate land- scapes of human emotions. Her canvases are alive with ships and boats, symbolic vessels that sail through the tumultuous seas of our emotional experiences. Each brushstroke and hue is meticulously chosen to reflect the journey of overcoming worries and achieving emotional harmony. Himani's work is not just a visual feast but a therapeutic voyage, inviting viewers to explore their inner selves and find solace. Her art resonates deeply, offering a unique blend of aesthetic beauty and spiritual insight, making her a distinguished figure in the contemporary art scene.
+          </p>
+          <a href="./Himanipasricha.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/3 (5).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Krishnakarmeshvar.html" class="art-topic">Krishna Karmeshvar</a>
+        <p class="contents1">Krishna's "Ananda" inspires my art, seen in the delicate dance of flowers.
+          His boundless love transcends all, embracing life's essence. Each petal, though seemingly ephemeral, embodies the essence of Krishna himself. They sway in a drunken ecstasy, mirroring the joyous abandon of the divine. Every blossom, with its unique beauty, whispers of Krishna's presence, inviting the beholder to join the eternal quest for
+          enlightenment.
+          As the gopis were bewitched by Krishna's charm, so too are our eyes ensnared by the enchanting allure of nature's splendor. In the intricate tapestry of petals and stems, we glimpse the eternal dance of creation, where war and peace converge in a symphony of harmonious contradiction.
+          </p>
+          <a href="./Krishnakarmeshvar.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (15).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Manomoydas.html" class="art-topic">Manomoy Das</a>
+        <p class="contents1">TManomoy's artworks are a mesmerizing fusion of Cubism and monochrome, each piece a testament to his distinctive style.
+          With a keen eye for specific themes, his compositions are imbued with an underlying Indian Folk perspective, adding depth and resonance to his creations.
+          Predominantly utilizing oil on canvas as his medium of choice, Manomoy expertly manipulates color, form, and texture to evoke a sense of intrigue and introspection in the viewer. His paintings transcend mere aesthetic appeal, offering a glimpse into the rich tapestry of cultural heritage while simultaneously exploring the complexities of the human experience.
+          Through his unique blend of artistic influences, Manomoy invites us to reconsider familiar narratives and discover new depths of meaning within his captivating works of art.          
+          </p>
+          <a href="./Manomoydas.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/3 (13).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Mannishrao.html" class="art-topic">Mannish Rao</a>
+        <p class="contents1">Mannish Rao Jwade's suite of meticulous paintings promises its viewers a phantasmagorical journey through imaginary lands populated by strange architectural forms, metallic beings and dreamlike situations. The artist here is a raconteur, spinning fables that reach into his own subconscious to createa palimpsest effect.
+          Rao cunningly hides objects within objects and tales within tales in his colorful works. His stories divined from diverse sources such as child- hood narrations of kingly valour to contemporary social crisis clamor for attention from within the claustrophobic space of the drawings.
+          </p>
+          <a href="./Mannishrao.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/3 (1).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Mohddanish.html" class="art-topic">Mohd. Danish</a>
+        <p class="contents1">As an artist, Danish is fascinated by the complex workings of the human mind, and how memories and experiences shape our perceptions of the world around us. Through his work, He seek to capture the ephemeral nature of memory and the powerful emotions that nostalgia can evoke. Using digital tools and techniques, Mohd Danish has created a series of images titled "Jaun Ke Baad". These are the powerful and emotionally resonant works of art that invites contemplation and introspection. The artist has succeeded in translating the poetic verse of Jaun Elia into a visual narrative that speaks to the universal human condition, reminding us of the timeless dance between desire and mortality, love and loss.
+          </p>
+          <a href="./Mohddanish.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (16).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Monikasingh.html" class="art-topic">Monika Singh</a>
+        <p class="contents1">Monika Singh, the dedicated visual artist and art teacher, boasts an academic background in Science, a testament to her diverse interests and capabilities. Actively participating in national and international group art shows and workshops, she has left her mark on the global art scene. Notable exhibitions at India Habitat Centre and AIFACS, along with group shows in countries like Sri Lanka, Bangladesh, Poland, and Nepal, have showcased her talent on an international stage. Monika's artistic journey has seen the spotlight of prestigious venues through five solo shows at India Habitat Centre, Lalit Kala, and Jawahar Kala Kendra.
+          </p>
+          <a href="./Monikasingh.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/3 (6).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Mukeshkumar.html" class="art-topic">Mukesh Kumar</a>
+        <p class="contents1">In these works I have tried to make fantasy landscape with bright and beautiful colors. I've tried to portray the happiness of my life with free strokes and various volumes of brushes, knives & rollers as I felt.
+          I have depicted rhythmic balance of life and it's beauty. I use various mediums but here I've used acrylic paints in canvas. Whatever I feel, dream or enjoy, I have felt immense pleasure and playfulness while executing these works of arts.
+          </p>
+          <a href="./Mukeshkumar.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (13).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Paramanandachoudhury.html" class="art-topic">Paramananda Choudhury</a>
+        <p class="contents1">Nature is his passion and inspiration. The colours, tones and textures are derived from the perception of senses. Man has forever been indebted to nature for almost every need of his, material and the spiritual. Greatest of the artists have owed their inspiration to the beauty of the inimitable creations and manifestations of nature. The illumination, the revelations (the more stated, the lesser) that nature offers, have been the life force of life itself. The surreal landscapes imbued with a spirit of the mighty relics add a force to his work.
+          Artists romance with the relics of monuments and their mammoth impact on the human eye brought his frenzy to be one with nature to its culmination. In the present series he brings out this divine impact of relics and nature on mankind. Nature has touched the lives of people with its power and force, it enfuses the same power in humans in adversetimes and once again energises them.
+          </p>
+          <a href="./Paramanandachoudhury.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (2).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Priyankabardhan.html" class="art-topic">Priyanka Bardhan</a>
+        <p class="contents1">Priyanka Bardhan, currently based out of New Delhi, India, is a professional Artist with the belief that art is the connection to humanity and a way to channelize the divinity within.
+          She had an inclination for creativity right from her childhood, most of which was spent in Kolkata West Bengal, India. She did political science honors graduate from Calcutta University and had been associated with Birla Academy of Art and Culture Kolkata.
+          Priyanka predominantly use acrylic on canvas, pencil sketch and mixed media for her artistic expressions. Her art works are based on Indian contemporary painting styles and themes since these are not just a reflection of the indigenous lifestyle but a perfect example of artistic expression through simple yet distinct compositions, she also try to experiment by blending and fusing the indian traditional style and themes with abstract art and cubism styles to give a unique impression of my own.
+          She have been participating in various online and offline exhibitions off-late, in order to showcase my experiments and learn from the contemporary styles being practiced.
+          </p>
+          <a href="./Priyankabardhan.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (1).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Ravikantjha.html" class="art-topic">Ravi Kant Jha</a>
+        <p class="contents1">Ravi's artistic journey is a delicate fusion of ancient myth and contemporary expression. I intertwine Indian mythological tales with modern contexts, guiding viewers through semi- abstract narratives that unfold elegantly. Before I paint, I meticulously lay down foundations, nurturing the creation process.
+          Lines are central to my expression, carrying their own fluid language, leading viewers through intricate yet familiar forms. Color evokes emotion and mood, layered to create harmonious symphonies that captivate. Texture adds depth, inviting tactile engagement, from delicate washes to bold impasto strokes.
+          Transparency layers create luminosity, inviting exploration of the artwork's many meanings. Each piece aims to elevate the visual experience, blending myth and modernity seamlessly.
+          My art reflects a dialogue between past and present, celebrating Indian culture and mythology through the lens of my imagination.
+          </p>
+          <a href="./Ravikantjha.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (10).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Ravindratanwar.html" class="art-topic">Ravindra Kr. Tanwar</a>
+        <p class="contents1">He's a creative soul with a lens as his paintbrush, capturing the essence of life in the seemingly mundane. His journey as a photographer is a fusion of his trained eye as a graphic designer and his passion for motivating others through art. For him, photography isn't just about snapping pictures; it's about unleashing his intense creative energy and sharing the stories he sees through his lens.
+          With a keen eye for beauty in the ordinary, he transforms everyday scenes into captivating visual narratives. Through the interplay of light, texture, and color, he crafts images that invite viewers into a world of subtle complexity and unexpected allure. His photographs aren't just about places; they're about the people who inhabit them.
+          For him, photography is more than just a hobby or a profession; it's a way to connect with people and cultures, to explore the depths of human experience, and to create lasting memories of shared moments.
+          Through his lens, he seeks not only to capture images but also to evoke emotions and spark curiosity about the world around us.
+          </p>
+          <a href="./Ravindratanwar.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (6).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Riteshbagai.html" class="art-topic">Ritesh Bagai</a>
+        <p class="contents1">Ritesh Bagai, commonly known as 'An Indian Miniaturist', hails from Delhi, India. Art has been his lifelong passion, inherited from his mother. With a master's degree in Graphic Design from Coventry University, UK, he currently serves as an art director at Mullen Lowe Lintas.
+          His artistic niche lies in miniature art. Ritesh captures minute details, crafting intricate pieces that demand meticulous attention.
+          Painting these tiny artworks serves as a meditative retreat for him. Utilizing water colors and the tiniest of brushes, he immerse himself in the world of intricate creations.
+          Recently, he has been exploring conceptual themes in his work, adding depth to his artistic repertoire.
+          </p>
+          <a href="./Riteshbagai.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (9).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Sartajhaidernaqvi.html" class="art-topic">Sartaj Haider Naqvi</a>
+        <p class="contents1">Mr. Sartaj, is a naturalist and the Young Cannon in art era. Through his sculptures and art works, he has precisely focused on 'Roots' (The Hidden Plinth of Nature) and analytically depicted the picture of co-relation between Human & Earth. Undoubtedly, environment is constantly changing and it demands attention else this Man-made Environment will swallow up the Geographical Environment. Hence, the idea behind of the art is to make aware the folks about the necessity of a well- balanced atmosphere and nurturing it as much as 'WE CAN'.
+          His main components in casting of Sculpture Art are purely 95% based on metals wire which intensively bend and mould by bare hands only. Apart from Sculpture Art, Sketching and Portraiting are also his field of expertise. Especially, in Sketching he had made a phenomenal series of Apples surrounded by tree and faces of human race. Each set of sketch interestingly depicts something like human behavior & society, emotions of love, sorrow etc within it.
+          </p>
+          <a href="./Sartajhaidernaqvi.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/3 (10).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Satvirrana.html" class="art-topic">Satvir Rana</a>
+        <p class="contents1">Satvir has always tried to be close to the streets and to the people who dwell on them, it has given him a great insight to see beneath the lines and a new perspective about life and it's reality. His works reflect that life is not all black and white, but countless shades of grey. Each shade has a story attached to it, and that fuels his imagination and gives birth to his concepts. ART has given wings to his ideas.
+          This series of his displayed art work is titled: UNVEILING LAYERS: Contradictions, Co-Existence, Bronx tales, Favelas, Mother, Africa Forever, and Dark side of the moon.
+          They encompass life as he sees it, and the wonderful people who bring plethora of colours which stir his imagination and take shape on his canvases.
+          </p>
+          <a href="./Satvirrana.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+    
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (7).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Shalinidutt.html" class="art-topic">Shalini Dutt</a>
+        <p class="contents1">Shalini Dutt is a multi-faceted designer and artist working with Textiles, Crafts, and Visual Arts.
+          A graduate of the Prestigious National Institute of Design in Ahmedabad in 1995, she had the privilege to learn about several areas of art and design.
+          Her vast and varied experience pans across The International Textile industry, Education, Craft sector and the Art industry. She is presently engaged in doing consulting projects and independent art and design practice. 
+          Shalini Believes that art is a way for her to understand herself and the world better, often using old memories, materials, yarns and fabrics, that inevitably are linked to some person, an incident, a place and time gone by and have a story to tell.
+          </p>
+          <a href="./Shalinidutt.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/3 (15).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Suniljaiswal.html" class="art-topic">Sunil Jaiswal</a>
+        <p class="contents1">Sunil Jaiswal, was born in 1969 and brought up in the city of Delhi, known as the 'city of lovers'. His childhood was a fun-filled one with lots of colors. Ever since he was a young boy, Sunil was always interested in painting. He would participate in competitions and win them. One worth mentioning is the 'On the Spot Competition on Mother and Child' organized by the Anuvart Bhavan. He won first prize and the trophy was presented to Sunil by the former president of India. Besides art, he was also very much interested in photography. Sunil was so fascinated by the beauty of art that he couldn't deny the fact that he was in love with it. As he learned every stroke, each line, he was more and more attracted to the world of art. In 1993, after his four-year painting course, he continued this journey and received a BA degree in fine arts. Here he came in contact with a variety of art media and enjoyed every bit of it. Sunil don't want to be bound by any particular theme or style and have tried his hand at almost everything connected with art, like wood sculpting, clay molding, metal, fiberglass, wrought iron, ceramics, etc. he did quite a bit of work in wrought iron and metal sculpting and got a good response. He love working on Ganesha themes and have done quite a lot of pieces on this deity. Sunil's theme depends on his mood and keeps changing with time. Right now he is working on music meditation. Here he explore human involvement with music in any form. he want to portray the joy people derive from meditation.
+          </p>
+          <a href="./Suniljaiswal.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (17).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Susnatachatterjee.html" class="art-topic">Susnata Chatterjee</a>
+        <p class="contents1">Susnata finds his muse in the everyday, capturing moments and emotions through spontaneous strokes and layers of color. His exhibitions at esteemed galleries across India, such as the India Habitat Centre and Jahangir Art Gallery, showcase his talent in interpreting surroundings, feelings, and nostalgia onto canvas.
+          With solo shows at prominent venues like the Birla Academy of Art and Culture and the Academy of Fine Arts, his work has garnered attention and acclaim. Not content with merely exhibiting, Susnata also share his expertise through workshops and camps, nurturing the next generation of artists.
+          </p>
+          <a href="./Susnatachatterjee.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+    
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/3 (17).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Susmitamandal.html" class="art-topic">Susmita Mandal</a>
+        <p class="contents1">Susmita Mandal, an exceptionally talented artist from Eastern India, has garnered acclaim both locally and internationally with her captivating artworks. Blending tradition and modernity, she draws inspiration from her cultural heritage, infusing spirituality, mythology, and folklore into her pieces while exploring contemporary themes and techniques. Vibrant colors, intricate patterns, and expressive brushwork define her style, inviting viewers into immersive visual narratives.
+          </p>
+          <a href="./Susmitamandal.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+    
+    <div class="art-hor">
+      <div class="art-hor-img">
+    <img class="nostretch" src="../Events-img/kalabimb/2 (18).JPG" alt="Artist image">
+      </div>
+      <div class="art-hor-info">
+        <a href="./Suvvrobasu.html" class="art-topic">Suvvro P Basu</a>
+        <p class="contents1">A Trained Professional Martial Art and Combat Fitness Coach and a Self-taught Artist, specializing in Abstract Realism and Impressionist style. Suvvro is
+          Nemophilist by heart and likes to work on elements and landscapes inspired totally from nature. With an experience of participation in Nine different art shows so far, he has also won a few notable awards in various Art competitions and contests. "2022 Global Country Award" from International Brand Sakura in their 100 years Anniversary World Art Contest is one of the most notable achievements so far.
+          An Abstract Realism impressionist artist, primarily works on Oil as the chosen medium. To him art and painting are the pathways to self discovery and the sources of unparalleled joy that infuses life with vitality. He craft captivating works that seamlessly blend abstract design elements with light and shadow, all while staying firmly rooted in the depiction of real life subjects. With nature and its enchanting tapestry serving as a perennial well spring of inspiration, He drive his unwavering mission to capture the timeless beauty of the natural world
+          within the confines of his art.
+          </p>
+          <a href="./Suvvrobasu.html" class="art-topic1"><button class="abtn">Read more</button></a>
+          
+      </div>
+    </div>
+
+    <hr class="hr-art">
+
+
+   
+
+  </div>
+
+
+<!-- advertisement -->
+<div>
+  <div class="advertise">
+    <img src="../ad6.jpeg" style="margin-top: 30px;" alt="sidead">
+</div>
+</div>
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+<footer>
+  <div class="footer-container">
+    
+
+  <div>
+    <a href="submissions.html">Submissions</a><a href="aboutus.html">About Us</a>
+  </div>
+  <p class="language">Follow Us On:</p> 
+  <p>
+    <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a> 
+    <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a> 
+    <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a> </p>
+    <p>
+    <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+    <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a></p> 
+   <p class="light">@2022 Hyperglot Solutions OPC Private Limited . All Rights Reserved.</p>
+</footer>
+  
+</body>
+</html>
