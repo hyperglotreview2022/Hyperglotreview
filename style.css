@@ -1266,7 +1266,9 @@ font-size: 18px;
 }
 .flex1 .card-flex1 .artistprofileimages{
   width: 20vw;
-
+}
+.flex1 .card-flex1 .artistprofileimages1{
+  width: 12vw;
 }
 .imagesartistcontainer{
   float: left;
@@ -3663,5 +3665,8 @@ width: 100vw;
 }
 .artistpimg{
   height: 400px;
+}
+.flex1 .card-flex1 .artistprofileimages1{
+  width: 97.5%;
 }
 }
