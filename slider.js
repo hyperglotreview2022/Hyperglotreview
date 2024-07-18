@@ -114,9 +114,9 @@ var swiper2 = new Swiper(".mySwiper2", {
   });
 
   var swiper3 = new Swiper(".mySwiper3", {
-    slidesPerView: 1,
+    slidesPerView: 1.5,
     loop: true,
-    spaceBetween: 0,
+    spaceBetween: 10,
     pagination: {
     el: ".swiper-pagination",
     type: "fraction",
