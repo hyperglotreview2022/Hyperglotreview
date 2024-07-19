@@ -114,9 +114,9 @@ var swiper2 = new Swiper(".mySwiper2", {
   });
 
   var swiper3 = new Swiper(".mySwiper3", {
-    slidesPerView: 1.5,
+    // slidesPerView: 1.5,
     loop: true,
-    spaceBetween: 10,
+    // spaceBetween: 10,
     pagination: {
     el: ".swiper-pagination",
     type: "fraction",
@@ -124,6 +124,20 @@ var swiper2 = new Swiper(".mySwiper2", {
     navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+      1024: {
+        slidesPerView: 1.5,
+        spaceBetween: 10,
+      },
     },
     });
 
