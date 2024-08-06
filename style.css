@@ -1977,6 +1977,9 @@ label.sub-label{
   width: 85%;
   font-size: 15px;
 }
+.artistsnames{
+  padding-left: 1%;
+}
 .shover{
   color: white;
   text-decoration: none;
