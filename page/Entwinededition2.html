@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d3040b7987.js" crossorigin="anonymous"></script>
+  <script defer src="../index.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../images/H.jpg">
+  <title>Entwined edition 2</title>
+</head>
+<body>
+  <!-- navbar -->
+
+  <div class="float-btns">
+    <button onclick="alertb()" class="float-btn"><a href="#">Daily Newsletter</a></button>
+    <button onclick="alertb()" class="float-btn"><a href="#">Magazine Subscriptions</a></button>
+    </div>
+
+
+    <header id="navbar">
+      <div>
+       
+     <nav>
+      
+       <div>
+         <img class="logo" src="../newestlogo.png" alt="logo">
+       </div>
+       <div class="list">
+         <ul>
+           <li>
+             <div><a href="../index.html">Home</a>
+             </div>
+           </li>
+           <li><div class="dropdown">
+             <a href="Art.html">Art</a>
+             <div class="dropdown-content">
+             <a href="artgalleries.html">Art Galleries</a>
+             <a href="Featureda.html">Featured Artists</a>
+             <a href="emergingartist.html">Emerging Artists</a>
+             <!-- <a href="spotlight.html">Artists in Spotlight</a> -->
+             <a href="virtualgallery.html">Virtual Gallery</a>
+             <!-- <a href="#">Digital Art</a> -->
+             <!-- <a href="sculptures.html">Sculptures & Installations</a> -->
+             <!-- <a href="#">Sustainability & Environment</a>
+             <a href="#">NFTs</a> -->
+           </div></div></li>
+           <li><div class="dropdown"><a href="literature.html">Literature</a>
+             <div class="dropdown-content">
+              <a href="recentreleases.html">Recent Releases</a>
+              <a href="featuredauthors.html">Featured Authors</a>
+              <!-- <a href="emergingauthors.html">Emerging Authors</a>
+              <a href="authorsinspotlight.html">Authors in Spotlight</a> -->
+              <a href="litvirtualgallery.html">Virtual Gallery</a>
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="design.html">Design</a>
+            <div class="dropdown-content">
+              <a href="featuredbrands.html">Featured Brands</a>
+              <a href="emergingbrands.html">Emerging Brands</a>
+              <a href="designerinsoptlight.html">Designers in Spotlight</a>
+              <a href="vgdesign.html">Virtual Gallery</a>
+          </div>
+          </div></li> -->
+          <li><a href="events.html">Events</a></li>
+           <li><div class="dropdown"><a href="news.html">News</a>
+             <div class="dropdown-content">
+             <a href="galleries.html">Art Events</a>
+             <a href="eliterature.html">Literary Events</a>
+             <!-- <a href="#">Culture & Lifestyle</a> -->
+             <!-- <a href="#">Handicrafts and Emporiums</a> -->
+           </div>
+           </div></li>
+           <!-- <li><div class="dropdown"><a href="#">Science & Tech</a>
+             <div class="dropdown-content">
+             <a href="#">Featured Author</a>
+             <a href="#">Women Author</a>
+             <a href="#">Spotlight</a>
+             <a href="#">Emerging Author</a>
+           </div>
+           </div></li> -->
+           <!-- <li><div class="dropdown"><a href="#">Opinion</a>
+             <div class="dropdown-content">
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+             <a href="#">lorem</a>
+           </div>
+           </div></li> -->
+           <li><a href="aboutus.html">About Us</a></li>
+           <!-- <li><div class="submission">Submissions</div></li> -->
+           <li><div class="dropdown"><a href="#">Follow Us</a>
+             <div class="dropdown-content">
+             <div class="links-container">
+               <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+               <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+               <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+               <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+               <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a>
+             </div>
+           </div></li>
+         </ul>
+         
+         <div id="sidebar" class="sidebar more">
+          <div><p><a href="../index.html">Home</a></p></div>
+          <div><p id="1" class="show"><a href="Art.html">Art</a> <i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p id="2" class="show"><a href="literature.html">Literature</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <!-- <div><p id="3" class="show"><a href="design.html">Design</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div> -->
+          <div><p><a href="events.html">Events</a></p></div>
+          <div><p id="4" class="show"><a href="news.html">News</a><i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+          <div><p><a href="aboutus.html">About Us</a></p></div>
+          <!-- <div><div class="submissionslink">Submissions</div></div> -->
+          <div><p id="5" class="show">Follow Us<i class="fa-solid fa-chevron-right icon-width"></i></p></div>
+        </div>
+  
+           <div id="sidebar" class="sidebar more1">
+             <div><p><a href="artgalleries.html">Art Galleries</a></p></div>
+             <div><p><a href="Featureda.html">Featured Artists</a></p></div>
+             <div><p><a href="emergingartist.html">Emerging Artists</a></p></div>
+             <!-- <div><p><a href="spotlight.html">Artists in Spotlight</a></p></div> -->
+             <div><p><a href="virtualgallery.html">Virtual Gallery</a></p></div>
+             <!-- <div><p><a href="sculptures.html">Sculptures & Installations</a></p></div> -->
+           </div>
+         
+           <div id="sidebar" class="sidebar more2">
+            <div><p><a href="recentreleases.html">Recent Releases</a></p></div>
+            <div><p><a href="featuredauthors.html">Featured Authors</a></p></div>
+            <!-- <div><p><a href="emergingauthors.html">Emerging Authors</a></p></div>
+            <div><p><a href="authorsinspotlight.html">Authors in Spotlight</a></p></div> -->
+            <div><p><a href="litvirtualgallery.html">Virtual Gallery</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more3">
+            <div><p><a href="featuredbrands.html">Featured Brands</a></p></div>
+            <div><p><a href="emergingbrands.html">Emerging Brands</a></p></div>
+            <div><p><a href="designerinsoptlight.html">Designers in Spotlight</a></p></div>
+            <div><p><a href="vgdesign.html">Virtual Gallery</a></p></div>
+          </div>
+  
+           <div id="sidebar" class="sidebar more4">
+             <div><p><a href="galleries.html">Art Events</a></p></div>
+             <div><p><a href="eliterature.html">Literary Events</a></p></div>
+             <div><p><a href="designerinsoptlight.html">Culture & Lifestyle</a></p></div>
+           </div>
+  
+           <div id="sidebar" class="sidebar more5">
+            <div><p><a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"> </i> Instagram</a></p></div>
+            <div><p><a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> Facebook</a></p></div>
+            <div><p><a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i> Twitter</a></p></div>
+            <div><p><a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p></div>
+            <div><p><a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"> </i> Youtube</a></p></div>
+          </div>
+         
+       </div>
+       <div class="end end1">
+         <!-- <input class="nosubmit" type="search" placeholder="Search...">
+         <i id="search" class="fa-solid fa-magnifying-glass"></i>
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-bookmark"></i>
+         <i class="fa-solid fa-language"></i> -->
+  
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Daily Newsletter</a></button>
+         <button onclick="alertb()" class="nav-buttons"><a href="#">Magazine Subscription</a></button>
+       </div>
+       <i id="menu" onclick="show()" class="fa-sharp fa-solid fa-bars"></i>
+       <i id="hide" class="fa-solid fa-xmark"></i>
+     </nav>
+    
+   </div>
+   </header>
+
+ <h1 class="topic mg-top f-sm">Entwined edition 2</h1>
+ <hr class="arthr mg-top">
+
+ <div class="ad1 none"><img src="../ad1.png" alt="ad-img"></div>
+ <div class="ad2 none"><div>Ad.</div></div>
+
+
+
+ <section>
+  <div class="art-flex ">
+
+  
+  <div class="art-container2">
+    <h3 class="light-dark"></h3>
+    <div class="flex1">
+      <div class="card-flex1">
+    <img src="../Events-img/entwineded2/1.JPG" alt="Artist Image">
+    <p class="credit">Image Credit - Hyperglot Review</p>
+    <!-- <p class="credit">Breach, Medium: Oil on canvas, Size: 24”x 24”, Year: 2022</p>
+    <p class="credit">Image Credit - Hyperglot Review</p> -->
+      <div class="eventspagemargin">
+        <h2>Entwined edition 2</h2>
+        <p>
+            Fibre and textiles are integral to human life, woven into our daily routines, environment, and identities. These materials are not merely
+            functional but are vital elements that connect us to our surroundings and each other. They provide comfort, allow us to express our
+            identity, and help us craft our narratives through artistic expression. In many cultures, textiles became a medium for storytelling, rituals,
+            and ceremonies, conveying deeper meanings and cultural values. The tactile and flexible nature of textiles allowed for the expression of
+            personal and cultural narratives, reflecting the complexities of human development and artistic expression. Historically, textiles have
+            evolved from utilitarian objects into profound works of art as well. <br/><br/>
+             This exhibition, "Entwined," celebrates this multifaceted role of textiles
+            and showcases how artists have used this medium to create individualistic artistic expressions. India boasts an incredibly diverse and
+            rich textile heritage, spanning centuries and encompassing a wide range of techniques and traditions, each telling a unique cultural story
+            deeply intertwined with the region's geography, agriculture, and resources. It is the only country in the world with such a rich heritage
+            spanning centuries of history and patronage. Passed down through generations, these handmade methods preserve their traditional
+            essence while evolving to meet contemporary needs, celebrating the enduring skills and creativity within textile art. Today, these
+            traditional crafts have profoundly influenced contemporary art, with modern artists adapting ancient techniques into innovative forms of
+            expression. Artists draw inspiration from these time-honoured practices, infusing them with new ideas and materials to create works that
+            push the boundaries of textile art. "Entwined" allows viewers to witness this evolution in this exhibition, showcasing how traditional crafts
+            have transformed into contemporary artistic expressions that honour their rich heritage while celebrating the artistic innovations of the
+            artists on view. "Entwined" reflects the deep connection between art, the body, and the environment, in narratives used by contemporary
+            artists to express their concepts in the medium of fibre. The exhibition features an array of works that transform fibre into powerful stories,
+            highlighting the versatility and depth of textile art. These pieces, ranging from large installations to delicate works, push the boundaries of
+            the medium through innovative techniques and materials, inviting contemplation and challenging conventional notions. In an era
+            dominated by digital and fast-paced lifestyles, textile art offers a tactile, slow, and deeply human counterpoint, celebrating the beauty in
+            craftsmanship and the power of art to connect us. "Entwined" exemplifies the fibres that unite us, the creativity that drives us, and the
+            cultural narratives that define us.
+            ENTWINED EDITION 2
+            </p>
+      </div>
+     
+
+      <div class="eventspagemargin">
+        <h2>Featured Artists</h2>
+
+        <div class="artistsnames">
+          <div>
+            Aloka Banerjee | Amjum Rizve | Anjali Venkat | Ankon Mitra | Aparajita Jain Mahajan | Arrti Mansinghka | Bari Kumar | Bobby Aggarwal | Chinar Farooqui | Dilip Kumar Kesavan | Errol Pires Nelson | Gunjan Jain | Gopika Nath | Hemavathy Guha | Jason Cheriyan | Kalyani Pramod | Lakshmi Madhavan | Lavanya Mani | Madan Meena | Manasa Priya Dhulipalla | Manish Nai | Mayuri Chari | Megha Joshi | Meenakshi Nihalani | Nandita Mukand | Neha Puri Dhir | Parag Tandel | Paula Sengupta | Pero | Pragati Mathur | Princess Pea | Puja Bhargava | Puneet Kaushik | Purvai Rai | Rakhi Peswani | Rajarshi Sengupta | Ranjith Raman | Riddhi Jain | Sabitha Kadannappally | Samiksha | Sanjeev Khandekar & Vaishali Narkar | Sarika Bajaj | Shakuntala Kulkarni | Shelly Jyoti | Shivani Aggarwal | Shilpaguru Babulal Marotia | Smriti Dixit | Sooraja KS | Sruthi Karthikeyan | Sudhir Pandey | Surekha | Taher Alissa | Tanjima Kar Sekh | Vaishali S | Vipin Das | Vivek Nimbolkar
+          </div>
+      </div>
+      </div>
+
+      <h3 style="font-weight:400">
+        <b>Date</b>: 16th Aug - 23rd Aug 2024 <br> <br>
+        <b>Venue</b>: Bikaner House, CCA Gallery, Pandara road & Shahjahan road, India Gate, New Delhi <br> <br>
+        <!-- <b>Contact Details</b>: <br> 
+        <b>Phone</b> - +91-97171 89650/ 659 <br>
+        <b>Email</b>  - info@hyperglotreview.com <br>
+        <b>Website</b>: www.hyperglotreview.com <br> <br>
+        <b>Social Media</b>: <br> -->
+         <!-- <div class="eventspagelinksgrid">
+           <a class="eventspagelinks" href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a>
+           <a class="eventspagelinks" href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a> 
+           <a class="eventspagelinks" href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a>
+           <a class="eventspagelinks" href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+           <a class="eventspagelinks" href="https://www.youtube.com/channel/UCX9M3rHq0N4HV3v-2isiXUw"><i class="fa-brands fa-youtube"></i>Youtube</a>
+         </div> -->
+ 
+       </h3>
+
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- advertisement -->
+
+  <div style="height: 1800px;" class="advertise">
+    <img src="../ad3.jpeg" style="margin-top: 50px;" alt="sidead">
+  </div>
+
+
+
+</div>
+</section>
+
+
+
+<!-- footer -->
+
+
+<footer>
+  <div class="footer-container">
+    
+
+  <div>
+    <a href="submissions.html">Submissions</a><a href="aboutus.html">About Us</a>
+  </div>
+  <p class="language">Follow Us On:</p> 
+  <p>
+    <a href="https://instagram.com/hyperglotreview?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i>Instagram</a> 
+    <a href="https://www.facebook.com/profile.php?id=100089166761501&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i>Facebook</a> 
+    <a href="https://twitter.com/HyperglotReview"><i class="fa-brands fa-twitter"></i>Twitter</a> </p>
+    <p>
+    <a href="https://www.linkedin.com/company/91701909/admin/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+    <a href="https://www.youtube.com/@HyperglotReview/featured"><i class="fa-brands fa-youtube"></i>Youtube</a></p> 
+   <p class="light">@2022 Hyperglot Solutions OPC Private Limited . All Rights Reserved.</p>
+</footer>
+  
+</body>
+</html>
