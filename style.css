@@ -21,6 +21,10 @@
 .artistpsubtopic{
   margin-bottom: 40px;
 }
+.somenewflex{
+  display: flex;
+  gap: 3%;
+}
 .holz{
   margin-top: 130px;
 }
@@ -1977,6 +1981,13 @@ label.sub-label{
   width: 85%;
   font-size: 15px;
 }
+.sp1-btn{
+  margin-left: 5vw;
+  padding: 10px 15px;
+  width: max-content;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .artistsnames{
   padding-left: 1%;
 }
@@ -1992,7 +2003,7 @@ label.sub-label{
   font-size: 26px;
 }
 .simg-info{
-  padding-top: 10px;
+  padding-top: 8%;
 }
 .slidersec{
   margin: 100px 0;
@@ -3400,7 +3411,7 @@ padding-left:10px;
   font-size: 22px;
 }
 .simg-info{
-  padding-top: 0px;
+  padding-top: 10%;
   margin: 0;
 }
 .container5{
@@ -3672,5 +3683,8 @@ width: 100vw;
 }
 .flex1 .card-flex1 .artistprofileimages1{
   width: 97.5%;
+}
+.somenewflex{
+  flex-direction: column;
 }
 }
