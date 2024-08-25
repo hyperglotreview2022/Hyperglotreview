@@ -141,6 +141,24 @@ var swiper2 = new Swiper(".mySwiper2", {
     },
     });
 
+    var swiper5 = new Swiper(".mySwiper25", {
+      slidesPerView: 1,
+      loop: true,
+      delay: 6000,
+      speed: 1500,
+      autoplay: true,
+      spaceBetween: 0,
+      effect: "fade",
+      pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+      },
+      navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+      },
+      });
+
     var swiper5 = new Swiper(".mySwiper5", {
       slidesPerView: 1,
       loop: true,
