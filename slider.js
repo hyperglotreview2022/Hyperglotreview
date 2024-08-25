@@ -145,7 +145,7 @@ var swiper2 = new Swiper(".mySwiper2", {
       slidesPerView: 1,
       loop: true,
       delay: 6000,
-      speed: 1500,
+      // speed: 1500,
       autoplay: true,
       spaceBetween: 0,
       effect: "fade",
